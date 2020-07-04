@@ -1,0 +1,3 @@
+D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/CMakeFiles/vcredist-populate.dir
+D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/CMakeFiles/ALL_BUILD.dir
+D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/CMakeFiles/ZERO_CHECK.dir

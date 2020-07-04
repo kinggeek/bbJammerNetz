@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\inteltbb-subbuild\CMakeFiles\c72e28a900f2f9769cad9f05847db9a5\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{80CCA8DB-104A-3ACA-BAA9-4B1A8ECF82AE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\CMakeFiles\ed1a62cfacc4a74e1c61942d57e22421\asiosdk-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\CMakeFiles\ed1a62cfacc4a74e1c61942d57e22421\asiosdk-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\CMakeFiles\ed1a62cfacc4a74e1c61942d57e22421\asiosdk-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\CMakeFiles\ed1a62cfacc4a74e1c61942d57e22421\asiosdk-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\CMakeFiles\ed1a62cfacc4a74e1c61942d57e22421\asiosdk-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\CMakeFiles\ed1a62cfacc4a74e1c61942d57e22421\asiosdk-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\CMakeFiles\ed1a62cfacc4a74e1c61942d57e22421\asiosdk-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\CMakeFiles\ed1a62cfacc4a74e1c61942d57e22421\asiosdk-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\CMakeFiles\13e0782a025adb613ad18017443bed1c\asiosdk-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\CMakeFiles\790e04f2fb395988980f1e472a602c36\asiosdk-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\CMakeFiles\asiosdk-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A91BABD1-03DE-311E-87D7-8CD53F84A876}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

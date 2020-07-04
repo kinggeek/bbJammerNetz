@@ -1,0 +1,8 @@
+﻿  Building Custom Rule D:/PROJECT/jammerNetz/JammerNetz/modules/juce-utils/CMakeLists.txt
+  Data.cpp
+  MidiClocker.cpp
+  MidiNote.cpp
+  MidiRecorder.cpp
+  Settings.cpp
+  StreamLogger.cpp
+  juce-utils.vcxproj -> D:\PROJECT\jammerNetz\JammerNetz\modules\juce-utils\Debug\juce-utils.lib

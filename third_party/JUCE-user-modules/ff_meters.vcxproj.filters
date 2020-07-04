@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE-user-modules\ff_meters\ff_meters_LevelMeter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE-user-modules\ff_meters\ff_meters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE-user-modules\ff_meters\ff_meters_LevelMeter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE-user-modules\ff_meters\ff_meters_LevelMeterSource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE-user-modules\ff_meters\ff_meters_LookAndFeel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE-user-modules\ff_meters\ff_meters_LookAndFeelMethods.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE-user-modules\ff_meters\ff_meters_OutlineBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE-user-modules\ff_meters\ff_meters_SoundFieldLookAndFeelMethods.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE-user-modules\ff_meters\ff_meters_StereoFieldBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE-user-modules\ff_meters\ff_meters_StereoFieldComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE-user-modules\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3AD58ABD-AAC6-3CF3-B9F0-1E5D2BE35316}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B9D9C48B-98C2-3C2A-AAFE-212153DD7F88}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

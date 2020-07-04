@@ -1,0 +1,1016 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{10B3A51A-6EDF-3582-8880-A4BE02EBC615}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>JammerNetzServer</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\jammerNetz\JammerNetz\Server\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">JammerNetzServer.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">JammerNetzServer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\jammerNetz\JammerNetz\Server\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">JammerNetzServer.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">JammerNetzServer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\jammerNetz\JammerNetz\Server\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">JammerNetzServer.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">JammerNetzServer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\jammerNetz\JammerNetz\Server\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">JammerNetzServer.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">JammerNetzServer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\PROJECT\jammerNetz\JammerNetz\_deps\inteltbb-src\tbb\include;D:\PROJECT\jammerNetz\JammerNetz\Server\JuceLibraryCode;D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules;D:\PROJECT\jammerNetz\JammerNetz\common\..\third_party\flatbuffers\include;D:\PROJECT\jammerNetz\JammerNetz\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;DEBUG;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;DEBUG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\PROJECT\jammerNetz\JammerNetz\_deps\inteltbb-src\tbb\include;D:\PROJECT\jammerNetz\JammerNetz\Server\JuceLibraryCode;D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules;D:\PROJECT\jammerNetz\JammerNetz\common\..\third_party\flatbuffers\include;D:\PROJECT\jammerNetz\JammerNetz\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\PROJECT\jammerNetz\JammerNetz\_deps\inteltbb-src\tbb\include;D:\PROJECT\jammerNetz\JammerNetz\Server\JuceLibraryCode;D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules;D:\PROJECT\jammerNetz\JammerNetz\common\..\third_party\flatbuffers\include;D:\PROJECT\jammerNetz\JammerNetz\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/PROJECT/jammerNetz/JammerNetz/_deps/inteltbb-src/tbb//bin/intel64/vc14/tbb_debug.dll D:/PROJECT/jammerNetz/JammerNetz/Server/Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\common\Debug\JammerCommon.lib;..\modules\juce-utils\Debug\juce-utils.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/PROJECT/jammerNetz/JammerNetz/_deps/inteltbb-src/tbb/lib/intel64/vc14;D:/PROJECT/jammerNetz/JammerNetz/_deps/inteltbb-src/tbb/lib/intel64/vc14/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/PROJECT/jammerNetz/JammerNetz/Server/Debug/JammerNetzServer.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/PROJECT/jammerNetz/JammerNetz/Server/Debug/JammerNetzServer.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>NotSet</TargetMachine>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\PROJECT\jammerNetz\JammerNetz\_deps\inteltbb-src\tbb\include;D:\PROJECT\jammerNetz\JammerNetz\Server\JuceLibraryCode;D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules;D:\PROJECT\jammerNetz\JammerNetz\common\..\third_party\flatbuffers\include;D:\PROJECT\jammerNetz\JammerNetz\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\PROJECT\jammerNetz\JammerNetz\_deps\inteltbb-src\tbb\include;D:\PROJECT\jammerNetz\JammerNetz\Server\JuceLibraryCode;D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules;D:\PROJECT\jammerNetz\JammerNetz\common\..\third_party\flatbuffers\include;D:\PROJECT\jammerNetz\JammerNetz\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\PROJECT\jammerNetz\JammerNetz\_deps\inteltbb-src\tbb\include;D:\PROJECT\jammerNetz\JammerNetz\Server\JuceLibraryCode;D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules;D:\PROJECT\jammerNetz\JammerNetz\common\..\third_party\flatbuffers\include;D:\PROJECT\jammerNetz\JammerNetz\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/PROJECT/jammerNetz/JammerNetz/_deps/inteltbb-src/tbb//bin/intel64/vc14/tbb.dll D:/PROJECT/jammerNetz/JammerNetz/Server/Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\common\Release\JammerCommon.lib;..\modules\juce-utils\Release\juce-utils.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/PROJECT/jammerNetz/JammerNetz/_deps/inteltbb-src/tbb/lib/intel64/vc14;D:/PROJECT/jammerNetz/JammerNetz/_deps/inteltbb-src/tbb/lib/intel64/vc14/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/PROJECT/jammerNetz/JammerNetz/Server/Release/JammerNetzServer.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/PROJECT/jammerNetz/JammerNetz/Server/Release/JammerNetzServer.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\PROJECT\jammerNetz\JammerNetz\_deps\inteltbb-src\tbb\include;D:\PROJECT\jammerNetz\JammerNetz\Server\JuceLibraryCode;D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules;D:\PROJECT\jammerNetz\JammerNetz\common\..\third_party\flatbuffers\include;D:\PROJECT\jammerNetz\JammerNetz\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\PROJECT\jammerNetz\JammerNetz\_deps\inteltbb-src\tbb\include;D:\PROJECT\jammerNetz\JammerNetz\Server\JuceLibraryCode;D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules;D:\PROJECT\jammerNetz\JammerNetz\common\..\third_party\flatbuffers\include;D:\PROJECT\jammerNetz\JammerNetz\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\PROJECT\jammerNetz\JammerNetz\_deps\inteltbb-src\tbb\include;D:\PROJECT\jammerNetz\JammerNetz\Server\JuceLibraryCode;D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules;D:\PROJECT\jammerNetz\JammerNetz\common\..\third_party\flatbuffers\include;D:\PROJECT\jammerNetz\JammerNetz\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/PROJECT/jammerNetz/JammerNetz/_deps/inteltbb-src/tbb//bin/intel64/vc14/tbb_debug.dll D:/PROJECT/jammerNetz/JammerNetz/Server/MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\common\MinSizeRel\JammerCommon.lib;..\modules\juce-utils\MinSizeRel\juce-utils.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/PROJECT/jammerNetz/JammerNetz/_deps/inteltbb-src/tbb/lib/intel64/vc14;D:/PROJECT/jammerNetz/JammerNetz/_deps/inteltbb-src/tbb/lib/intel64/vc14/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/PROJECT/jammerNetz/JammerNetz/Server/MinSizeRel/JammerNetzServer.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/PROJECT/jammerNetz/JammerNetz/Server/MinSizeRel/JammerNetzServer.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\PROJECT\jammerNetz\JammerNetz\_deps\inteltbb-src\tbb\include;D:\PROJECT\jammerNetz\JammerNetz\Server\JuceLibraryCode;D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules;D:\PROJECT\jammerNetz\JammerNetz\common\..\third_party\flatbuffers\include;D:\PROJECT\jammerNetz\JammerNetz\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\PROJECT\jammerNetz\JammerNetz\_deps\inteltbb-src\tbb\include;D:\PROJECT\jammerNetz\JammerNetz\Server\JuceLibraryCode;D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules;D:\PROJECT\jammerNetz\JammerNetz\common\..\third_party\flatbuffers\include;D:\PROJECT\jammerNetz\JammerNetz\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\PROJECT\jammerNetz\JammerNetz\_deps\inteltbb-src\tbb\include;D:\PROJECT\jammerNetz\JammerNetz\Server\JuceLibraryCode;D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules;D:\PROJECT\jammerNetz\JammerNetz\common\..\third_party\flatbuffers\include;D:\PROJECT\jammerNetz\JammerNetz\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/PROJECT/jammerNetz/JammerNetz/_deps/inteltbb-src/tbb//bin/intel64/vc14/tbb_debug.dll D:/PROJECT/jammerNetz/JammerNetz/Server/RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\common\RelWithDebInfo\JammerCommon.lib;..\modules\juce-utils\RelWithDebInfo\juce-utils.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/PROJECT/jammerNetz/JammerNetz/_deps/inteltbb-src/tbb/lib/intel64/vc14;D:/PROJECT/jammerNetz/JammerNetz/_deps/inteltbb-src/tbb/lib/intel64/vc14/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/PROJECT/jammerNetz/JammerNetz/Server/RelWithDebInfo/JammerNetzServer.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/PROJECT/jammerNetz/JammerNetz/Server/RelWithDebInfo/JammerNetzServer.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\PROJECT\jammerNetz\JammerNetz\Server\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/PROJECT/jammerNetz/JammerNetz/Server/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/PROJECT/jammerNetz/JammerNetz -BD:/PROJECT/jammerNetz/JammerNetz --check-stamp-file D:/PROJECT/jammerNetz/JammerNetz/Server/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;D:\PROJECT\jammerNetz\JammerNetz\third_party\juce-cmake\cmake\FindJUCE.cmake;D:\PROJECT\jammerNetz\JammerNetz\third_party\juce-cmake\cmake\FindJuceTemplates\AppConfig.h.in;D:\PROJECT\jammerNetz\JammerNetz\third_party\juce-cmake\cmake\FindJuceTemplates\JuceHeader.h.in;D:\PROJECT\jammerNetz\JammerNetz\third_party\juce-cmake\cmake\FindJuceTemplates\include_juce_module.cpp.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\jammerNetz\JammerNetz\Server\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/PROJECT/jammerNetz/JammerNetz/Server/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/PROJECT/jammerNetz/JammerNetz -BD:/PROJECT/jammerNetz/JammerNetz --check-stamp-file D:/PROJECT/jammerNetz/JammerNetz/Server/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;D:\PROJECT\jammerNetz\JammerNetz\third_party\juce-cmake\cmake\FindJUCE.cmake;D:\PROJECT\jammerNetz\JammerNetz\third_party\juce-cmake\cmake\FindJuceTemplates\AppConfig.h.in;D:\PROJECT\jammerNetz\JammerNetz\third_party\juce-cmake\cmake\FindJuceTemplates\JuceHeader.h.in;D:\PROJECT\jammerNetz\JammerNetz\third_party\juce-cmake\cmake\FindJuceTemplates\include_juce_module.cpp.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\jammerNetz\JammerNetz\Server\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/PROJECT/jammerNetz/JammerNetz/Server/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/PROJECT/jammerNetz/JammerNetz -BD:/PROJECT/jammerNetz/JammerNetz --check-stamp-file D:/PROJECT/jammerNetz/JammerNetz/Server/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;D:\PROJECT\jammerNetz\JammerNetz\third_party\juce-cmake\cmake\FindJUCE.cmake;D:\PROJECT\jammerNetz\JammerNetz\third_party\juce-cmake\cmake\FindJuceTemplates\AppConfig.h.in;D:\PROJECT\jammerNetz\JammerNetz\third_party\juce-cmake\cmake\FindJuceTemplates\JuceHeader.h.in;D:\PROJECT\jammerNetz\JammerNetz\third_party\juce-cmake\cmake\FindJuceTemplates\include_juce_module.cpp.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\jammerNetz\JammerNetz\Server\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/PROJECT/jammerNetz/JammerNetz/Server/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/PROJECT/jammerNetz/JammerNetz -BD:/PROJECT/jammerNetz/JammerNetz --check-stamp-file D:/PROJECT/jammerNetz/JammerNetz/Server/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;D:\PROJECT\jammerNetz\JammerNetz\third_party\juce-cmake\cmake\FindJUCE.cmake;D:\PROJECT\jammerNetz\JammerNetz\third_party\juce-cmake\cmake\FindJuceTemplates\AppConfig.h.in;D:\PROJECT\jammerNetz\JammerNetz\third_party\juce-cmake\cmake\FindJuceTemplates\JuceHeader.h.in;D:\PROJECT\jammerNetz\JammerNetz\third_party\juce-cmake\cmake\FindJuceTemplates\include_juce_module.cpp.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\jammerNetz\JammerNetz\Server\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\PROJECT\jammerNetz\JammerNetz\Server\Source\Main.cpp" />
+    <ClCompile Include="D:\PROJECT\jammerNetz\JammerNetz\Server\Source\AcceptThread.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\Server\Source\AcceptThread.h" />
+    <ClCompile Include="D:\PROJECT\jammerNetz\JammerNetz\Server\Source\MixerThread.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\Server\Source\MixerThread.h" />
+    <ClCompile Include="D:\PROJECT\jammerNetz\JammerNetz\Server\Source\SendThread.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\Server\Source\SendThread.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\Server\Source\SharedServerTypes.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\Server\JuceLibraryCode\AppConfig.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\Server\JuceLibraryCode\JuceHeader.h" />
+    <ClCompile Include="D:\PROJECT\jammerNetz\JammerNetz\Server\JuceLibraryCode\include_juce_core.cpp" />
+    <ClCompile Include="D:\PROJECT\jammerNetz\JammerNetz\Server\JuceLibraryCode\include_juce_events.cpp" />
+    <ClCompile Include="D:\PROJECT\jammerNetz\JammerNetz\Server\JuceLibraryCode\include_juce_audio_basics.cpp" />
+    <ClCompile Include="D:\PROJECT\jammerNetz\JammerNetz\Server\JuceLibraryCode\include_juce_audio_devices.cpp" />
+    <ClCompile Include="D:\PROJECT\jammerNetz\JammerNetz\Server\JuceLibraryCode\include_juce_audio_formats.cpp" />
+    <ClCompile Include="D:\PROJECT\jammerNetz\JammerNetz\Server\JuceLibraryCode\include_juce_data_structures.cpp" />
+    <ClCompile Include="D:\PROJECT\jammerNetz\JammerNetz\Server\JuceLibraryCode\include_juce_cryptography.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\containers\juce_AbstractFifo.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\containers\juce_AbstractFifo.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\containers\juce_Array.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\containers\juce_ArrayAllocationBase.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\containers\juce_ArrayBase.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\containers\juce_ArrayBase.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\containers\juce_DynamicObject.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\containers\juce_DynamicObject.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\containers\juce_ElementComparator.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\containers\juce_HashMap.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\containers\juce_HashMap_test.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\containers\juce_LinkedListPointer.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\containers\juce_ListenerList.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\containers\juce_NamedValueSet.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\containers\juce_NamedValueSet.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\containers\juce_OwnedArray.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\containers\juce_OwnedArray.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\containers\juce_PropertySet.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\containers\juce_PropertySet.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\containers\juce_ReferenceCountedArray.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\containers\juce_ReferenceCountedArray.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\containers\juce_ScopedValueSetter.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\containers\juce_SortedSet.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\containers\juce_SparseSet.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\containers\juce_SparseSet.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\containers\juce_Variant.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\containers\juce_Variant.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\files\juce_DirectoryIterator.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\files\juce_DirectoryIterator.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\files\juce_File.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\files\juce_File.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\files\juce_FileFilter.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\files\juce_FileFilter.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\files\juce_FileInputStream.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\files\juce_FileInputStream.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\files\juce_FileOutputStream.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\files\juce_FileOutputStream.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\files\juce_FileSearchPath.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\files\juce_FileSearchPath.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\files\juce_MemoryMappedFile.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\files\juce_TemporaryFile.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\files\juce_TemporaryFile.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\files\juce_WildcardFileFilter.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\files\juce_WildcardFileFilter.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\javascript\juce_JSON.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\javascript\juce_JSON.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\javascript\juce_Javascript.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\javascript\juce_Javascript.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\juce_core.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\juce_core.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\juce_core.mm" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\logging\juce_FileLogger.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\logging\juce_FileLogger.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\logging\juce_Logger.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\logging\juce_Logger.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\maths\juce_BigInteger.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\maths\juce_BigInteger.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\maths\juce_Expression.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\maths\juce_Expression.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\maths\juce_MathsFunctions.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\maths\juce_NormalisableRange.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\maths\juce_Random.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\maths\juce_Random.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\maths\juce_Range.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\maths\juce_StatisticsAccumulator.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\memory\juce_Atomic.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\memory\juce_ByteOrder.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\memory\juce_ContainerDeletePolicy.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\memory\juce_HeapBlock.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\memory\juce_HeavyweightLeakedObjectDetector.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\memory\juce_LeakedObjectDetector.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\memory\juce_Memory.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\memory\juce_MemoryBlock.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\memory\juce_MemoryBlock.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\memory\juce_OptionalScopedPointer.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\memory\juce_ReferenceCountedObject.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\memory\juce_ScopedPointer.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\memory\juce_SharedResourcePointer.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\memory\juce_Singleton.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\memory\juce_WeakReference.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\misc\juce_ConsoleApplication.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\misc\juce_ConsoleApplication.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\misc\juce_Result.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\misc\juce_Result.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\misc\juce_RuntimePermissions.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\misc\juce_RuntimePermissions.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\misc\juce_StdFunctionCompat.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\misc\juce_StdFunctionCompat.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\misc\juce_Uuid.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\misc\juce_Uuid.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\misc\juce_WindowsRegistry.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\native\java\README.txt" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\native\java\app\com\roli\juce\FragmentOverlay.java" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\native\java\app\com\roli\juce\JuceHTTPStream.java" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\native\javacore\app\com\roli\juce\JuceApp.java" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\native\javacore\init\com\roli\juce\Java.java" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\native\juce_BasicNativeHeaders.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\native\juce_android_Files.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\native\juce_android_JNIHelpers.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\native\juce_android_JNIHelpers.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\native\juce_android_Misc.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\native\juce_android_Network.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\native\juce_android_RuntimePermissions.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\native\juce_android_SystemStats.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\native\juce_android_Threads.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\native\juce_curl_Network.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\native\juce_linux_CommonFile.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\native\juce_linux_Files.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\native\juce_linux_Network.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\native\juce_linux_SystemStats.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\native\juce_linux_Threads.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\native\juce_mac_ClangBugWorkaround.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\native\juce_mac_Files.mm" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\native\juce_mac_Network.mm" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\native\juce_mac_Strings.mm" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\native\juce_mac_SystemStats.mm" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\native\juce_mac_Threads.mm" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\native\juce_osx_ObjCHelpers.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\native\juce_posix_IPAddress.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\native\juce_posix_NamedPipe.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\native\juce_posix_SharedCode.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\native\juce_win32_ComSmartPtr.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\native\juce_win32_Files.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\native\juce_win32_Network.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\native\juce_win32_Registry.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\native\juce_win32_SystemStats.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\native\juce_win32_Threads.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\network\juce_IPAddress.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\network\juce_IPAddress.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\network\juce_MACAddress.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\network\juce_MACAddress.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\network\juce_NamedPipe.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\network\juce_NamedPipe.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\network\juce_Socket.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\network\juce_Socket.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\network\juce_URL.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\network\juce_URL.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\network\juce_WebInputStream.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\network\juce_WebInputStream.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\streams\juce_BufferedInputStream.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\streams\juce_BufferedInputStream.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\streams\juce_FileInputSource.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\streams\juce_FileInputSource.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\streams\juce_InputSource.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\streams\juce_InputStream.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\streams\juce_InputStream.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\streams\juce_MemoryInputStream.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\streams\juce_MemoryInputStream.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\streams\juce_MemoryOutputStream.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\streams\juce_MemoryOutputStream.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\streams\juce_OutputStream.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\streams\juce_OutputStream.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\streams\juce_SubregionStream.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\streams\juce_SubregionStream.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\streams\juce_URLInputSource.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\streams\juce_URLInputSource.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\system\juce_CompilerSupport.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\system\juce_PlatformDefs.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\system\juce_StandardHeader.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\system\juce_SystemStats.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\system\juce_SystemStats.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\system\juce_TargetPlatform.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\text\juce_Base64.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\text\juce_Base64.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\text\juce_CharPointer_ASCII.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\text\juce_CharPointer_UTF16.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\text\juce_CharPointer_UTF32.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\text\juce_CharPointer_UTF8.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\text\juce_CharacterFunctions.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\text\juce_CharacterFunctions.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\text\juce_Identifier.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\text\juce_Identifier.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\text\juce_LocalisedStrings.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\text\juce_LocalisedStrings.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\text\juce_NewLine.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\text\juce_String.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\text\juce_String.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\text\juce_StringArray.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\text\juce_StringArray.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\text\juce_StringPairArray.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\text\juce_StringPairArray.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\text\juce_StringPool.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\text\juce_StringPool.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\text\juce_StringRef.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\text\juce_TextDiff.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\text\juce_TextDiff.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\threads\juce_ChildProcess.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\threads\juce_ChildProcess.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\threads\juce_CriticalSection.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\threads\juce_DynamicLibrary.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\threads\juce_HighResolutionTimer.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\threads\juce_HighResolutionTimer.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\threads\juce_InterProcessLock.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\threads\juce_Process.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\threads\juce_ReadWriteLock.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\threads\juce_ReadWriteLock.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\threads\juce_ScopedLock.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\threads\juce_ScopedReadLock.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\threads\juce_ScopedWriteLock.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\threads\juce_SpinLock.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\threads\juce_Thread.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\threads\juce_Thread.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\threads\juce_ThreadLocalValue.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\threads\juce_ThreadPool.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\threads\juce_ThreadPool.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\threads\juce_TimeSliceThread.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\threads\juce_TimeSliceThread.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\threads\juce_WaitableEvent.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\time\juce_PerformanceCounter.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\time\juce_PerformanceCounter.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\time\juce_RelativeTime.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\time\juce_RelativeTime.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\time\juce_Time.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\time\juce_Time.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\unit_tests\juce_UnitTest.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\unit_tests\juce_UnitTest.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\unit_tests\juce_UnitTestCategories.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\xml\juce_XmlDocument.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\xml\juce_XmlDocument.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\xml\juce_XmlElement.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\xml\juce_XmlElement.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\zip\juce_GZIPCompressorOutputStream.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\zip\juce_GZIPCompressorOutputStream.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\zip\juce_GZIPDecompressorInputStream.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\zip\juce_GZIPDecompressorInputStream.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\zip\juce_ZipFile.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\zip\juce_ZipFile.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\zip\zlib\adler32.c" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\zip\zlib\compress.c" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\zip\zlib\crc32.c" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\zip\zlib\crc32.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\zip\zlib\deflate.c" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\zip\zlib\deflate.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\zip\zlib\infback.c" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\zip\zlib\inffast.c" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\zip\zlib\inffast.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\zip\zlib\inffixed.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\zip\zlib\inflate.c" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\zip\zlib\inflate.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\zip\zlib\inftrees.c" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\zip\zlib\inftrees.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\zip\zlib\trees.c" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\zip\zlib\trees.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\zip\zlib\uncompr.c" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\zip\zlib\zconf.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\zip\zlib\zconf.in.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\zip\zlib\zlib.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\zip\zlib\zutil.c" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_core\zip\zlib\zutil.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_events\broadcasters\juce_ActionBroadcaster.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_events\broadcasters\juce_ActionBroadcaster.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_events\broadcasters\juce_ActionListener.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_events\broadcasters\juce_AsyncUpdater.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_events\broadcasters\juce_AsyncUpdater.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_events\broadcasters\juce_ChangeBroadcaster.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_events\broadcasters\juce_ChangeBroadcaster.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_events\broadcasters\juce_ChangeListener.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_events\interprocess\juce_ConnectedChildProcess.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_events\interprocess\juce_ConnectedChildProcess.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_events\interprocess\juce_InterprocessConnection.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_events\interprocess\juce_InterprocessConnection.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_events\interprocess\juce_InterprocessConnectionServer.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_events\interprocess\juce_InterprocessConnectionServer.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_events\interprocess\juce_NetworkServiceDiscovery.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_events\interprocess\juce_NetworkServiceDiscovery.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_events\juce_events.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_events\juce_events.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_events\juce_events.mm" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_events\messages\juce_ApplicationBase.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_events\messages\juce_ApplicationBase.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_events\messages\juce_CallbackMessage.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_events\messages\juce_DeletedAtShutdown.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_events\messages\juce_DeletedAtShutdown.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_events\messages\juce_Initialisation.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_events\messages\juce_Message.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_events\messages\juce_MessageListener.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_events\messages\juce_MessageListener.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_events\messages\juce_MessageManager.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_events\messages\juce_MessageManager.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_events\messages\juce_MountedVolumeListChangeDetector.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_events\messages\juce_NotificationType.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_events\native\juce_android_Messaging.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_events\native\juce_ios_MessageManager.mm" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_events\native\juce_linux_EventLoop.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_events\native\juce_linux_Messaging.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_events\native\juce_mac_MessageManager.mm" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_events\native\juce_osx_MessageQueue.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_events\native\juce_win32_HiddenMessageWindow.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_events\native\juce_win32_Messaging.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_events\native\juce_win32_WinRTWrapper.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_events\native\juce_win32_WinRTWrapper.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_events\timers\juce_MultiTimer.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_events\timers\juce_MultiTimer.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_events\timers\juce_Timer.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_events\timers\juce_Timer.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\audio_play_head\juce_AudioPlayHead.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\buffers\juce_AudioChannelSet.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\buffers\juce_AudioChannelSet.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\buffers\juce_AudioDataConverters.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\buffers\juce_AudioDataConverters.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\buffers\juce_AudioProcessLoadMeasurer.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\buffers\juce_AudioProcessLoadMeasurer.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\buffers\juce_AudioSampleBuffer.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\buffers\juce_FloatVectorOperations.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\buffers\juce_FloatVectorOperations.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\juce_audio_basics.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\juce_audio_basics.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\juce_audio_basics.mm" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\midi\juce_MidiBuffer.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\midi\juce_MidiBuffer.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\midi\juce_MidiFile.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\midi\juce_MidiFile.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\midi\juce_MidiKeyboardState.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\midi\juce_MidiKeyboardState.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\midi\juce_MidiMessage.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\midi\juce_MidiMessage.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\midi\juce_MidiMessageSequence.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\midi\juce_MidiMessageSequence.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\midi\juce_MidiRPN.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\midi\juce_MidiRPN.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\mpe\juce_MPEInstrument.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\mpe\juce_MPEInstrument.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\mpe\juce_MPEMessages.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\mpe\juce_MPEMessages.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\mpe\juce_MPENote.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\mpe\juce_MPENote.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\mpe\juce_MPESynthesiser.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\mpe\juce_MPESynthesiser.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\mpe\juce_MPESynthesiserBase.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\mpe\juce_MPESynthesiserBase.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\mpe\juce_MPESynthesiserVoice.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\mpe\juce_MPESynthesiserVoice.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\mpe\juce_MPEUtils.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\mpe\juce_MPEUtils.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\mpe\juce_MPEValue.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\mpe\juce_MPEValue.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\mpe\juce_MPEZoneLayout.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\mpe\juce_MPEZoneLayout.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\native\juce_mac_CoreAudioLayouts.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\sources\juce_AudioSource.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\sources\juce_BufferingAudioSource.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\sources\juce_BufferingAudioSource.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\sources\juce_ChannelRemappingAudioSource.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\sources\juce_ChannelRemappingAudioSource.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\sources\juce_IIRFilterAudioSource.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\sources\juce_IIRFilterAudioSource.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\sources\juce_MemoryAudioSource.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\sources\juce_MemoryAudioSource.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\sources\juce_MixerAudioSource.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\sources\juce_MixerAudioSource.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\sources\juce_PositionableAudioSource.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\sources\juce_ResamplingAudioSource.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\sources\juce_ResamplingAudioSource.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\sources\juce_ReverbAudioSource.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\sources\juce_ReverbAudioSource.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\sources\juce_ToneGeneratorAudioSource.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\sources\juce_ToneGeneratorAudioSource.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\synthesisers\juce_Synthesiser.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\synthesisers\juce_Synthesiser.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\utilities\juce_ADSR.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\utilities\juce_CatmullRomInterpolator.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\utilities\juce_CatmullRomInterpolator.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\utilities\juce_Decibels.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\utilities\juce_IIRFilter.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\utilities\juce_IIRFilter.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\utilities\juce_LagrangeInterpolator.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\utilities\juce_LagrangeInterpolator.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\utilities\juce_Reverb.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\utilities\juce_SmoothedValue.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_basics\utilities\juce_SmoothedValue.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_devices\audio_io\juce_AudioDeviceManager.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_devices\audio_io\juce_AudioDeviceManager.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_devices\audio_io\juce_AudioIODevice.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_devices\audio_io\juce_AudioIODevice.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_devices\audio_io\juce_AudioIODeviceType.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_devices\audio_io\juce_AudioIODeviceType.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_devices\audio_io\juce_SystemAudioVolume.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_devices\juce_audio_devices.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_devices\juce_audio_devices.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_devices\juce_audio_devices.mm" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_devices\midi_io\juce_MidiDevices.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_devices\midi_io\juce_MidiDevices.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_devices\midi_io\juce_MidiMessageCollector.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_devices\midi_io\juce_MidiMessageCollector.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_devices\native\java\app\com\roli\juce\JuceMidiSupport.java" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_devices\native\juce_MidiDataConcatenator.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_devices\native\juce_android_Audio.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_devices\native\juce_android_Midi.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_devices\native\juce_android_Oboe.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_devices\native\juce_android_OpenSL.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_devices\native\juce_ios_Audio.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_devices\native\juce_ios_Audio.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_devices\native\juce_linux_ALSA.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_devices\native\juce_linux_Bela.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_devices\native\juce_linux_JackAudio.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_devices\native\juce_linux_Midi.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_devices\native\juce_mac_CoreAudio.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_devices\native\juce_mac_CoreMidi.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_devices\native\juce_win32_ASIO.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_devices\native\juce_win32_DirectSound.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_devices\native\juce_win32_Midi.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_devices\native\juce_win32_WASAPI.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_devices\sources\juce_AudioSourcePlayer.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_devices\sources\juce_AudioSourcePlayer.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_devices\sources\juce_AudioTransportSource.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_devices\sources\juce_AudioTransportSource.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\flac\Flac Licence.txt" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\flac\all.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\flac\alloc.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\flac\assert.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\flac\callback.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\flac\compat.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\flac\endswap.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\flac\export.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\flac\format.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\bitmath.c" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\bitreader.c" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\bitwriter.c" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\cpu.c" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\crc.c" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\fixed.c" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\float.c" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\format.c" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\include\private\all.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\include\private\bitmath.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\include\private\bitreader.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\include\private\bitwriter.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\include\private\cpu.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\include\private\crc.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\include\private\fixed.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\include\private\float.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\include\private\format.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\include\private\lpc.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\include\private\md5.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\include\private\memory.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\include\private\metadata.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\include\private\stream_encoder.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\include\private\stream_encoder_framing.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\include\private\window.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\include\protected\all.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\include\protected\stream_decoder.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\include\protected\stream_encoder.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\lpc_flac.c" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\md5.c" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\memory.c" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\stream_decoder.c" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\stream_encoder.c" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\stream_encoder_framing.c" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\window_flac.c" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\flac\metadata.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\flac\ordinals.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\flac\stream_decoder.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\flac\stream_encoder.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\flac\win_utf8_io.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\juce_AiffAudioFormat.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\juce_AiffAudioFormat.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\juce_CoreAudioFormat.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\juce_CoreAudioFormat.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\juce_FlacAudioFormat.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\juce_FlacAudioFormat.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\juce_LAMEEncoderAudioFormat.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\juce_LAMEEncoderAudioFormat.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\juce_MP3AudioFormat.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\juce_MP3AudioFormat.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\juce_OggVorbisAudioFormat.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\juce_OggVorbisAudioFormat.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\juce_WavAudioFormat.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\juce_WavAudioFormat.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\juce_WindowsMediaAudioFormat.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\juce_WindowsMediaAudioFormat.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\Ogg Vorbis Licence.txt" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\bitwise.c" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\codec.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\config_types.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\framing.c" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\analysis.c" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\backends.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\bitrate.c" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\bitrate.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\block.c" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\books\coupled\res_books_51.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\books\coupled\res_books_stereo.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\books\floor\floor_books.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\books\uncoupled\res_books_uncoupled.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\codebook.c" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\codebook.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\codec_internal.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\envelope.c" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\envelope.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\floor0.c" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\floor1.c" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\highlevel.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\info.c" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\lookup.c" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\lookup.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\lookup_data.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\lpc.c" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\lpc.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\lsp.c" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\lsp.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\mapping0.c" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\masking.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\mdct.c" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\mdct.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\misc.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\modes\floor_all.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\modes\psych_11.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\modes\psych_16.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\modes\psych_44.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\modes\psych_8.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\modes\residue_16.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\modes\residue_44.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\modes\residue_44p51.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\modes\residue_44u.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\modes\residue_8.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\modes\setup_11.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\modes\setup_16.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\modes\setup_22.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\modes\setup_32.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\modes\setup_44.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\modes\setup_44p51.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\modes\setup_44u.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\modes\setup_8.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\modes\setup_X.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\os.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\psy.c" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\psy.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\registry.c" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\registry.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\res0.c" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\scales.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\sharedbook.c" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\smallft.c" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\smallft.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\synthesis.c" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\vorbisenc.c" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\vorbisfile.c" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\window.c" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.2\lib\window.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\ogg.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\os_types.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\vorbisenc.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\codecs\oggvorbis\vorbisfile.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\format\juce_AudioFormat.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\format\juce_AudioFormat.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\format\juce_AudioFormatManager.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\format\juce_AudioFormatManager.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\format\juce_AudioFormatReader.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\format\juce_AudioFormatReader.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\format\juce_AudioFormatReaderSource.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\format\juce_AudioFormatReaderSource.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\format\juce_AudioFormatWriter.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\format\juce_AudioFormatWriter.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\format\juce_AudioSubsectionReader.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\format\juce_AudioSubsectionReader.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\format\juce_BufferingAudioFormatReader.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\format\juce_BufferingAudioFormatReader.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\format\juce_MemoryMappedAudioFormatReader.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\juce_audio_formats.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\juce_audio_formats.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\juce_audio_formats.mm" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\sampler\juce_Sampler.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_audio_formats\sampler\juce_Sampler.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_data_structures\app_properties\juce_ApplicationProperties.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_data_structures\app_properties\juce_ApplicationProperties.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_data_structures\app_properties\juce_PropertiesFile.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_data_structures\app_properties\juce_PropertiesFile.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_data_structures\juce_data_structures.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_data_structures\juce_data_structures.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_data_structures\juce_data_structures.mm" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_data_structures\undomanager\juce_UndoManager.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_data_structures\undomanager\juce_UndoManager.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_data_structures\undomanager\juce_UndoableAction.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_data_structures\values\juce_CachedValue.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_data_structures\values\juce_CachedValue.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_data_structures\values\juce_Value.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_data_structures\values\juce_Value.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_data_structures\values\juce_ValueTree.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_data_structures\values\juce_ValueTree.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_data_structures\values\juce_ValueTreeSynchroniser.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_data_structures\values\juce_ValueTreeSynchroniser.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_data_structures\values\juce_ValueWithDefault.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_data_structures\values\juce_ValueWithDefault.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_cryptography\encryption\juce_BlowFish.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_cryptography\encryption\juce_BlowFish.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_cryptography\encryption\juce_Primes.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_cryptography\encryption\juce_Primes.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_cryptography\encryption\juce_RSAKey.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_cryptography\encryption\juce_RSAKey.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_cryptography\hashing\juce_MD5.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_cryptography\hashing\juce_MD5.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_cryptography\hashing\juce_SHA256.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_cryptography\hashing\juce_SHA256.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_cryptography\hashing\juce_Whirlpool.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_cryptography\hashing\juce_Whirlpool.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_cryptography\juce_cryptography.cpp" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_cryptography\juce_cryptography.h" />
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\third_party\JUCE\modules\juce_cryptography\juce_cryptography.mm" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\PROJECT\jammerNetz\JammerNetz\ZERO_CHECK.vcxproj">
+      <Project>{414048EA-F874-3311-B035-73F6F4542096}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\PROJECT\jammerNetz\JammerNetz\common\JammerCommon.vcxproj">
+      <Project>{1A500AC8-87E6-305A-AD5B-FA21F5D3856B}</Project>
+      <Name>JammerCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\PROJECT\jammerNetz\JammerNetz\modules\juce-utils\juce-utils.vcxproj">
+      <Project>{2AEA69BC-D83C-3E69-BA9E-0305DBCA3367}</Project>
+      <Name>juce-utils</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\CMakeFiles\d56bed7bc64236487226e033ea3b9cfc\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B4C9548C-94C5-39BF-9E84-EB6E25F3DADE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

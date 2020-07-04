@@ -1,0 +1,3 @@
+D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/CMakeFiles/asiosdk-populate.dir
+D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/CMakeFiles/ALL_BUILD.dir
+D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/CMakeFiles/ZERO_CHECK.dir

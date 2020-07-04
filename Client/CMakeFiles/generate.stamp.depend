@@ -1,0 +1,10 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindPackageMessage.cmake
+D:/PROJECT/jammerNetz/JammerNetz/Client/CMakeLists.txt
+D:/PROJECT/jammerNetz/JammerNetz/Client/setup_client.iss
+D:/PROJECT/jammerNetz/JammerNetz/cmake/BinaryResources.cmake
+D:/PROJECT/jammerNetz/JammerNetz/third_party/juce-cmake/cmake/FindJUCE.cmake
+D:/PROJECT/jammerNetz/JammerNetz/third_party/juce-cmake/cmake/FindJuceTemplates/AppConfig.h.in
+D:/PROJECT/jammerNetz/JammerNetz/third_party/juce-cmake/cmake/FindJuceTemplates/JuceHeader.h.in
+D:/PROJECT/jammerNetz/JammerNetz/third_party/juce-cmake/cmake/FindJuceTemplates/include_juce_module.cpp.in

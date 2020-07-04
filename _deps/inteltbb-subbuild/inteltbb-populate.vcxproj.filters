@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\inteltbb-subbuild\CMakeFiles\f1144574c2ef804b48840afa65287011\inteltbb-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\inteltbb-subbuild\CMakeFiles\f1144574c2ef804b48840afa65287011\inteltbb-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\inteltbb-subbuild\CMakeFiles\f1144574c2ef804b48840afa65287011\inteltbb-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\inteltbb-subbuild\CMakeFiles\f1144574c2ef804b48840afa65287011\inteltbb-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\inteltbb-subbuild\CMakeFiles\f1144574c2ef804b48840afa65287011\inteltbb-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\inteltbb-subbuild\CMakeFiles\f1144574c2ef804b48840afa65287011\inteltbb-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\inteltbb-subbuild\CMakeFiles\f1144574c2ef804b48840afa65287011\inteltbb-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\inteltbb-subbuild\CMakeFiles\f1144574c2ef804b48840afa65287011\inteltbb-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\inteltbb-subbuild\CMakeFiles\015fe5733d04b5f00059a24d5b936edb\inteltbb-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\inteltbb-subbuild\CMakeFiles\c72e28a900f2f9769cad9f05847db9a5\inteltbb-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\inteltbb-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\inteltbb-subbuild\CMakeFiles\inteltbb-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{80CCA8DB-104A-3ACA-BAA9-4B1A8ECF82AE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

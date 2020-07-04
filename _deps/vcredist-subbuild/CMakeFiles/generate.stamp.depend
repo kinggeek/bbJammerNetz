@@ -1,0 +1,15 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeDetermineSystem.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeSystem.cmake.in
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/ExternalProject-download.cmake.in
+C:/Program Files/CMake/share/cmake-3.17/Modules/ExternalProject.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/RepositoryInfo.txt.in
+D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/CMakeFiles/3.17.3/CMakeSystem.cmake
+D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/CMakeLists.txt
+D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/tmp/vcredist-populate-cfgcmd.txt.in

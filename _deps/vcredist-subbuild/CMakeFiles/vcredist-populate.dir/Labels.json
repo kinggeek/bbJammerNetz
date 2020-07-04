@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/CMakeFiles/vcredist-populate"
+		},
+		{
+			"file" : "D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/CMakeFiles/d56bed7bc64236487226e033ea3b9cfc/vcredist-populate.rule"
+		},
+		{
+			"file" : "D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/CMakeFiles/20ab5541ee10c4b6976b2c916fec7776/vcredist-populate-complete.rule"
+		},
+		{
+			"file" : "D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/CMakeFiles/88b3f4f76eca6611e11d41d635faf2b4/vcredist-populate-install.rule"
+		},
+		{
+			"file" : "D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/CMakeFiles/88b3f4f76eca6611e11d41d635faf2b4/vcredist-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/CMakeFiles/88b3f4f76eca6611e11d41d635faf2b4/vcredist-populate-download.rule"
+		},
+		{
+			"file" : "D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/CMakeFiles/88b3f4f76eca6611e11d41d635faf2b4/vcredist-populate-update.rule"
+		},
+		{
+			"file" : "D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/CMakeFiles/88b3f4f76eca6611e11d41d635faf2b4/vcredist-populate-patch.rule"
+		},
+		{
+			"file" : "D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/CMakeFiles/88b3f4f76eca6611e11d41d635faf2b4/vcredist-populate-configure.rule"
+		},
+		{
+			"file" : "D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/CMakeFiles/88b3f4f76eca6611e11d41d635faf2b4/vcredist-populate-build.rule"
+		},
+		{
+			"file" : "D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/CMakeFiles/88b3f4f76eca6611e11d41d635faf2b4/vcredist-populate-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vcredist-populate"
+		],
+		"name" : "vcredist-populate"
+	}
+}

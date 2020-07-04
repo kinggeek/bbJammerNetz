@@ -1,0 +1,942 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F4F8023F-AC59-39FA-8BFA-CD4125DC32F5}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>vcredist-populate</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\CMakeFiles\88b3f4f76eca6611e11d41d635faf2b4\vcredist-populate-mkdir.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Creating directories for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Creating directories for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Creating directories for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Creating directories for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\CMakeFiles\88b3f4f76eca6611e11d41d635faf2b4\vcredist-populate-download.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Performing download step (download and verify) for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd D:\PROJECT\jammerNetz\JammerNetz\_deps
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/download-vcredist-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/verify-vcredist-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\vcredist-populate-urlinfo.txt;D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Performing download step (download and verify) for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd D:\PROJECT\jammerNetz\JammerNetz\_deps
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/download-vcredist-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/verify-vcredist-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\vcredist-populate-urlinfo.txt;D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Performing download step (download and verify) for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd D:\PROJECT\jammerNetz\JammerNetz\_deps
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/download-vcredist-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/verify-vcredist-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\vcredist-populate-urlinfo.txt;D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Performing download step (download and verify) for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd D:\PROJECT\jammerNetz\JammerNetz\_deps
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/download-vcredist-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/verify-vcredist-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\vcredist-populate-urlinfo.txt;D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\CMakeFiles\88b3f4f76eca6611e11d41d635faf2b4\vcredist-populate-update.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No update step for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No update step for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No update step for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No update step for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\CMakeFiles\88b3f4f76eca6611e11d41d635faf2b4\vcredist-populate-patch.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No patch step for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No patch step for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No patch step for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No patch step for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\CMakeFiles\88b3f4f76eca6611e11d41d635faf2b4\vcredist-populate-configure.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No configure step for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\tmp\vcredist-populate-cfgcmd.txt;D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-update;D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No configure step for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\tmp\vcredist-populate-cfgcmd.txt;D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-update;D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No configure step for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\tmp\vcredist-populate-cfgcmd.txt;D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-update;D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No configure step for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\tmp\vcredist-populate-cfgcmd.txt;D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-update;D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\CMakeFiles\88b3f4f76eca6611e11d41d635faf2b4\vcredist-populate-build.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No build step for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No build step for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No build step for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No build step for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\CMakeFiles\88b3f4f76eca6611e11d41d635faf2b4\vcredist-populate-install.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No install step for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No install step for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No install step for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No install step for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\CMakeFiles\88b3f4f76eca6611e11d41d635faf2b4\vcredist-populate-test.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No test step for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No test step for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No test step for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No test step for 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\CMakeFiles\20ab5541ee10c4b6976b2c916fec7776\vcredist-populate-complete.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Completed 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/CMakeFiles/$(Configuration)/vcredist-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-install;D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-mkdir;D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-download;D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-update;D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-patch;D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-configure;D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-build;D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\CMakeFiles\$(Configuration)\vcredist-populate-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Completed 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/CMakeFiles/$(Configuration)/vcredist-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-install;D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-mkdir;D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-download;D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-update;D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-patch;D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-configure;D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-build;D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\CMakeFiles\$(Configuration)\vcredist-populate-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Completed 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/CMakeFiles/$(Configuration)/vcredist-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-install;D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-mkdir;D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-download;D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-update;D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-patch;D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-configure;D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-build;D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\CMakeFiles\$(Configuration)\vcredist-populate-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Completed 'vcredist-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/CMakeFiles/$(Configuration)/vcredist-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/vcredist-populate-prefix/src/vcredist-populate-stamp/$(Configuration)/vcredist-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-install;D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-mkdir;D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-download;D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-update;D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-patch;D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-configure;D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-build;D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\src\vcredist-populate-stamp\$(Configuration)\vcredist-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\CMakeFiles\$(Configuration)\vcredist-populate-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\CMakeFiles\d56bed7bc64236487226e033ea3b9cfc\vcredist-populate.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\CMakeFiles\$(Configuration)\vcredist-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\CMakeFiles\vcredist-populate</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\CMakeFiles\$(Configuration)\vcredist-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\CMakeFiles\vcredist-populate</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\CMakeFiles\$(Configuration)\vcredist-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\CMakeFiles\vcredist-populate</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\CMakeFiles\$(Configuration)\vcredist-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\CMakeFiles\vcredist-populate</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild -BD:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild --check-stamp-file D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\ExternalProject-download.cmake.in;C:\Program Files\CMake\share\cmake-3.17\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\RepositoryInfo.txt.in;D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\CMakeFiles\3.17.3\CMakeSystem.cmake;D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\tmp\vcredist-populate-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild -BD:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild --check-stamp-file D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\ExternalProject-download.cmake.in;C:\Program Files\CMake\share\cmake-3.17\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\RepositoryInfo.txt.in;D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\CMakeFiles\3.17.3\CMakeSystem.cmake;D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\tmp\vcredist-populate-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild -BD:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild --check-stamp-file D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\ExternalProject-download.cmake.in;C:\Program Files\CMake\share\cmake-3.17\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\RepositoryInfo.txt.in;D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\CMakeFiles\3.17.3\CMakeSystem.cmake;D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\tmp\vcredist-populate-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild -BD:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild --check-stamp-file D:/PROJECT/jammerNetz/JammerNetz/_deps/vcredist-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\ExternalProject-download.cmake.in;C:\Program Files\CMake\share\cmake-3.17\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\RepositoryInfo.txt.in;D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\CMakeFiles\3.17.3\CMakeSystem.cmake;D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\vcredist-populate-prefix\tmp\vcredist-populate-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\CMakeFiles\vcredist-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\vcredist-subbuild\ZERO_CHECK.vcxproj">
+      <Project>{6B435586-4004-3D35-9324-1E31B76E8ED1}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

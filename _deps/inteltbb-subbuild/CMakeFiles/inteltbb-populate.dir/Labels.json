@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/PROJECT/jammerNetz/JammerNetz/_deps/inteltbb-subbuild/CMakeFiles/inteltbb-populate"
+		},
+		{
+			"file" : "D:/PROJECT/jammerNetz/JammerNetz/_deps/inteltbb-subbuild/CMakeFiles/c72e28a900f2f9769cad9f05847db9a5/inteltbb-populate.rule"
+		},
+		{
+			"file" : "D:/PROJECT/jammerNetz/JammerNetz/_deps/inteltbb-subbuild/CMakeFiles/015fe5733d04b5f00059a24d5b936edb/inteltbb-populate-complete.rule"
+		},
+		{
+			"file" : "D:/PROJECT/jammerNetz/JammerNetz/_deps/inteltbb-subbuild/CMakeFiles/f1144574c2ef804b48840afa65287011/inteltbb-populate-install.rule"
+		},
+		{
+			"file" : "D:/PROJECT/jammerNetz/JammerNetz/_deps/inteltbb-subbuild/CMakeFiles/f1144574c2ef804b48840afa65287011/inteltbb-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/PROJECT/jammerNetz/JammerNetz/_deps/inteltbb-subbuild/CMakeFiles/f1144574c2ef804b48840afa65287011/inteltbb-populate-download.rule"
+		},
+		{
+			"file" : "D:/PROJECT/jammerNetz/JammerNetz/_deps/inteltbb-subbuild/CMakeFiles/f1144574c2ef804b48840afa65287011/inteltbb-populate-update.rule"
+		},
+		{
+			"file" : "D:/PROJECT/jammerNetz/JammerNetz/_deps/inteltbb-subbuild/CMakeFiles/f1144574c2ef804b48840afa65287011/inteltbb-populate-patch.rule"
+		},
+		{
+			"file" : "D:/PROJECT/jammerNetz/JammerNetz/_deps/inteltbb-subbuild/CMakeFiles/f1144574c2ef804b48840afa65287011/inteltbb-populate-configure.rule"
+		},
+		{
+			"file" : "D:/PROJECT/jammerNetz/JammerNetz/_deps/inteltbb-subbuild/CMakeFiles/f1144574c2ef804b48840afa65287011/inteltbb-populate-build.rule"
+		},
+		{
+			"file" : "D:/PROJECT/jammerNetz/JammerNetz/_deps/inteltbb-subbuild/CMakeFiles/f1144574c2ef804b48840afa65287011/inteltbb-populate-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"inteltbb-populate"
+		],
+		"name" : "inteltbb-populate"
+	}
+}

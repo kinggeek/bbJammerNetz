@@ -1,0 +1,11 @@
+D:/PROJECT/jammerNetz/JammerNetz/CMakeFiles/ALL_BUILD.dir
+D:/PROJECT/jammerNetz/JammerNetz/CMakeFiles/ZERO_CHECK.dir
+D:/PROJECT/jammerNetz/JammerNetz/third_party/JUCE-user-modules/CMakeFiles/ff_meters.dir
+D:/PROJECT/jammerNetz/JammerNetz/third_party/JUCE-user-modules/CMakeFiles/ALL_BUILD.dir
+D:/PROJECT/jammerNetz/JammerNetz/modules/juce-utils/CMakeFiles/juce-utils.dir
+D:/PROJECT/jammerNetz/JammerNetz/modules/juce-utils/CMakeFiles/ALL_BUILD.dir
+D:/PROJECT/jammerNetz/JammerNetz/common/CMakeFiles/JammerCommon.dir
+D:/PROJECT/jammerNetz/JammerNetz/Server/CMakeFiles/JammerNetzServer.dir
+D:/PROJECT/jammerNetz/JammerNetz/Server/CMakeFiles/ALL_BUILD.dir
+D:/PROJECT/jammerNetz/JammerNetz/Client/CMakeFiles/JammerNetzClient.dir
+D:/PROJECT/jammerNetz/JammerNetz/Client/CMakeFiles/ALL_BUILD.dir

@@ -1,0 +1,950 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6F2F0E5D-3288-3742-8BD7-0447BB225A1B}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>asiosdk-populate</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\CMakeFiles\ed1a62cfacc4a74e1c61942d57e22421\asiosdk-populate-mkdir.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Creating directories for 'asiosdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/$(Configuration)/asiosdk-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Creating directories for 'asiosdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/$(Configuration)/asiosdk-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Creating directories for 'asiosdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/$(Configuration)/asiosdk-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Creating directories for 'asiosdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/$(Configuration)/asiosdk-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\CMakeFiles\ed1a62cfacc4a74e1c61942d57e22421\asiosdk-populate-download.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Performing download step (download, verify and extract) for 'asiosdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd D:\PROJECT\jammerNetz\JammerNetz\_deps
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/download-asiosdk-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/verify-asiosdk-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/extract-asiosdk-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/$(Configuration)/asiosdk-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\asiosdk-populate-urlinfo.txt;D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Performing download step (download, verify and extract) for 'asiosdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd D:\PROJECT\jammerNetz\JammerNetz\_deps
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/download-asiosdk-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/verify-asiosdk-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/extract-asiosdk-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/$(Configuration)/asiosdk-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\asiosdk-populate-urlinfo.txt;D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Performing download step (download, verify and extract) for 'asiosdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd D:\PROJECT\jammerNetz\JammerNetz\_deps
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/download-asiosdk-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/verify-asiosdk-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/extract-asiosdk-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/$(Configuration)/asiosdk-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\asiosdk-populate-urlinfo.txt;D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Performing download step (download, verify and extract) for 'asiosdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd D:\PROJECT\jammerNetz\JammerNetz\_deps
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/download-asiosdk-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/verify-asiosdk-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/extract-asiosdk-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/$(Configuration)/asiosdk-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\asiosdk-populate-urlinfo.txt;D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\CMakeFiles\ed1a62cfacc4a74e1c61942d57e22421\asiosdk-populate-update.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No update step for 'asiosdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/$(Configuration)/asiosdk-populate-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No update step for 'asiosdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/$(Configuration)/asiosdk-populate-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No update step for 'asiosdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/$(Configuration)/asiosdk-populate-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No update step for 'asiosdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/$(Configuration)/asiosdk-populate-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\CMakeFiles\ed1a62cfacc4a74e1c61942d57e22421\asiosdk-populate-patch.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No patch step for 'asiosdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/$(Configuration)/asiosdk-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No patch step for 'asiosdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/$(Configuration)/asiosdk-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No patch step for 'asiosdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/$(Configuration)/asiosdk-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No patch step for 'asiosdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/$(Configuration)/asiosdk-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\CMakeFiles\ed1a62cfacc4a74e1c61942d57e22421\asiosdk-populate-configure.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No configure step for 'asiosdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/$(Configuration)/asiosdk-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\tmp\asiosdk-populate-cfgcmd.txt;D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-update;D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No configure step for 'asiosdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/$(Configuration)/asiosdk-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\tmp\asiosdk-populate-cfgcmd.txt;D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-update;D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No configure step for 'asiosdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/$(Configuration)/asiosdk-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\tmp\asiosdk-populate-cfgcmd.txt;D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-update;D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No configure step for 'asiosdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/$(Configuration)/asiosdk-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\tmp\asiosdk-populate-cfgcmd.txt;D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-update;D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\CMakeFiles\ed1a62cfacc4a74e1c61942d57e22421\asiosdk-populate-build.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No build step for 'asiosdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/$(Configuration)/asiosdk-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No build step for 'asiosdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/$(Configuration)/asiosdk-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No build step for 'asiosdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/$(Configuration)/asiosdk-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No build step for 'asiosdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/$(Configuration)/asiosdk-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\CMakeFiles\ed1a62cfacc4a74e1c61942d57e22421\asiosdk-populate-install.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No install step for 'asiosdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/$(Configuration)/asiosdk-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No install step for 'asiosdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/$(Configuration)/asiosdk-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No install step for 'asiosdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/$(Configuration)/asiosdk-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No install step for 'asiosdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/$(Configuration)/asiosdk-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\CMakeFiles\ed1a62cfacc4a74e1c61942d57e22421\asiosdk-populate-test.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No test step for 'asiosdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/$(Configuration)/asiosdk-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No test step for 'asiosdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/$(Configuration)/asiosdk-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No test step for 'asiosdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/$(Configuration)/asiosdk-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No test step for 'asiosdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/$(Configuration)/asiosdk-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\CMakeFiles\13e0782a025adb613ad18017443bed1c\asiosdk-populate-complete.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Completed 'asiosdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/CMakeFiles/$(Configuration)/asiosdk-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/$(Configuration)/asiosdk-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-install;D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-mkdir;D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-download;D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-update;D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-patch;D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-configure;D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-build;D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\CMakeFiles\$(Configuration)\asiosdk-populate-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Completed 'asiosdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/CMakeFiles/$(Configuration)/asiosdk-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/$(Configuration)/asiosdk-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-install;D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-mkdir;D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-download;D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-update;D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-patch;D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-configure;D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-build;D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\CMakeFiles\$(Configuration)\asiosdk-populate-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Completed 'asiosdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/CMakeFiles/$(Configuration)/asiosdk-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/$(Configuration)/asiosdk-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-install;D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-mkdir;D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-download;D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-update;D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-patch;D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-configure;D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-build;D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\CMakeFiles\$(Configuration)\asiosdk-populate-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Completed 'asiosdk-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/CMakeFiles/$(Configuration)/asiosdk-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/asiosdk-populate-prefix/src/asiosdk-populate-stamp/$(Configuration)/asiosdk-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-install;D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-mkdir;D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-download;D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-update;D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-patch;D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-configure;D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-build;D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\src\asiosdk-populate-stamp\$(Configuration)\asiosdk-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\CMakeFiles\$(Configuration)\asiosdk-populate-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\CMakeFiles\790e04f2fb395988980f1e472a602c36\asiosdk-populate.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\CMakeFiles\$(Configuration)\asiosdk-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\CMakeFiles\asiosdk-populate</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\CMakeFiles\$(Configuration)\asiosdk-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\CMakeFiles\asiosdk-populate</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\CMakeFiles\$(Configuration)\asiosdk-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\CMakeFiles\asiosdk-populate</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\CMakeFiles\$(Configuration)\asiosdk-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\CMakeFiles\asiosdk-populate</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild -BD:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild --check-stamp-file D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\ExternalProject-download.cmake.in;C:\Program Files\CMake\share\cmake-3.17\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\RepositoryInfo.txt.in;D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\CMakeFiles\3.17.3\CMakeSystem.cmake;D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\tmp\asiosdk-populate-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild -BD:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild --check-stamp-file D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\ExternalProject-download.cmake.in;C:\Program Files\CMake\share\cmake-3.17\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\RepositoryInfo.txt.in;D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\CMakeFiles\3.17.3\CMakeSystem.cmake;D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\tmp\asiosdk-populate-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild -BD:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild --check-stamp-file D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\ExternalProject-download.cmake.in;C:\Program Files\CMake\share\cmake-3.17\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\RepositoryInfo.txt.in;D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\CMakeFiles\3.17.3\CMakeSystem.cmake;D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\tmp\asiosdk-populate-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild -BD:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild --check-stamp-file D:/PROJECT/jammerNetz/JammerNetz/_deps/asiosdk-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\ExternalProject-download.cmake.in;C:\Program Files\CMake\share\cmake-3.17\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\RepositoryInfo.txt.in;D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\CMakeFiles\3.17.3\CMakeSystem.cmake;D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\asiosdk-populate-prefix\tmp\asiosdk-populate-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\CMakeFiles\asiosdk-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\PROJECT\jammerNetz\JammerNetz\_deps\asiosdk-subbuild\ZERO_CHECK.vcxproj">
+      <Project>{87BC3805-457A-3984-9D57-C81187574FBA}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

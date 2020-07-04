@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\PROJECT\jammerNetz\JammerNetz\common\JammerNetzPackage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PROJECT\jammerNetz\JammerNetz\common\PacketStreamQueue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PROJECT\jammerNetz\JammerNetz\common\Recorder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PROJECT\jammerNetz\JammerNetz\common\ServerInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\common\BuffersConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\common\JammerNetzPackage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\common\JammerNetzPackages_generated.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\common\PacketStreamQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\common\Recorder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\common\RingOfAudioBuffers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PROJECT\jammerNetz\JammerNetz\common\ServerInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\PROJECT\jammerNetz\JammerNetz\CMakeFiles\d65291372ff6e40015940ed6250d93b0\JammerNetzPackages_generated.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\PROJECT\jammerNetz\JammerNetz\common\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\PROJECT\jammerNetz\JammerNetz\common\JammerNetzPackages.fbs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{17774466-3163-3C07-AF12-1260875A47A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3AD58ABD-AAC6-3CF3-B9F0-1E5D2BE35316}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B9D9C48B-98C2-3C2A-AAFE-212153DD7F88}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
