@@ -1,0 +1,2 @@
+/usr/bin/ar qc libJammerCommon.a  CMakeFiles/JammerCommon.dir/JammerNetzPackage.cpp.o CMakeFiles/JammerCommon.dir/PacketStreamQueue.cpp.o CMakeFiles/JammerCommon.dir/Recorder.cpp.o CMakeFiles/JammerCommon.dir/ServerInfo.cpp.o
+/usr/bin/ranlib libJammerCommon.a

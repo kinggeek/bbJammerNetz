@@ -13,7 +13,7 @@ class ConnectionManager
 {
 public:
 
-	var ConnectionManager::getServerProperties(String Key) {
+	var getServerProperties(String Key) {
 		URL connectionServerURL(connectionServerURL_ + "?key=" + Key);
 		var(jsonRaw) = JSON::parse(connectionServerURL.readEntireTextStream(false));
 		return(jsonRaw);

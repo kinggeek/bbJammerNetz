@@ -1,0 +1,2 @@
+/usr/bin/ar qc libff_meters.a  CMakeFiles/ff_meters.dir/ff_meters/ff_meters_LevelMeter.cpp.o
+/usr/bin/ranlib libff_meters.a

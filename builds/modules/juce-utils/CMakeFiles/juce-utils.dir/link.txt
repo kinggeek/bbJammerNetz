@@ -1,0 +1,2 @@
+/usr/bin/ar qc libjuce-utils.a  CMakeFiles/juce-utils.dir/Data.cpp.o CMakeFiles/juce-utils.dir/MidiClocker.cpp.o CMakeFiles/juce-utils.dir/MidiNote.cpp.o CMakeFiles/juce-utils.dir/MidiRecorder.cpp.o CMakeFiles/juce-utils.dir/Settings.cpp.o CMakeFiles/juce-utils.dir/StreamLogger.cpp.o
+/usr/bin/ranlib libjuce-utils.a
