@@ -50,9 +50,13 @@ void ServerSelector::textEditorReturnKeyPressed(TextEditor& editor)
 	lastServer_ = editor.getText();
 	ConnectionManager conmgr;
 	var creds=conmgr.getServerProperties(lastServer_);
-	ServerInfo::serverName = connectionServerName;
+	ServerInfo::serverName = "liveroom.stupid-cat.co.uk";
 	ServerInfo::serverPort = creds["port"];
+#if JUCE_MSVC
+	strcpy_s(RandomNumbers, creds["secret"].toString().toStdString().c_str());
+#else 
 	strcpy(RandomNumbers, creds["secret"].toString().toStdString().c_str());
+#endif
 
 	notify_();
 }

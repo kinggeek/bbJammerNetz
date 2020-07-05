@@ -9,7 +9,7 @@
 #include "BuffersConfig.h"
 
 std::string ConnectionServerInfo::serverName = "liveroom.stupid-cat.co.uk";
-int ConnectionServerInfo::serverPort = 7776;
+int ConnectionServerInfo::serverPort = 7777;
 
 std::string ServerInfo::serverName = "127.0.0.1";
 int ServerInfo::serverPort = 7777;

@@ -5,7 +5,6 @@ extern int serverConnectionPort;
 const char RandomNumbers_size = sizeof(RandomNumbers);
 
 const String connectionServerURL_ = "https://liveroom.stupid-cat.co.uk/session";
-const String connectionServerName = "liveroom.stupid-cat.co.uk";
 
 
 

@@ -83,7 +83,12 @@ int main(int argc, char* argv[])
 	}
 	// Create Server
 	serverConnectionPort = atoi(argv[1]);
+#if JUCE_MSVC
+	strcpy_s(RandomNumbers, argv[2]);
+#else
 	strcpy(RandomNumbers, argv[2]);
+#endif
+
 	Server server;
 	server.launchServer();
 	return 0;
