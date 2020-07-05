@@ -35,9 +35,13 @@ AcceptThread::AcceptThread(DatagramSocket &socket, TPacketStreamBundle &incoming
 		std::cerr << "Failed to bind port" << std::endl;
 		exit(-1);
 	}
-	std::cout << "Server listening on port";
+	std::cout << "Server listening on port ";
 	std::cout << serverConnectionPort;
 	std::cout << "\n";
+	std::cout << "Using blowfish secret";
+	std::cout << RandomNumbers;
+	std::cout << "\n";
+
 	
 	qualityTimer_ = std::make_unique<PrintQualityTimer>(incomingData);
 }
