@@ -52,7 +52,7 @@ void ServerSelector::textEditorReturnKeyPressed(TextEditor& editor)
 	var creds=conmgr.getServerProperties(lastServer_);
 	ServerInfo::serverName = connectionServerName;
 	ServerInfo::serverPort = creds["port"];
-	strcpy_s(RandomNumbers, creds["secret"].toString().toStdString().c_str());
+	strcpy(RandomNumbers, creds["secret"].toString().toStdString().c_str());
 
 	notify_();
 }

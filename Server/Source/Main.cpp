@@ -83,7 +83,7 @@ int main(int argc, char* argv[])
 	}
 	// Create Server
 	serverConnectionPort = atoi(argv[1]);
-	strcpy_s(RandomNumbers, argv[2]);
+	strcpy(RandomNumbers, argv[2]);
 	Server server;
 	server.launchServer();
 	return 0;

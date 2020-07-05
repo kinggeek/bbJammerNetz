@@ -35,7 +35,9 @@ AcceptThread::AcceptThread(DatagramSocket &socket, TPacketStreamBundle &incoming
 		std::cerr << "Failed to bind port" << std::endl;
 		exit(-1);
 	}
-	std::cout << "Server listening on port" << std::endl;
+	std::cout << "Server listening on port";
+	std::cout << serverConnectionPort;
+	std::cout << "\n";
 	
 	qualityTimer_ = std::make_unique<PrintQualityTimer>(incomingData);
 }
