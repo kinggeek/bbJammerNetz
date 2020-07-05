@@ -50,7 +50,7 @@ void ServerSelector::textEditorReturnKeyPressed(TextEditor& editor)
 	lastServer_ = editor.getText();
 	ConnectionManager conmgr;
 	var creds=conmgr.getServerProperties(lastServer_);
-	//ServerInfo::serverName = connectionServerName;
+	ServerInfo::serverName = connectionServerName;
 	ServerInfo::serverPort = creds["port"];
 	strcpy_s(RandomNumbers, creds["secret"].toString().toStdString().c_str());
 

@@ -1,13 +1,1 @@
-﻿  Building Custom Rule D:/PROJECT/jammerNetz/JammerNetz/Server/CMakeLists.txt
-  Main.cpp
-  AcceptThread.cpp
-  MixerThread.cpp
-  SendThread.cpp
-  include_juce_core.cpp
-  include_juce_events.cpp
-  include_juce_audio_basics.cpp
-  include_juce_audio_devices.cpp
-  include_juce_audio_formats.cpp
-  include_juce_data_structures.cpp
-  include_juce_cryptography.cpp
-tbb_debug.lib(tbb_debug.dll) : fatal error LNK1112: module machine type 'x64' conflicts with target machine type 'x86'
+﻿

@@ -1,7 +1,1 @@
-﻿  Building C++ header for JammerNetzPackages.fbs
-  Building Custom Rule D:/PROJECT/jammerNetz/JammerNetz/common/CMakeLists.txt
-  JammerNetzPackage.cpp
-  PacketStreamQueue.cpp
-  Recorder.cpp
-  ServerInfo.cpp
-  JammerCommon.vcxproj -> D:\PROJECT\jammerNetz\JammerNetz\common\Debug\JammerCommon.lib
+﻿
