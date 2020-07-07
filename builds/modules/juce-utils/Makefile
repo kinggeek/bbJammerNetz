@@ -48,10 +48,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /usr/src/bbJammerNetz
+CMAKE_SOURCE_DIR = /mnt/dev/PROJECT/jammerNetz/JammerNetz
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /usr/src/bbJammerNetz/builds
+CMAKE_BINARY_DIR = /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /usr/src/bbJammerNetz/builds && $(CMAKE_COMMAND) -E cmake_progress_start /usr/src/bbJammerNetz/builds/CMakeFiles /usr/src/bbJammerNetz/builds/modules/juce-utils/CMakeFiles/progress.marks
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f CMakeFiles/Makefile2 modules/juce-utils/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/bbJammerNetz/builds/CMakeFiles 0
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/modules/juce-utils/CMakeFiles/progress.marks
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f CMakeFiles/Makefile2 modules/juce-utils/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f CMakeFiles/Makefile2 modules/juce-utils/clean
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f CMakeFiles/Makefile2 modules/juce-utils/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f CMakeFiles/Makefile2 modules/juce-utils/preinstall
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f CMakeFiles/Makefile2 modules/juce-utils/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f CMakeFiles/Makefile2 modules/juce-utils/preinstall
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f CMakeFiles/Makefile2 modules/juce-utils/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /usr/src/bbJammerNetz/builds && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 modules/juce-utils/CMakeFiles/juce-utils.dir/rule:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f CMakeFiles/Makefile2 modules/juce-utils/CMakeFiles/juce-utils.dir/rule
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f CMakeFiles/Makefile2 modules/juce-utils/CMakeFiles/juce-utils.dir/rule
 .PHONY : modules/juce-utils/CMakeFiles/juce-utils.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ juce-utils: modules/juce-utils/CMakeFiles/juce-utils.dir/rule
 
 # fast build rule for target.
 juce-utils/fast:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f modules/juce-utils/CMakeFiles/juce-utils.dir/build.make modules/juce-utils/CMakeFiles/juce-utils.dir/build
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f modules/juce-utils/CMakeFiles/juce-utils.dir/build.make modules/juce-utils/CMakeFiles/juce-utils.dir/build
 .PHONY : juce-utils/fast
 
 Data.o: Data.cpp.o
@@ -131,7 +131,7 @@ Data.o: Data.cpp.o
 
 # target to build an object file
 Data.cpp.o:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f modules/juce-utils/CMakeFiles/juce-utils.dir/build.make modules/juce-utils/CMakeFiles/juce-utils.dir/Data.cpp.o
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f modules/juce-utils/CMakeFiles/juce-utils.dir/build.make modules/juce-utils/CMakeFiles/juce-utils.dir/Data.cpp.o
 .PHONY : Data.cpp.o
 
 Data.i: Data.cpp.i
@@ -140,7 +140,7 @@ Data.i: Data.cpp.i
 
 # target to preprocess a source file
 Data.cpp.i:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f modules/juce-utils/CMakeFiles/juce-utils.dir/build.make modules/juce-utils/CMakeFiles/juce-utils.dir/Data.cpp.i
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f modules/juce-utils/CMakeFiles/juce-utils.dir/build.make modules/juce-utils/CMakeFiles/juce-utils.dir/Data.cpp.i
 .PHONY : Data.cpp.i
 
 Data.s: Data.cpp.s
@@ -149,7 +149,7 @@ Data.s: Data.cpp.s
 
 # target to generate assembly for a file
 Data.cpp.s:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f modules/juce-utils/CMakeFiles/juce-utils.dir/build.make modules/juce-utils/CMakeFiles/juce-utils.dir/Data.cpp.s
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f modules/juce-utils/CMakeFiles/juce-utils.dir/build.make modules/juce-utils/CMakeFiles/juce-utils.dir/Data.cpp.s
 .PHONY : Data.cpp.s
 
 MidiClocker.o: MidiClocker.cpp.o
@@ -158,7 +158,7 @@ MidiClocker.o: MidiClocker.cpp.o
 
 # target to build an object file
 MidiClocker.cpp.o:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f modules/juce-utils/CMakeFiles/juce-utils.dir/build.make modules/juce-utils/CMakeFiles/juce-utils.dir/MidiClocker.cpp.o
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f modules/juce-utils/CMakeFiles/juce-utils.dir/build.make modules/juce-utils/CMakeFiles/juce-utils.dir/MidiClocker.cpp.o
 .PHONY : MidiClocker.cpp.o
 
 MidiClocker.i: MidiClocker.cpp.i
@@ -167,7 +167,7 @@ MidiClocker.i: MidiClocker.cpp.i
 
 # target to preprocess a source file
 MidiClocker.cpp.i:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f modules/juce-utils/CMakeFiles/juce-utils.dir/build.make modules/juce-utils/CMakeFiles/juce-utils.dir/MidiClocker.cpp.i
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f modules/juce-utils/CMakeFiles/juce-utils.dir/build.make modules/juce-utils/CMakeFiles/juce-utils.dir/MidiClocker.cpp.i
 .PHONY : MidiClocker.cpp.i
 
 MidiClocker.s: MidiClocker.cpp.s
@@ -176,7 +176,7 @@ MidiClocker.s: MidiClocker.cpp.s
 
 # target to generate assembly for a file
 MidiClocker.cpp.s:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f modules/juce-utils/CMakeFiles/juce-utils.dir/build.make modules/juce-utils/CMakeFiles/juce-utils.dir/MidiClocker.cpp.s
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f modules/juce-utils/CMakeFiles/juce-utils.dir/build.make modules/juce-utils/CMakeFiles/juce-utils.dir/MidiClocker.cpp.s
 .PHONY : MidiClocker.cpp.s
 
 MidiNote.o: MidiNote.cpp.o
@@ -185,7 +185,7 @@ MidiNote.o: MidiNote.cpp.o
 
 # target to build an object file
 MidiNote.cpp.o:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f modules/juce-utils/CMakeFiles/juce-utils.dir/build.make modules/juce-utils/CMakeFiles/juce-utils.dir/MidiNote.cpp.o
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f modules/juce-utils/CMakeFiles/juce-utils.dir/build.make modules/juce-utils/CMakeFiles/juce-utils.dir/MidiNote.cpp.o
 .PHONY : MidiNote.cpp.o
 
 MidiNote.i: MidiNote.cpp.i
@@ -194,7 +194,7 @@ MidiNote.i: MidiNote.cpp.i
 
 # target to preprocess a source file
 MidiNote.cpp.i:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f modules/juce-utils/CMakeFiles/juce-utils.dir/build.make modules/juce-utils/CMakeFiles/juce-utils.dir/MidiNote.cpp.i
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f modules/juce-utils/CMakeFiles/juce-utils.dir/build.make modules/juce-utils/CMakeFiles/juce-utils.dir/MidiNote.cpp.i
 .PHONY : MidiNote.cpp.i
 
 MidiNote.s: MidiNote.cpp.s
@@ -203,7 +203,7 @@ MidiNote.s: MidiNote.cpp.s
 
 # target to generate assembly for a file
 MidiNote.cpp.s:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f modules/juce-utils/CMakeFiles/juce-utils.dir/build.make modules/juce-utils/CMakeFiles/juce-utils.dir/MidiNote.cpp.s
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f modules/juce-utils/CMakeFiles/juce-utils.dir/build.make modules/juce-utils/CMakeFiles/juce-utils.dir/MidiNote.cpp.s
 .PHONY : MidiNote.cpp.s
 
 MidiRecorder.o: MidiRecorder.cpp.o
@@ -212,7 +212,7 @@ MidiRecorder.o: MidiRecorder.cpp.o
 
 # target to build an object file
 MidiRecorder.cpp.o:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f modules/juce-utils/CMakeFiles/juce-utils.dir/build.make modules/juce-utils/CMakeFiles/juce-utils.dir/MidiRecorder.cpp.o
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f modules/juce-utils/CMakeFiles/juce-utils.dir/build.make modules/juce-utils/CMakeFiles/juce-utils.dir/MidiRecorder.cpp.o
 .PHONY : MidiRecorder.cpp.o
 
 MidiRecorder.i: MidiRecorder.cpp.i
@@ -221,7 +221,7 @@ MidiRecorder.i: MidiRecorder.cpp.i
 
 # target to preprocess a source file
 MidiRecorder.cpp.i:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f modules/juce-utils/CMakeFiles/juce-utils.dir/build.make modules/juce-utils/CMakeFiles/juce-utils.dir/MidiRecorder.cpp.i
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f modules/juce-utils/CMakeFiles/juce-utils.dir/build.make modules/juce-utils/CMakeFiles/juce-utils.dir/MidiRecorder.cpp.i
 .PHONY : MidiRecorder.cpp.i
 
 MidiRecorder.s: MidiRecorder.cpp.s
@@ -230,7 +230,7 @@ MidiRecorder.s: MidiRecorder.cpp.s
 
 # target to generate assembly for a file
 MidiRecorder.cpp.s:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f modules/juce-utils/CMakeFiles/juce-utils.dir/build.make modules/juce-utils/CMakeFiles/juce-utils.dir/MidiRecorder.cpp.s
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f modules/juce-utils/CMakeFiles/juce-utils.dir/build.make modules/juce-utils/CMakeFiles/juce-utils.dir/MidiRecorder.cpp.s
 .PHONY : MidiRecorder.cpp.s
 
 Settings.o: Settings.cpp.o
@@ -239,7 +239,7 @@ Settings.o: Settings.cpp.o
 
 # target to build an object file
 Settings.cpp.o:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f modules/juce-utils/CMakeFiles/juce-utils.dir/build.make modules/juce-utils/CMakeFiles/juce-utils.dir/Settings.cpp.o
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f modules/juce-utils/CMakeFiles/juce-utils.dir/build.make modules/juce-utils/CMakeFiles/juce-utils.dir/Settings.cpp.o
 .PHONY : Settings.cpp.o
 
 Settings.i: Settings.cpp.i
@@ -248,7 +248,7 @@ Settings.i: Settings.cpp.i
 
 # target to preprocess a source file
 Settings.cpp.i:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f modules/juce-utils/CMakeFiles/juce-utils.dir/build.make modules/juce-utils/CMakeFiles/juce-utils.dir/Settings.cpp.i
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f modules/juce-utils/CMakeFiles/juce-utils.dir/build.make modules/juce-utils/CMakeFiles/juce-utils.dir/Settings.cpp.i
 .PHONY : Settings.cpp.i
 
 Settings.s: Settings.cpp.s
@@ -257,7 +257,7 @@ Settings.s: Settings.cpp.s
 
 # target to generate assembly for a file
 Settings.cpp.s:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f modules/juce-utils/CMakeFiles/juce-utils.dir/build.make modules/juce-utils/CMakeFiles/juce-utils.dir/Settings.cpp.s
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f modules/juce-utils/CMakeFiles/juce-utils.dir/build.make modules/juce-utils/CMakeFiles/juce-utils.dir/Settings.cpp.s
 .PHONY : Settings.cpp.s
 
 StreamLogger.o: StreamLogger.cpp.o
@@ -266,7 +266,7 @@ StreamLogger.o: StreamLogger.cpp.o
 
 # target to build an object file
 StreamLogger.cpp.o:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f modules/juce-utils/CMakeFiles/juce-utils.dir/build.make modules/juce-utils/CMakeFiles/juce-utils.dir/StreamLogger.cpp.o
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f modules/juce-utils/CMakeFiles/juce-utils.dir/build.make modules/juce-utils/CMakeFiles/juce-utils.dir/StreamLogger.cpp.o
 .PHONY : StreamLogger.cpp.o
 
 StreamLogger.i: StreamLogger.cpp.i
@@ -275,7 +275,7 @@ StreamLogger.i: StreamLogger.cpp.i
 
 # target to preprocess a source file
 StreamLogger.cpp.i:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f modules/juce-utils/CMakeFiles/juce-utils.dir/build.make modules/juce-utils/CMakeFiles/juce-utils.dir/StreamLogger.cpp.i
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f modules/juce-utils/CMakeFiles/juce-utils.dir/build.make modules/juce-utils/CMakeFiles/juce-utils.dir/StreamLogger.cpp.i
 .PHONY : StreamLogger.cpp.i
 
 StreamLogger.s: StreamLogger.cpp.s
@@ -284,7 +284,7 @@ StreamLogger.s: StreamLogger.cpp.s
 
 # target to generate assembly for a file
 StreamLogger.cpp.s:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f modules/juce-utils/CMakeFiles/juce-utils.dir/build.make modules/juce-utils/CMakeFiles/juce-utils.dir/StreamLogger.cpp.s
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f modules/juce-utils/CMakeFiles/juce-utils.dir/build.make modules/juce-utils/CMakeFiles/juce-utils.dir/StreamLogger.cpp.s
 .PHONY : StreamLogger.cpp.s
 
 # Help Target
@@ -325,6 +325,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /usr/src/bbJammerNetz/builds && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

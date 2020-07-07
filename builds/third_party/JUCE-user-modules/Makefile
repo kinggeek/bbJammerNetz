@@ -48,10 +48,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /usr/src/bbJammerNetz
+CMAKE_SOURCE_DIR = /mnt/dev/PROJECT/jammerNetz/JammerNetz
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /usr/src/bbJammerNetz/builds
+CMAKE_BINARY_DIR = /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /usr/src/bbJammerNetz/builds && $(CMAKE_COMMAND) -E cmake_progress_start /usr/src/bbJammerNetz/builds/CMakeFiles /usr/src/bbJammerNetz/builds/third_party/JUCE-user-modules/CMakeFiles/progress.marks
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f CMakeFiles/Makefile2 third_party/JUCE-user-modules/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/bbJammerNetz/builds/CMakeFiles 0
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/third_party/JUCE-user-modules/CMakeFiles/progress.marks
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f CMakeFiles/Makefile2 third_party/JUCE-user-modules/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f CMakeFiles/Makefile2 third_party/JUCE-user-modules/clean
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f CMakeFiles/Makefile2 third_party/JUCE-user-modules/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f CMakeFiles/Makefile2 third_party/JUCE-user-modules/preinstall
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f CMakeFiles/Makefile2 third_party/JUCE-user-modules/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f CMakeFiles/Makefile2 third_party/JUCE-user-modules/preinstall
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f CMakeFiles/Makefile2 third_party/JUCE-user-modules/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /usr/src/bbJammerNetz/builds && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 third_party/JUCE-user-modules/CMakeFiles/ff_meters.dir/rule:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f CMakeFiles/Makefile2 third_party/JUCE-user-modules/CMakeFiles/ff_meters.dir/rule
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f CMakeFiles/Makefile2 third_party/JUCE-user-modules/CMakeFiles/ff_meters.dir/rule
 .PHONY : third_party/JUCE-user-modules/CMakeFiles/ff_meters.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ ff_meters: third_party/JUCE-user-modules/CMakeFiles/ff_meters.dir/rule
 
 # fast build rule for target.
 ff_meters/fast:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f third_party/JUCE-user-modules/CMakeFiles/ff_meters.dir/build.make third_party/JUCE-user-modules/CMakeFiles/ff_meters.dir/build
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f third_party/JUCE-user-modules/CMakeFiles/ff_meters.dir/build.make third_party/JUCE-user-modules/CMakeFiles/ff_meters.dir/build
 .PHONY : ff_meters/fast
 
 ff_meters/ff_meters_LevelMeter.o: ff_meters/ff_meters_LevelMeter.cpp.o
@@ -131,7 +131,7 @@ ff_meters/ff_meters_LevelMeter.o: ff_meters/ff_meters_LevelMeter.cpp.o
 
 # target to build an object file
 ff_meters/ff_meters_LevelMeter.cpp.o:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f third_party/JUCE-user-modules/CMakeFiles/ff_meters.dir/build.make third_party/JUCE-user-modules/CMakeFiles/ff_meters.dir/ff_meters/ff_meters_LevelMeter.cpp.o
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f third_party/JUCE-user-modules/CMakeFiles/ff_meters.dir/build.make third_party/JUCE-user-modules/CMakeFiles/ff_meters.dir/ff_meters/ff_meters_LevelMeter.cpp.o
 .PHONY : ff_meters/ff_meters_LevelMeter.cpp.o
 
 ff_meters/ff_meters_LevelMeter.i: ff_meters/ff_meters_LevelMeter.cpp.i
@@ -140,7 +140,7 @@ ff_meters/ff_meters_LevelMeter.i: ff_meters/ff_meters_LevelMeter.cpp.i
 
 # target to preprocess a source file
 ff_meters/ff_meters_LevelMeter.cpp.i:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f third_party/JUCE-user-modules/CMakeFiles/ff_meters.dir/build.make third_party/JUCE-user-modules/CMakeFiles/ff_meters.dir/ff_meters/ff_meters_LevelMeter.cpp.i
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f third_party/JUCE-user-modules/CMakeFiles/ff_meters.dir/build.make third_party/JUCE-user-modules/CMakeFiles/ff_meters.dir/ff_meters/ff_meters_LevelMeter.cpp.i
 .PHONY : ff_meters/ff_meters_LevelMeter.cpp.i
 
 ff_meters/ff_meters_LevelMeter.s: ff_meters/ff_meters_LevelMeter.cpp.s
@@ -149,7 +149,7 @@ ff_meters/ff_meters_LevelMeter.s: ff_meters/ff_meters_LevelMeter.cpp.s
 
 # target to generate assembly for a file
 ff_meters/ff_meters_LevelMeter.cpp.s:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f third_party/JUCE-user-modules/CMakeFiles/ff_meters.dir/build.make third_party/JUCE-user-modules/CMakeFiles/ff_meters.dir/ff_meters/ff_meters_LevelMeter.cpp.s
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f third_party/JUCE-user-modules/CMakeFiles/ff_meters.dir/build.make third_party/JUCE-user-modules/CMakeFiles/ff_meters.dir/ff_meters/ff_meters_LevelMeter.cpp.s
 .PHONY : ff_meters/ff_meters_LevelMeter.cpp.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /usr/src/bbJammerNetz/builds && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

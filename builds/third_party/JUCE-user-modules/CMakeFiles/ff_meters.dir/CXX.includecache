@@ -1992,11 +1992,11 @@ layout/juce_Grid.h
 
 ../third_party/JUCE/modules/juce_gui_basics/windows/juce_TopLevelWindow.h
 
-/usr/src/bbJammerNetz/third_party/JUCE-user-modules/JuceLibraryCode/AppConfig.h
+/mnt/dev/PROJECT/jammerNetz/JammerNetz/third_party/JUCE-user-modules/JuceLibraryCode/AppConfig.h
 
-/usr/src/bbJammerNetz/third_party/JUCE-user-modules/JuceLibraryCode/JuceHeader.h
+/mnt/dev/PROJECT/jammerNetz/JammerNetz/third_party/JUCE-user-modules/JuceLibraryCode/JuceHeader.h
 AppConfig.h
-/usr/src/bbJammerNetz/third_party/JUCE-user-modules/JuceLibraryCode/AppConfig.h
+/mnt/dev/PROJECT/jammerNetz/JammerNetz/third_party/JUCE-user-modules/JuceLibraryCode/AppConfig.h
 juce_core/juce_core.h
 -
 juce_events/juce_events.h
@@ -2010,7 +2010,7 @@ juce_audio_formats/juce_audio_formats.h
 ff_meters/ff_meters.h
 -
 
-/usr/src/bbJammerNetz/third_party/JUCE-user-modules/ff_meters/ff_meters_LevelMeter.cpp
+/mnt/dev/PROJECT/jammerNetz/JammerNetz/third_party/JUCE-user-modules/ff_meters/ff_meters_LevelMeter.cpp
 ../JuceLibraryCode/JuceHeader.h
-/usr/src/bbJammerNetz/third_party/JUCE-user-modules/JuceLibraryCode/JuceHeader.h
+/mnt/dev/PROJECT/jammerNetz/JammerNetz/third_party/JUCE-user-modules/JuceLibraryCode/JuceHeader.h
 

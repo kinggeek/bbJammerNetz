@@ -250,9 +250,9 @@ modules/juce-utils/CMakeFiles/juce-utils.dir/Data.cpp.o
  ../third_party/JUCE/modules/juce_graphics/native/juce_win32_Direct2DGraphicsContext.h
  ../third_party/JUCE/modules/juce_graphics/placement/juce_Justification.h
  ../third_party/JUCE/modules/juce_graphics/placement/juce_RectanglePlacement.h
- /usr/src/bbJammerNetz/modules/juce-utils/Data.cpp
- /usr/src/bbJammerNetz/modules/juce-utils/Data.h
- /usr/src/bbJammerNetz/modules/juce-utils/Settings.h
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/modules/juce-utils/Data.cpp
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/modules/juce-utils/Data.h
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/modules/juce-utils/Settings.h
  modules/juce-utils/JuceLibraryCode/AppConfig.h
  modules/juce-utils/JuceLibraryCode/JuceHeader.h
 modules/juce-utils/CMakeFiles/juce-utils.dir/MidiClocker.cpp.o
@@ -504,9 +504,9 @@ modules/juce-utils/CMakeFiles/juce-utils.dir/MidiClocker.cpp.o
  ../third_party/JUCE/modules/juce_graphics/native/juce_win32_Direct2DGraphicsContext.h
  ../third_party/JUCE/modules/juce_graphics/placement/juce_Justification.h
  ../third_party/JUCE/modules/juce_graphics/placement/juce_RectanglePlacement.h
- /usr/src/bbJammerNetz/modules/juce-utils/MidiClocker.cpp
- /usr/src/bbJammerNetz/modules/juce-utils/MidiClocker.h
- /usr/src/bbJammerNetz/modules/juce-utils/StreamLogger.h
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/modules/juce-utils/MidiClocker.cpp
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/modules/juce-utils/MidiClocker.h
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/modules/juce-utils/StreamLogger.h
  modules/juce-utils/JuceLibraryCode/AppConfig.h
  modules/juce-utils/JuceLibraryCode/JuceHeader.h
 modules/juce-utils/CMakeFiles/juce-utils.dir/MidiNote.cpp.o
@@ -758,8 +758,8 @@ modules/juce-utils/CMakeFiles/juce-utils.dir/MidiNote.cpp.o
  ../third_party/JUCE/modules/juce_graphics/native/juce_win32_Direct2DGraphicsContext.h
  ../third_party/JUCE/modules/juce_graphics/placement/juce_Justification.h
  ../third_party/JUCE/modules/juce_graphics/placement/juce_RectanglePlacement.h
- /usr/src/bbJammerNetz/modules/juce-utils/MidiNote.cpp
- /usr/src/bbJammerNetz/modules/juce-utils/MidiNote.h
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/modules/juce-utils/MidiNote.cpp
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/modules/juce-utils/MidiNote.h
  modules/juce-utils/JuceLibraryCode/AppConfig.h
  modules/juce-utils/JuceLibraryCode/JuceHeader.h
 modules/juce-utils/CMakeFiles/juce-utils.dir/MidiRecorder.cpp.o
@@ -1011,11 +1011,11 @@ modules/juce-utils/CMakeFiles/juce-utils.dir/MidiRecorder.cpp.o
  ../third_party/JUCE/modules/juce_graphics/native/juce_win32_Direct2DGraphicsContext.h
  ../third_party/JUCE/modules/juce_graphics/placement/juce_Justification.h
  ../third_party/JUCE/modules/juce_graphics/placement/juce_RectanglePlacement.h
- /usr/src/bbJammerNetz/modules/juce-utils/MidiClocker.h
- /usr/src/bbJammerNetz/modules/juce-utils/MidiRecorder.cpp
- /usr/src/bbJammerNetz/modules/juce-utils/MidiRecorder.h
- /usr/src/bbJammerNetz/modules/juce-utils/Settings.h
- /usr/src/bbJammerNetz/modules/juce-utils/StreamLogger.h
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/modules/juce-utils/MidiClocker.h
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/modules/juce-utils/MidiRecorder.cpp
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/modules/juce-utils/MidiRecorder.h
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/modules/juce-utils/Settings.h
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/modules/juce-utils/StreamLogger.h
  modules/juce-utils/JuceLibraryCode/AppConfig.h
  modules/juce-utils/JuceLibraryCode/JuceHeader.h
 modules/juce-utils/CMakeFiles/juce-utils.dir/Settings.cpp.o
@@ -1267,9 +1267,9 @@ modules/juce-utils/CMakeFiles/juce-utils.dir/Settings.cpp.o
  ../third_party/JUCE/modules/juce_graphics/native/juce_win32_Direct2DGraphicsContext.h
  ../third_party/JUCE/modules/juce_graphics/placement/juce_Justification.h
  ../third_party/JUCE/modules/juce_graphics/placement/juce_RectanglePlacement.h
- /usr/src/bbJammerNetz/modules/juce-utils/Settings.cpp
- /usr/src/bbJammerNetz/modules/juce-utils/Settings.h
- /usr/src/bbJammerNetz/modules/juce-utils/StreamLogger.h
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/modules/juce-utils/Settings.cpp
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/modules/juce-utils/Settings.h
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/modules/juce-utils/StreamLogger.h
  modules/juce-utils/JuceLibraryCode/AppConfig.h
  modules/juce-utils/JuceLibraryCode/JuceHeader.h
 modules/juce-utils/CMakeFiles/juce-utils.dir/StreamLogger.cpp.o
@@ -1521,7 +1521,7 @@ modules/juce-utils/CMakeFiles/juce-utils.dir/StreamLogger.cpp.o
  ../third_party/JUCE/modules/juce_graphics/native/juce_win32_Direct2DGraphicsContext.h
  ../third_party/JUCE/modules/juce_graphics/placement/juce_Justification.h
  ../third_party/JUCE/modules/juce_graphics/placement/juce_RectanglePlacement.h
- /usr/src/bbJammerNetz/modules/juce-utils/StreamLogger.cpp
- /usr/src/bbJammerNetz/modules/juce-utils/StreamLogger.h
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/modules/juce-utils/StreamLogger.cpp
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/modules/juce-utils/StreamLogger.h
  modules/juce-utils/JuceLibraryCode/AppConfig.h
  modules/juce-utils/JuceLibraryCode/JuceHeader.h

@@ -1,4 +1,4 @@
-# Install script for directory: /usr/src/bbJammerNetz/modules/juce-utils
+# Install script for directory: /mnt/dev/PROJECT/jammerNetz/JammerNetz/modules/juce-utils
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

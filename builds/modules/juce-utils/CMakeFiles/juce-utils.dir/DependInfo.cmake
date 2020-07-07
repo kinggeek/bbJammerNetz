@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/usr/src/bbJammerNetz/modules/juce-utils/Data.cpp" "/usr/src/bbJammerNetz/builds/modules/juce-utils/CMakeFiles/juce-utils.dir/Data.cpp.o"
-  "/usr/src/bbJammerNetz/modules/juce-utils/MidiClocker.cpp" "/usr/src/bbJammerNetz/builds/modules/juce-utils/CMakeFiles/juce-utils.dir/MidiClocker.cpp.o"
-  "/usr/src/bbJammerNetz/modules/juce-utils/MidiNote.cpp" "/usr/src/bbJammerNetz/builds/modules/juce-utils/CMakeFiles/juce-utils.dir/MidiNote.cpp.o"
-  "/usr/src/bbJammerNetz/modules/juce-utils/MidiRecorder.cpp" "/usr/src/bbJammerNetz/builds/modules/juce-utils/CMakeFiles/juce-utils.dir/MidiRecorder.cpp.o"
-  "/usr/src/bbJammerNetz/modules/juce-utils/Settings.cpp" "/usr/src/bbJammerNetz/builds/modules/juce-utils/CMakeFiles/juce-utils.dir/Settings.cpp.o"
-  "/usr/src/bbJammerNetz/modules/juce-utils/StreamLogger.cpp" "/usr/src/bbJammerNetz/builds/modules/juce-utils/CMakeFiles/juce-utils.dir/StreamLogger.cpp.o"
+  "/mnt/dev/PROJECT/jammerNetz/JammerNetz/modules/juce-utils/Data.cpp" "/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/modules/juce-utils/CMakeFiles/juce-utils.dir/Data.cpp.o"
+  "/mnt/dev/PROJECT/jammerNetz/JammerNetz/modules/juce-utils/MidiClocker.cpp" "/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/modules/juce-utils/CMakeFiles/juce-utils.dir/MidiClocker.cpp.o"
+  "/mnt/dev/PROJECT/jammerNetz/JammerNetz/modules/juce-utils/MidiNote.cpp" "/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/modules/juce-utils/CMakeFiles/juce-utils.dir/MidiNote.cpp.o"
+  "/mnt/dev/PROJECT/jammerNetz/JammerNetz/modules/juce-utils/MidiRecorder.cpp" "/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/modules/juce-utils/CMakeFiles/juce-utils.dir/MidiRecorder.cpp.o"
+  "/mnt/dev/PROJECT/jammerNetz/JammerNetz/modules/juce-utils/Settings.cpp" "/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/modules/juce-utils/CMakeFiles/juce-utils.dir/Settings.cpp.o"
+  "/mnt/dev/PROJECT/jammerNetz/JammerNetz/modules/juce-utils/StreamLogger.cpp" "/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/modules/juce-utils/CMakeFiles/juce-utils.dir/StreamLogger.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

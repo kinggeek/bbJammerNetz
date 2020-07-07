@@ -4,17 +4,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/usr/src/bbJammerNetz/builds/Server/JuceLibraryCode/include_juce_audio_basics.cpp" "/usr/src/bbJammerNetz/builds/Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_audio_basics.cpp.o"
-  "/usr/src/bbJammerNetz/builds/Server/JuceLibraryCode/include_juce_audio_devices.cpp" "/usr/src/bbJammerNetz/builds/Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_audio_devices.cpp.o"
-  "/usr/src/bbJammerNetz/builds/Server/JuceLibraryCode/include_juce_audio_formats.cpp" "/usr/src/bbJammerNetz/builds/Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_audio_formats.cpp.o"
-  "/usr/src/bbJammerNetz/builds/Server/JuceLibraryCode/include_juce_core.cpp" "/usr/src/bbJammerNetz/builds/Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_core.cpp.o"
-  "/usr/src/bbJammerNetz/builds/Server/JuceLibraryCode/include_juce_cryptography.cpp" "/usr/src/bbJammerNetz/builds/Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_cryptography.cpp.o"
-  "/usr/src/bbJammerNetz/builds/Server/JuceLibraryCode/include_juce_data_structures.cpp" "/usr/src/bbJammerNetz/builds/Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_data_structures.cpp.o"
-  "/usr/src/bbJammerNetz/builds/Server/JuceLibraryCode/include_juce_events.cpp" "/usr/src/bbJammerNetz/builds/Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_events.cpp.o"
-  "/usr/src/bbJammerNetz/Server/Source/AcceptThread.cpp" "/usr/src/bbJammerNetz/builds/Server/CMakeFiles/JammerNetzServer.dir/Source/AcceptThread.cpp.o"
-  "/usr/src/bbJammerNetz/Server/Source/Main.cpp" "/usr/src/bbJammerNetz/builds/Server/CMakeFiles/JammerNetzServer.dir/Source/Main.cpp.o"
-  "/usr/src/bbJammerNetz/Server/Source/MixerThread.cpp" "/usr/src/bbJammerNetz/builds/Server/CMakeFiles/JammerNetzServer.dir/Source/MixerThread.cpp.o"
-  "/usr/src/bbJammerNetz/Server/Source/SendThread.cpp" "/usr/src/bbJammerNetz/builds/Server/CMakeFiles/JammerNetzServer.dir/Source/SendThread.cpp.o"
+  "/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Server/JuceLibraryCode/include_juce_audio_basics.cpp" "/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_audio_basics.cpp.o"
+  "/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Server/JuceLibraryCode/include_juce_audio_devices.cpp" "/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_audio_devices.cpp.o"
+  "/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Server/JuceLibraryCode/include_juce_audio_formats.cpp" "/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_audio_formats.cpp.o"
+  "/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Server/JuceLibraryCode/include_juce_core.cpp" "/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_core.cpp.o"
+  "/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Server/JuceLibraryCode/include_juce_cryptography.cpp" "/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_cryptography.cpp.o"
+  "/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Server/JuceLibraryCode/include_juce_data_structures.cpp" "/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_data_structures.cpp.o"
+  "/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Server/JuceLibraryCode/include_juce_events.cpp" "/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_events.cpp.o"
+  "/mnt/dev/PROJECT/jammerNetz/JammerNetz/Server/Source/AcceptThread.cpp" "/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Server/CMakeFiles/JammerNetzServer.dir/Source/AcceptThread.cpp.o"
+  "/mnt/dev/PROJECT/jammerNetz/JammerNetz/Server/Source/Main.cpp" "/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Server/CMakeFiles/JammerNetzServer.dir/Source/Main.cpp.o"
+  "/mnt/dev/PROJECT/jammerNetz/JammerNetz/Server/Source/MixerThread.cpp" "/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Server/CMakeFiles/JammerNetzServer.dir/Source/MixerThread.cpp.o"
+  "/mnt/dev/PROJECT/jammerNetz/JammerNetz/Server/Source/SendThread.cpp" "/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Server/CMakeFiles/JammerNetzServer.dir/Source/SendThread.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -35,8 +35,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/usr/src/bbJammerNetz/builds/common/CMakeFiles/JammerCommon.dir/DependInfo.cmake"
-  "/usr/src/bbJammerNetz/builds/modules/juce-utils/CMakeFiles/juce-utils.dir/DependInfo.cmake"
+  "/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/common/CMakeFiles/JammerCommon.dir/DependInfo.cmake"
+  "/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/modules/juce-utils/CMakeFiles/juce-utils.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

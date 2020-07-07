@@ -48,10 +48,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /usr/src/bbJammerNetz
+CMAKE_SOURCE_DIR = /mnt/dev/PROJECT/jammerNetz/JammerNetz
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /usr/src/bbJammerNetz/builds
+CMAKE_BINARY_DIR = /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /usr/src/bbJammerNetz/builds && $(CMAKE_COMMAND) -E cmake_progress_start /usr/src/bbJammerNetz/builds/CMakeFiles /usr/src/bbJammerNetz/builds/Server/CMakeFiles/progress.marks
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f CMakeFiles/Makefile2 Server/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/bbJammerNetz/builds/CMakeFiles 0
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Server/CMakeFiles/progress.marks
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f CMakeFiles/Makefile2 Server/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f CMakeFiles/Makefile2 Server/clean
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f CMakeFiles/Makefile2 Server/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f CMakeFiles/Makefile2 Server/preinstall
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f CMakeFiles/Makefile2 Server/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f CMakeFiles/Makefile2 Server/preinstall
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f CMakeFiles/Makefile2 Server/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /usr/src/bbJammerNetz/builds && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Server/CMakeFiles/JammerNetzServer.dir/rule:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f CMakeFiles/Makefile2 Server/CMakeFiles/JammerNetzServer.dir/rule
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f CMakeFiles/Makefile2 Server/CMakeFiles/JammerNetzServer.dir/rule
 .PHONY : Server/CMakeFiles/JammerNetzServer.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ JammerNetzServer: Server/CMakeFiles/JammerNetzServer.dir/rule
 
 # fast build rule for target.
 JammerNetzServer/fast:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/build
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/build
 .PHONY : JammerNetzServer/fast
 
 JuceLibraryCode/include_juce_audio_basics.o: JuceLibraryCode/include_juce_audio_basics.cpp.o
@@ -131,7 +131,7 @@ JuceLibraryCode/include_juce_audio_basics.o: JuceLibraryCode/include_juce_audio_
 
 # target to build an object file
 JuceLibraryCode/include_juce_audio_basics.cpp.o:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_audio_basics.cpp.o
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_audio_basics.cpp.o
 .PHONY : JuceLibraryCode/include_juce_audio_basics.cpp.o
 
 JuceLibraryCode/include_juce_audio_basics.i: JuceLibraryCode/include_juce_audio_basics.cpp.i
@@ -140,7 +140,7 @@ JuceLibraryCode/include_juce_audio_basics.i: JuceLibraryCode/include_juce_audio_
 
 # target to preprocess a source file
 JuceLibraryCode/include_juce_audio_basics.cpp.i:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_audio_basics.cpp.i
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_audio_basics.cpp.i
 .PHONY : JuceLibraryCode/include_juce_audio_basics.cpp.i
 
 JuceLibraryCode/include_juce_audio_basics.s: JuceLibraryCode/include_juce_audio_basics.cpp.s
@@ -149,7 +149,7 @@ JuceLibraryCode/include_juce_audio_basics.s: JuceLibraryCode/include_juce_audio_
 
 # target to generate assembly for a file
 JuceLibraryCode/include_juce_audio_basics.cpp.s:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_audio_basics.cpp.s
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_audio_basics.cpp.s
 .PHONY : JuceLibraryCode/include_juce_audio_basics.cpp.s
 
 JuceLibraryCode/include_juce_audio_devices.o: JuceLibraryCode/include_juce_audio_devices.cpp.o
@@ -158,7 +158,7 @@ JuceLibraryCode/include_juce_audio_devices.o: JuceLibraryCode/include_juce_audio
 
 # target to build an object file
 JuceLibraryCode/include_juce_audio_devices.cpp.o:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_audio_devices.cpp.o
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_audio_devices.cpp.o
 .PHONY : JuceLibraryCode/include_juce_audio_devices.cpp.o
 
 JuceLibraryCode/include_juce_audio_devices.i: JuceLibraryCode/include_juce_audio_devices.cpp.i
@@ -167,7 +167,7 @@ JuceLibraryCode/include_juce_audio_devices.i: JuceLibraryCode/include_juce_audio
 
 # target to preprocess a source file
 JuceLibraryCode/include_juce_audio_devices.cpp.i:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_audio_devices.cpp.i
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_audio_devices.cpp.i
 .PHONY : JuceLibraryCode/include_juce_audio_devices.cpp.i
 
 JuceLibraryCode/include_juce_audio_devices.s: JuceLibraryCode/include_juce_audio_devices.cpp.s
@@ -176,7 +176,7 @@ JuceLibraryCode/include_juce_audio_devices.s: JuceLibraryCode/include_juce_audio
 
 # target to generate assembly for a file
 JuceLibraryCode/include_juce_audio_devices.cpp.s:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_audio_devices.cpp.s
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_audio_devices.cpp.s
 .PHONY : JuceLibraryCode/include_juce_audio_devices.cpp.s
 
 JuceLibraryCode/include_juce_audio_formats.o: JuceLibraryCode/include_juce_audio_formats.cpp.o
@@ -185,7 +185,7 @@ JuceLibraryCode/include_juce_audio_formats.o: JuceLibraryCode/include_juce_audio
 
 # target to build an object file
 JuceLibraryCode/include_juce_audio_formats.cpp.o:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_audio_formats.cpp.o
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_audio_formats.cpp.o
 .PHONY : JuceLibraryCode/include_juce_audio_formats.cpp.o
 
 JuceLibraryCode/include_juce_audio_formats.i: JuceLibraryCode/include_juce_audio_formats.cpp.i
@@ -194,7 +194,7 @@ JuceLibraryCode/include_juce_audio_formats.i: JuceLibraryCode/include_juce_audio
 
 # target to preprocess a source file
 JuceLibraryCode/include_juce_audio_formats.cpp.i:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_audio_formats.cpp.i
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_audio_formats.cpp.i
 .PHONY : JuceLibraryCode/include_juce_audio_formats.cpp.i
 
 JuceLibraryCode/include_juce_audio_formats.s: JuceLibraryCode/include_juce_audio_formats.cpp.s
@@ -203,7 +203,7 @@ JuceLibraryCode/include_juce_audio_formats.s: JuceLibraryCode/include_juce_audio
 
 # target to generate assembly for a file
 JuceLibraryCode/include_juce_audio_formats.cpp.s:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_audio_formats.cpp.s
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_audio_formats.cpp.s
 .PHONY : JuceLibraryCode/include_juce_audio_formats.cpp.s
 
 JuceLibraryCode/include_juce_core.o: JuceLibraryCode/include_juce_core.cpp.o
@@ -212,7 +212,7 @@ JuceLibraryCode/include_juce_core.o: JuceLibraryCode/include_juce_core.cpp.o
 
 # target to build an object file
 JuceLibraryCode/include_juce_core.cpp.o:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_core.cpp.o
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_core.cpp.o
 .PHONY : JuceLibraryCode/include_juce_core.cpp.o
 
 JuceLibraryCode/include_juce_core.i: JuceLibraryCode/include_juce_core.cpp.i
@@ -221,7 +221,7 @@ JuceLibraryCode/include_juce_core.i: JuceLibraryCode/include_juce_core.cpp.i
 
 # target to preprocess a source file
 JuceLibraryCode/include_juce_core.cpp.i:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_core.cpp.i
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_core.cpp.i
 .PHONY : JuceLibraryCode/include_juce_core.cpp.i
 
 JuceLibraryCode/include_juce_core.s: JuceLibraryCode/include_juce_core.cpp.s
@@ -230,7 +230,7 @@ JuceLibraryCode/include_juce_core.s: JuceLibraryCode/include_juce_core.cpp.s
 
 # target to generate assembly for a file
 JuceLibraryCode/include_juce_core.cpp.s:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_core.cpp.s
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_core.cpp.s
 .PHONY : JuceLibraryCode/include_juce_core.cpp.s
 
 JuceLibraryCode/include_juce_cryptography.o: JuceLibraryCode/include_juce_cryptography.cpp.o
@@ -239,7 +239,7 @@ JuceLibraryCode/include_juce_cryptography.o: JuceLibraryCode/include_juce_crypto
 
 # target to build an object file
 JuceLibraryCode/include_juce_cryptography.cpp.o:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_cryptography.cpp.o
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_cryptography.cpp.o
 .PHONY : JuceLibraryCode/include_juce_cryptography.cpp.o
 
 JuceLibraryCode/include_juce_cryptography.i: JuceLibraryCode/include_juce_cryptography.cpp.i
@@ -248,7 +248,7 @@ JuceLibraryCode/include_juce_cryptography.i: JuceLibraryCode/include_juce_crypto
 
 # target to preprocess a source file
 JuceLibraryCode/include_juce_cryptography.cpp.i:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_cryptography.cpp.i
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_cryptography.cpp.i
 .PHONY : JuceLibraryCode/include_juce_cryptography.cpp.i
 
 JuceLibraryCode/include_juce_cryptography.s: JuceLibraryCode/include_juce_cryptography.cpp.s
@@ -257,7 +257,7 @@ JuceLibraryCode/include_juce_cryptography.s: JuceLibraryCode/include_juce_crypto
 
 # target to generate assembly for a file
 JuceLibraryCode/include_juce_cryptography.cpp.s:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_cryptography.cpp.s
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_cryptography.cpp.s
 .PHONY : JuceLibraryCode/include_juce_cryptography.cpp.s
 
 JuceLibraryCode/include_juce_data_structures.o: JuceLibraryCode/include_juce_data_structures.cpp.o
@@ -266,7 +266,7 @@ JuceLibraryCode/include_juce_data_structures.o: JuceLibraryCode/include_juce_dat
 
 # target to build an object file
 JuceLibraryCode/include_juce_data_structures.cpp.o:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_data_structures.cpp.o
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_data_structures.cpp.o
 .PHONY : JuceLibraryCode/include_juce_data_structures.cpp.o
 
 JuceLibraryCode/include_juce_data_structures.i: JuceLibraryCode/include_juce_data_structures.cpp.i
@@ -275,7 +275,7 @@ JuceLibraryCode/include_juce_data_structures.i: JuceLibraryCode/include_juce_dat
 
 # target to preprocess a source file
 JuceLibraryCode/include_juce_data_structures.cpp.i:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_data_structures.cpp.i
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_data_structures.cpp.i
 .PHONY : JuceLibraryCode/include_juce_data_structures.cpp.i
 
 JuceLibraryCode/include_juce_data_structures.s: JuceLibraryCode/include_juce_data_structures.cpp.s
@@ -284,7 +284,7 @@ JuceLibraryCode/include_juce_data_structures.s: JuceLibraryCode/include_juce_dat
 
 # target to generate assembly for a file
 JuceLibraryCode/include_juce_data_structures.cpp.s:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_data_structures.cpp.s
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_data_structures.cpp.s
 .PHONY : JuceLibraryCode/include_juce_data_structures.cpp.s
 
 JuceLibraryCode/include_juce_events.o: JuceLibraryCode/include_juce_events.cpp.o
@@ -293,7 +293,7 @@ JuceLibraryCode/include_juce_events.o: JuceLibraryCode/include_juce_events.cpp.o
 
 # target to build an object file
 JuceLibraryCode/include_juce_events.cpp.o:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_events.cpp.o
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_events.cpp.o
 .PHONY : JuceLibraryCode/include_juce_events.cpp.o
 
 JuceLibraryCode/include_juce_events.i: JuceLibraryCode/include_juce_events.cpp.i
@@ -302,7 +302,7 @@ JuceLibraryCode/include_juce_events.i: JuceLibraryCode/include_juce_events.cpp.i
 
 # target to preprocess a source file
 JuceLibraryCode/include_juce_events.cpp.i:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_events.cpp.i
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_events.cpp.i
 .PHONY : JuceLibraryCode/include_juce_events.cpp.i
 
 JuceLibraryCode/include_juce_events.s: JuceLibraryCode/include_juce_events.cpp.s
@@ -311,7 +311,7 @@ JuceLibraryCode/include_juce_events.s: JuceLibraryCode/include_juce_events.cpp.s
 
 # target to generate assembly for a file
 JuceLibraryCode/include_juce_events.cpp.s:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_events.cpp.s
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_events.cpp.s
 .PHONY : JuceLibraryCode/include_juce_events.cpp.s
 
 Source/AcceptThread.o: Source/AcceptThread.cpp.o
@@ -320,7 +320,7 @@ Source/AcceptThread.o: Source/AcceptThread.cpp.o
 
 # target to build an object file
 Source/AcceptThread.cpp.o:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/Source/AcceptThread.cpp.o
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/Source/AcceptThread.cpp.o
 .PHONY : Source/AcceptThread.cpp.o
 
 Source/AcceptThread.i: Source/AcceptThread.cpp.i
@@ -329,7 +329,7 @@ Source/AcceptThread.i: Source/AcceptThread.cpp.i
 
 # target to preprocess a source file
 Source/AcceptThread.cpp.i:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/Source/AcceptThread.cpp.i
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/Source/AcceptThread.cpp.i
 .PHONY : Source/AcceptThread.cpp.i
 
 Source/AcceptThread.s: Source/AcceptThread.cpp.s
@@ -338,7 +338,7 @@ Source/AcceptThread.s: Source/AcceptThread.cpp.s
 
 # target to generate assembly for a file
 Source/AcceptThread.cpp.s:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/Source/AcceptThread.cpp.s
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/Source/AcceptThread.cpp.s
 .PHONY : Source/AcceptThread.cpp.s
 
 Source/Main.o: Source/Main.cpp.o
@@ -347,7 +347,7 @@ Source/Main.o: Source/Main.cpp.o
 
 # target to build an object file
 Source/Main.cpp.o:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/Source/Main.cpp.o
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/Source/Main.cpp.o
 .PHONY : Source/Main.cpp.o
 
 Source/Main.i: Source/Main.cpp.i
@@ -356,7 +356,7 @@ Source/Main.i: Source/Main.cpp.i
 
 # target to preprocess a source file
 Source/Main.cpp.i:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/Source/Main.cpp.i
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/Source/Main.cpp.i
 .PHONY : Source/Main.cpp.i
 
 Source/Main.s: Source/Main.cpp.s
@@ -365,7 +365,7 @@ Source/Main.s: Source/Main.cpp.s
 
 # target to generate assembly for a file
 Source/Main.cpp.s:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/Source/Main.cpp.s
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/Source/Main.cpp.s
 .PHONY : Source/Main.cpp.s
 
 Source/MixerThread.o: Source/MixerThread.cpp.o
@@ -374,7 +374,7 @@ Source/MixerThread.o: Source/MixerThread.cpp.o
 
 # target to build an object file
 Source/MixerThread.cpp.o:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/Source/MixerThread.cpp.o
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/Source/MixerThread.cpp.o
 .PHONY : Source/MixerThread.cpp.o
 
 Source/MixerThread.i: Source/MixerThread.cpp.i
@@ -383,7 +383,7 @@ Source/MixerThread.i: Source/MixerThread.cpp.i
 
 # target to preprocess a source file
 Source/MixerThread.cpp.i:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/Source/MixerThread.cpp.i
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/Source/MixerThread.cpp.i
 .PHONY : Source/MixerThread.cpp.i
 
 Source/MixerThread.s: Source/MixerThread.cpp.s
@@ -392,7 +392,7 @@ Source/MixerThread.s: Source/MixerThread.cpp.s
 
 # target to generate assembly for a file
 Source/MixerThread.cpp.s:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/Source/MixerThread.cpp.s
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/Source/MixerThread.cpp.s
 .PHONY : Source/MixerThread.cpp.s
 
 Source/SendThread.o: Source/SendThread.cpp.o
@@ -401,7 +401,7 @@ Source/SendThread.o: Source/SendThread.cpp.o
 
 # target to build an object file
 Source/SendThread.cpp.o:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/Source/SendThread.cpp.o
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/Source/SendThread.cpp.o
 .PHONY : Source/SendThread.cpp.o
 
 Source/SendThread.i: Source/SendThread.cpp.i
@@ -410,7 +410,7 @@ Source/SendThread.i: Source/SendThread.cpp.i
 
 # target to preprocess a source file
 Source/SendThread.cpp.i:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/Source/SendThread.cpp.i
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/Source/SendThread.cpp.i
 .PHONY : Source/SendThread.cpp.i
 
 Source/SendThread.s: Source/SendThread.cpp.s
@@ -419,7 +419,7 @@ Source/SendThread.s: Source/SendThread.cpp.s
 
 # target to generate assembly for a file
 Source/SendThread.cpp.s:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/Source/SendThread.cpp.s
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/Source/SendThread.cpp.s
 .PHONY : Source/SendThread.cpp.s
 
 # Help Target
@@ -475,6 +475,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /usr/src/bbJammerNetz/builds && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

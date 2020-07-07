@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/usr/src/bbJammerNetz/common/JammerNetzPackage.cpp" "/usr/src/bbJammerNetz/builds/common/CMakeFiles/JammerCommon.dir/JammerNetzPackage.cpp.o"
-  "/usr/src/bbJammerNetz/common/PacketStreamQueue.cpp" "/usr/src/bbJammerNetz/builds/common/CMakeFiles/JammerCommon.dir/PacketStreamQueue.cpp.o"
-  "/usr/src/bbJammerNetz/common/Recorder.cpp" "/usr/src/bbJammerNetz/builds/common/CMakeFiles/JammerCommon.dir/Recorder.cpp.o"
-  "/usr/src/bbJammerNetz/common/ServerInfo.cpp" "/usr/src/bbJammerNetz/builds/common/CMakeFiles/JammerCommon.dir/ServerInfo.cpp.o"
+  "/mnt/dev/PROJECT/jammerNetz/JammerNetz/common/JammerNetzPackage.cpp" "/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/common/CMakeFiles/JammerCommon.dir/JammerNetzPackage.cpp.o"
+  "/mnt/dev/PROJECT/jammerNetz/JammerNetz/common/PacketStreamQueue.cpp" "/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/common/CMakeFiles/JammerCommon.dir/PacketStreamQueue.cpp.o"
+  "/mnt/dev/PROJECT/jammerNetz/JammerNetz/common/Recorder.cpp" "/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/common/CMakeFiles/JammerCommon.dir/Recorder.cpp.o"
+  "/mnt/dev/PROJECT/jammerNetz/JammerNetz/common/ServerInfo.cpp" "/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/common/CMakeFiles/JammerCommon.dir/ServerInfo.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -28,7 +28,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/usr/src/bbJammerNetz/builds/modules/juce-utils/CMakeFiles/juce-utils.dir/DependInfo.cmake"
+  "/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/modules/juce-utils/CMakeFiles/juce-utils.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

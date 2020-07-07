@@ -48,10 +48,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /usr/src/bbJammerNetz
+CMAKE_SOURCE_DIR = /mnt/dev/PROJECT/jammerNetz/JammerNetz
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /usr/src/bbJammerNetz/builds
+CMAKE_BINARY_DIR = /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /usr/src/bbJammerNetz/builds && $(CMAKE_COMMAND) -E cmake_progress_start /usr/src/bbJammerNetz/builds/CMakeFiles /usr/src/bbJammerNetz/builds/third_party/CMakeFiles/progress.marks
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f CMakeFiles/Makefile2 third_party/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/bbJammerNetz/builds/CMakeFiles 0
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/third_party/CMakeFiles/progress.marks
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f CMakeFiles/Makefile2 third_party/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f CMakeFiles/Makefile2 third_party/clean
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f CMakeFiles/Makefile2 third_party/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,17 +97,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f CMakeFiles/Makefile2 third_party/preinstall
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f CMakeFiles/Makefile2 third_party/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f CMakeFiles/Makefile2 third_party/preinstall
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f CMakeFiles/Makefile2 third_party/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /usr/src/bbJammerNetz/builds && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -129,6 +129,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /usr/src/bbJammerNetz/builds && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

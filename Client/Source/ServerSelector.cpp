@@ -12,19 +12,28 @@
 
 ServerSelector::ServerSelector(std::function<void()> notify) : lastServer_(ServerInfo::serverName), notify_(notify)
 {
-	serverLabel_.setText("Room Key:", dontSendNotification);	
+	instructionsLabel_.setText("Type room key and press Enter/Return", dontSendNotification);
+	serverLabel_.setText("Room Key", dontSendNotification);	
 	serverKey_.setText(lastServer_, dontSendNotification);
 	serverKey_.addListener(this);
 
+	addAndMakeVisible(instructionsLabel_);
 	addAndMakeVisible(serverLabel_);
 	addAndMakeVisible(serverKey_);
+}
+
+void ServerSelector::setInstructionsLabel(String label) {
+	instructionsLabel_.setText(label, dontSendNotification);
+
 }
 
 void ServerSelector::resized()
 {
 	auto area = getLocalBounds();
+	instructionsLabel_.setBounds(0,0,area.getWidth(),kLineHeight);
 	serverLabel_.setBounds(area.removeFromLeft(kLabelWidth));
 	auto entryArea = area.removeFromLeft(kEntryBoxWidth);
+	entryArea.setY(kLineSpacing);
 	entryArea.setHeight(kLineHeight);
 	serverKey_.setBounds(entryArea);
 }
@@ -57,6 +66,21 @@ void ServerSelector::textEditorReturnKeyPressed(TextEditor& editor)
 #else 
 	strcpy(RandomNumbers, creds["secret"].toString().toStdString().c_str());
 #endif
+/*~	std::cout << "ServerPort: ";
+	std::cout << ServerInfo::serverPort;
+	std::cout << "\n ServerName: ";
+	std::cout << ServerInfo::serverName;
+	std::cout << "\n Key1: ";
+	std::cout << RandomNumbers;
+	std::cout << "\n";
+	*/
+
+	if (creds["secret"] == "FAIL") {
+		instructionsLabel_.setText("Incorrect Room Key. Please try again.", dontSendNotification);
+	}
+	else {
+		instructionsLabel_.setText("Type room key and press Enter/Return.", dontSendNotification);
+	}
 
 	notify_();
 }

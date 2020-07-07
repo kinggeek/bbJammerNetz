@@ -16,16 +16,15 @@ ServerStatus::ServerStatus(std::function<void()> notify) : serverSelector_(notif
 	auto im = reader.decodeImage(image);
 	cloudImage_.setClickingTogglesState(false);
 	cloudImage_.setEnabled(false);
-	cloudImage_.setImages(false, true, true, im, 1.0f, Colours::white, im, 1.0f, Colours::white, im, 0.8f, Colours::red);
+	cloudImage_.setImages(false, true, true, im, 1.0f, Colours::green, im, 1.0f, Colours::white, im, 0.8f, Colours::grey);
 	addAndMakeVisible(cloudImage_);
 }
 
 void ServerStatus::resized()
 {
-	auto area = getLocalBounds().reduced(kNormalInset);
-
-	serverSelector_.setBounds(area.removeFromTop(kLineSpacing));
-	cloudImage_.setBounds(area.withSizeKeepingCentre(128, 128));
+	auto area = getLocalBounds();
+	serverSelector_.setBounds(area.removeFromTop(80));
+	cloudImage_.setBounds(area.withSizeKeepingCentre(116, 116));
 }
 
 void ServerStatus::fromData()
@@ -41,4 +40,5 @@ void ServerStatus::toData() const
 void ServerStatus::setConnected(bool isReceiving)
 {
 	cloudImage_.setToggleState(!isReceiving, dontSendNotification);
+	if (isReceiving) serverSelector_.setInstructionsLabel("Connected.");
 }

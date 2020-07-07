@@ -1,4 +1,4 @@
-# Install script for directory: /usr/src/bbJammerNetz/common
+# Install script for directory: /mnt/dev/PROJECT/jammerNetz/JammerNetz/common
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

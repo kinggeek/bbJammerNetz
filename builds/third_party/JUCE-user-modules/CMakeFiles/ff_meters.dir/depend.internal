@@ -416,6 +416,6 @@ third_party/JUCE-user-modules/CMakeFiles/ff_meters.dir/ff_meters/ff_meters_Level
  ../third_party/JUCE/modules/juce_gui_basics/windows/juce_ThreadWithProgressWindow.h
  ../third_party/JUCE/modules/juce_gui_basics/windows/juce_TooltipWindow.h
  ../third_party/JUCE/modules/juce_gui_basics/windows/juce_TopLevelWindow.h
- /usr/src/bbJammerNetz/third_party/JUCE-user-modules/JuceLibraryCode/AppConfig.h
- /usr/src/bbJammerNetz/third_party/JUCE-user-modules/JuceLibraryCode/JuceHeader.h
- /usr/src/bbJammerNetz/third_party/JUCE-user-modules/ff_meters/ff_meters_LevelMeter.cpp
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/third_party/JUCE-user-modules/JuceLibraryCode/AppConfig.h
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/third_party/JUCE-user-modules/JuceLibraryCode/JuceHeader.h
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/third_party/JUCE-user-modules/ff_meters/ff_meters_LevelMeter.cpp

@@ -20,11 +20,13 @@ public:
 	// Store to and load from settings
 	void fromData();
 	void toData() const;
+	void setInstructionsLabel(String label);
 
 private:
 	virtual void textEditorReturnKeyPressed(TextEditor&) override;
 	virtual void textEditorFocusLost(TextEditor&) override;
 
+	Label instructionsLabel_;
 	Label serverLabel_;
 	TextEditor serverKey_;
 

@@ -1,4 +1,4 @@
-# Install script for directory: /usr/src/bbJammerNetz/third_party
+# Install script for directory: /mnt/dev/PROJECT/jammerNetz/JammerNetz/third_party
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,6 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/usr/src/bbJammerNetz/builds/third_party/JUCE-user-modules/cmake_install.cmake")
+  include("/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/third_party/JUCE-user-modules/cmake_install.cmake")
 endif()
 

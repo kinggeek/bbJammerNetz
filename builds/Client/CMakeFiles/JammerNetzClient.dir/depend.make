@@ -3022,13 +3022,13 @@ Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_graphics.cpp
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_graphics.cpp.o: ../third_party/JUCE/modules/juce_graphics/placement/juce_Justification.h
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_graphics.cpp.o: ../third_party/JUCE/modules/juce_graphics/placement/juce_RectanglePlacement.cpp
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_graphics.cpp.o: ../third_party/JUCE/modules/juce_graphics/placement/juce_RectanglePlacement.h
+Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_graphics.cpp.o: Client/JuceLibraryCode/AppConfig.h
+Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_graphics.cpp.o: Client/JuceLibraryCode/include_juce_graphics.cpp
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_graphics.cpp.o: /usr/include/freetype2/freetype/config/ftheader.h
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_graphics.cpp.o: /usr/include/freetype2/ft2build.h
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_graphics.cpp.o: /usr/include/libpng16/png.h
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_graphics.cpp.o: /usr/include/libpng16/pngconf.h
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_graphics.cpp.o: /usr/include/libpng16/pnglibconf.h
-Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_graphics.cpp.o: Client/JuceLibraryCode/AppConfig.h
-Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_graphics.cpp.o: Client/JuceLibraryCode/include_juce_graphics.cpp
 
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_gui_basics.cpp.o: ../third_party/JUCE/modules/juce_audio_plugin_client/AAX/juce_AAX_Modifier_Injector.h
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_gui_basics.cpp.o: ../third_party/JUCE/modules/juce_core/containers/juce_AbstractFifo.h
@@ -3911,6 +3911,8 @@ Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_gui_extra.cp
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_gui_extra.cpp.o: ../third_party/JUCE/modules/juce_gui_extra/native/juce_win32_ActiveXComponent.cpp
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_gui_extra.cpp.o: ../third_party/JUCE/modules/juce_gui_extra/native/juce_win32_SystemTrayIcon.cpp
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_gui_extra.cpp.o: ../third_party/JUCE/modules/juce_gui_extra/native/juce_win32_WebBrowserComponent.cpp
+Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_gui_extra.cpp.o: Client/JuceLibraryCode/AppConfig.h
+Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_gui_extra.cpp.o: Client/JuceLibraryCode/include_juce_gui_extra.cpp
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_gui_extra.cpp.o: /usr/include/atk-1.0/atk/atk-enum-types.h
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_gui_extra.cpp.o: /usr/include/atk-1.0/atk/atk.h
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_gui_extra.cpp.o: /usr/include/atk-1.0/atk/atkaction.h
@@ -4691,8 +4693,6 @@ Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_gui_extra.cp
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_gui_extra.cpp.o: /usr/include/webkitgtk-4.0/webkit2/WebKitWindowProperties.h
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_gui_extra.cpp.o: /usr/include/webkitgtk-4.0/webkit2/webkit2.h
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_gui_extra.cpp.o: /usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h
-Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_gui_extra.cpp.o: Client/JuceLibraryCode/AppConfig.h
-Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_gui_extra.cpp.o: Client/JuceLibraryCode/include_juce_gui_extra.cpp
 
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_opengl.cpp.o: ../third_party/JUCE/modules/juce_core/containers/juce_AbstractFifo.h
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_opengl.cpp.o: ../third_party/JUCE/modules/juce_core/containers/juce_Array.h

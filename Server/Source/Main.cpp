@@ -89,7 +89,7 @@ int main(int argc, char* argv[])
 	strcpy(RandomNumbers, argv[2]);
 #endif
 
-	Server server;
+		Server server;
 	server.launchServer();
 	return 0;
 }

@@ -278,10 +278,10 @@ common/CMakeFiles/JammerCommon.dir/JammerNetzPackage.cpp.o
  ../third_party/flatbuffers/include/flatbuffers/base.h
  ../third_party/flatbuffers/include/flatbuffers/flatbuffers.h
  ../third_party/flatbuffers/include/flatbuffers/stl_emulation.h
- /usr/src/bbJammerNetz/common/BuffersConfig.h
- /usr/src/bbJammerNetz/common/JammerNetzPackage.cpp
- /usr/src/bbJammerNetz/common/JammerNetzPackage.h
- /usr/src/bbJammerNetz/common/JammerNetzPackages_generated.h
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/common/BuffersConfig.h
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/common/JammerNetzPackage.cpp
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/common/JammerNetzPackage.h
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/common/JammerNetzPackages_generated.h
  JuceLibraryCode/AppConfig.h
  JuceLibraryCode/JuceHeader.h
 common/CMakeFiles/JammerCommon.dir/PacketStreamQueue.cpp.o
@@ -558,9 +558,9 @@ common/CMakeFiles/JammerCommon.dir/PacketStreamQueue.cpp.o
  ../third_party/JUCE/modules/juce_graphics/native/juce_win32_Direct2DGraphicsContext.h
  ../third_party/JUCE/modules/juce_graphics/placement/juce_Justification.h
  ../third_party/JUCE/modules/juce_graphics/placement/juce_RectanglePlacement.h
- /usr/src/bbJammerNetz/common/JammerNetzPackage.h
- /usr/src/bbJammerNetz/common/PacketStreamQueue.cpp
- /usr/src/bbJammerNetz/common/PacketStreamQueue.h
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/common/JammerNetzPackage.h
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/common/PacketStreamQueue.cpp
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/common/PacketStreamQueue.h
  JuceLibraryCode/AppConfig.h
  JuceLibraryCode/JuceHeader.h
 common/CMakeFiles/JammerCommon.dir/Recorder.cpp.o
@@ -837,9 +837,9 @@ common/CMakeFiles/JammerCommon.dir/Recorder.cpp.o
  ../third_party/JUCE/modules/juce_graphics/native/juce_win32_Direct2DGraphicsContext.h
  ../third_party/JUCE/modules/juce_graphics/placement/juce_Justification.h
  ../third_party/JUCE/modules/juce_graphics/placement/juce_RectanglePlacement.h
- /usr/src/bbJammerNetz/common/JammerNetzPackage.h
- /usr/src/bbJammerNetz/common/Recorder.cpp
- /usr/src/bbJammerNetz/common/Recorder.h
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/common/JammerNetzPackage.h
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/common/Recorder.cpp
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/common/Recorder.h
  JuceLibraryCode/AppConfig.h
  JuceLibraryCode/JuceHeader.h
 common/CMakeFiles/JammerCommon.dir/ServerInfo.cpp.o
@@ -1116,8 +1116,8 @@ common/CMakeFiles/JammerCommon.dir/ServerInfo.cpp.o
  ../third_party/JUCE/modules/juce_graphics/native/juce_win32_Direct2DGraphicsContext.h
  ../third_party/JUCE/modules/juce_graphics/placement/juce_Justification.h
  ../third_party/JUCE/modules/juce_graphics/placement/juce_RectanglePlacement.h
- /usr/src/bbJammerNetz/common/BuffersConfig.h
- /usr/src/bbJammerNetz/common/ServerInfo.cpp
- /usr/src/bbJammerNetz/common/ServerInfo.h
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/common/BuffersConfig.h
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/common/ServerInfo.cpp
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/common/ServerInfo.h
  JuceLibraryCode/AppConfig.h
  JuceLibraryCode/JuceHeader.h

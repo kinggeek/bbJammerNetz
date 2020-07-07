@@ -44,10 +44,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /usr/src/bbJammerNetz
+CMAKE_SOURCE_DIR = /mnt/dev/PROJECT/jammerNetz/JammerNetz
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /usr/src/bbJammerNetz/builds
+CMAKE_BINARY_DIR = /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -122,14 +122,14 @@ third_party/JUCE-user-modules/preinstall:
 third_party/JUCE-user-modules/CMakeFiles/ff_meters.dir/all:
 	$(MAKE) -f third_party/JUCE-user-modules/CMakeFiles/ff_meters.dir/build.make third_party/JUCE-user-modules/CMakeFiles/ff_meters.dir/depend
 	$(MAKE) -f third_party/JUCE-user-modules/CMakeFiles/ff_meters.dir/build.make third_party/JUCE-user-modules/CMakeFiles/ff_meters.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/usr/src/bbJammerNetz/builds/CMakeFiles --progress-num=48,49 "Built target ff_meters"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles --progress-num=48,49 "Built target ff_meters"
 .PHONY : third_party/JUCE-user-modules/CMakeFiles/ff_meters.dir/all
 
 # Build rule for subdir invocation for target.
 third_party/JUCE-user-modules/CMakeFiles/ff_meters.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/bbJammerNetz/builds/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 third_party/JUCE-user-modules/CMakeFiles/ff_meters.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/bbJammerNetz/builds/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles 0
 .PHONY : third_party/JUCE-user-modules/CMakeFiles/ff_meters.dir/rule
 
 # Convenience name for target.
@@ -167,14 +167,14 @@ modules/juce-utils/preinstall:
 modules/juce-utils/CMakeFiles/juce-utils.dir/all:
 	$(MAKE) -f modules/juce-utils/CMakeFiles/juce-utils.dir/build.make modules/juce-utils/CMakeFiles/juce-utils.dir/depend
 	$(MAKE) -f modules/juce-utils/CMakeFiles/juce-utils.dir/build.make modules/juce-utils/CMakeFiles/juce-utils.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/usr/src/bbJammerNetz/builds/CMakeFiles --progress-num=50,51,52,53,54,55,56 "Built target juce-utils"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles --progress-num=50,51,52,53,54,55,56 "Built target juce-utils"
 .PHONY : modules/juce-utils/CMakeFiles/juce-utils.dir/all
 
 # Build rule for subdir invocation for target.
 modules/juce-utils/CMakeFiles/juce-utils.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/bbJammerNetz/builds/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 modules/juce-utils/CMakeFiles/juce-utils.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/bbJammerNetz/builds/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles 0
 .PHONY : modules/juce-utils/CMakeFiles/juce-utils.dir/rule
 
 # Convenience name for target.
@@ -212,14 +212,14 @@ common/preinstall:
 common/CMakeFiles/JammerCommon.dir/all: modules/juce-utils/CMakeFiles/juce-utils.dir/all
 	$(MAKE) -f common/CMakeFiles/JammerCommon.dir/build.make common/CMakeFiles/JammerCommon.dir/depend
 	$(MAKE) -f common/CMakeFiles/JammerCommon.dir/build.make common/CMakeFiles/JammerCommon.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/usr/src/bbJammerNetz/builds/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target JammerCommon"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target JammerCommon"
 .PHONY : common/CMakeFiles/JammerCommon.dir/all
 
 # Build rule for subdir invocation for target.
 common/CMakeFiles/JammerCommon.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/bbJammerNetz/builds/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 common/CMakeFiles/JammerCommon.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/bbJammerNetz/builds/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles 0
 .PHONY : common/CMakeFiles/JammerCommon.dir/rule
 
 # Convenience name for target.
@@ -254,18 +254,18 @@ Server/preinstall:
 # Target rules for target Server/CMakeFiles/JammerNetzServer.dir
 
 # All Build rule for target.
-Server/CMakeFiles/JammerNetzServer.dir/all: modules/juce-utils/CMakeFiles/juce-utils.dir/all
 Server/CMakeFiles/JammerNetzServer.dir/all: common/CMakeFiles/JammerCommon.dir/all
+Server/CMakeFiles/JammerNetzServer.dir/all: modules/juce-utils/CMakeFiles/juce-utils.dir/all
 	$(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/depend
 	$(MAKE) -f Server/CMakeFiles/JammerNetzServer.dir/build.make Server/CMakeFiles/JammerNetzServer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/usr/src/bbJammerNetz/builds/CMakeFiles --progress-num=36,37,38,39,40,41,42,43,44,45,46,47 "Built target JammerNetzServer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles --progress-num=36,37,38,39,40,41,42,43,44,45,46,47 "Built target JammerNetzServer"
 .PHONY : Server/CMakeFiles/JammerNetzServer.dir/all
 
 # Build rule for subdir invocation for target.
 Server/CMakeFiles/JammerNetzServer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/bbJammerNetz/builds/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles 25
 	$(MAKE) -f CMakeFiles/Makefile2 Server/CMakeFiles/JammerNetzServer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/bbJammerNetz/builds/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles 0
 .PHONY : Server/CMakeFiles/JammerNetzServer.dir/rule
 
 # Convenience name for target.
@@ -300,19 +300,19 @@ Client/preinstall:
 # Target rules for target Client/CMakeFiles/JammerNetzClient.dir
 
 # All Build rule for target.
-Client/CMakeFiles/JammerNetzClient.dir/all: third_party/JUCE-user-modules/CMakeFiles/ff_meters.dir/all
-Client/CMakeFiles/JammerNetzClient.dir/all: modules/juce-utils/CMakeFiles/juce-utils.dir/all
 Client/CMakeFiles/JammerNetzClient.dir/all: common/CMakeFiles/JammerCommon.dir/all
+Client/CMakeFiles/JammerNetzClient.dir/all: modules/juce-utils/CMakeFiles/juce-utils.dir/all
+Client/CMakeFiles/JammerNetzClient.dir/all: third_party/JUCE-user-modules/CMakeFiles/ff_meters.dir/all
 	$(MAKE) -f Client/CMakeFiles/JammerNetzClient.dir/build.make Client/CMakeFiles/JammerNetzClient.dir/depend
 	$(MAKE) -f Client/CMakeFiles/JammerNetzClient.dir/build.make Client/CMakeFiles/JammerNetzClient.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/usr/src/bbJammerNetz/builds/CMakeFiles --progress-num=7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35 "Built target JammerNetzClient"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles --progress-num=7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35 "Built target JammerNetzClient"
 .PHONY : Client/CMakeFiles/JammerNetzClient.dir/all
 
 # Build rule for subdir invocation for target.
 Client/CMakeFiles/JammerNetzClient.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/bbJammerNetz/builds/CMakeFiles 44
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles 44
 	$(MAKE) -f CMakeFiles/Makefile2 Client/CMakeFiles/JammerNetzClient.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/bbJammerNetz/builds/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles 0
 .PHONY : Client/CMakeFiles/JammerNetzClient.dir/rule
 
 # Convenience name for target.

@@ -82,6 +82,9 @@ void SendThread::sendWriteBuffer(String ipAddress, int port, size_t size) {
 void SendThread::run()
 {
 	OutgoingPackage nextBlock;
+
+
+
 	while (!currentThreadShouldExit()) {
 		// Blocking read from concurrent queue
 		sendQueue_.pop(nextBlock);

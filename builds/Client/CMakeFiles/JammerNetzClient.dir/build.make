@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /usr/src/bbJammerNetz
+CMAKE_SOURCE_DIR = /mnt/dev/PROJECT/jammerNetz/JammerNetz
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /usr/src/bbJammerNetz/builds
+CMAKE_BINARY_DIR = /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds
 
 # Include any dependencies generated for this target.
 include Client/CMakeFiles/JammerNetzClient.dir/depend.make
@@ -59,367 +59,367 @@ include Client/CMakeFiles/JammerNetzClient.dir/flags.make
 
 Client/CMakeFiles/JammerNetzClient.dir/Source/AudioDeviceDiscovery.cpp.o: Client/CMakeFiles/JammerNetzClient.dir/flags.make
 Client/CMakeFiles/JammerNetzClient.dir/Source/AudioDeviceDiscovery.cpp.o: ../Client/Source/AudioDeviceDiscovery.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/usr/src/bbJammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/Source/AudioDeviceDiscovery.cpp.o"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/Source/AudioDeviceDiscovery.cpp.o -c /usr/src/bbJammerNetz/Client/Source/AudioDeviceDiscovery.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/Source/AudioDeviceDiscovery.cpp.o"
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/Source/AudioDeviceDiscovery.cpp.o -c /mnt/dev/PROJECT/jammerNetz/JammerNetz/Client/Source/AudioDeviceDiscovery.cpp
 
 Client/CMakeFiles/JammerNetzClient.dir/Source/AudioDeviceDiscovery.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JammerNetzClient.dir/Source/AudioDeviceDiscovery.cpp.i"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /usr/src/bbJammerNetz/Client/Source/AudioDeviceDiscovery.cpp > CMakeFiles/JammerNetzClient.dir/Source/AudioDeviceDiscovery.cpp.i
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/dev/PROJECT/jammerNetz/JammerNetz/Client/Source/AudioDeviceDiscovery.cpp > CMakeFiles/JammerNetzClient.dir/Source/AudioDeviceDiscovery.cpp.i
 
 Client/CMakeFiles/JammerNetzClient.dir/Source/AudioDeviceDiscovery.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JammerNetzClient.dir/Source/AudioDeviceDiscovery.cpp.s"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usr/src/bbJammerNetz/Client/Source/AudioDeviceDiscovery.cpp -o CMakeFiles/JammerNetzClient.dir/Source/AudioDeviceDiscovery.cpp.s
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/dev/PROJECT/jammerNetz/JammerNetz/Client/Source/AudioDeviceDiscovery.cpp -o CMakeFiles/JammerNetzClient.dir/Source/AudioDeviceDiscovery.cpp.s
 
 Client/CMakeFiles/JammerNetzClient.dir/Source/Main.cpp.o: Client/CMakeFiles/JammerNetzClient.dir/flags.make
 Client/CMakeFiles/JammerNetzClient.dir/Source/Main.cpp.o: ../Client/Source/Main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/usr/src/bbJammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/Source/Main.cpp.o"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/Source/Main.cpp.o -c /usr/src/bbJammerNetz/Client/Source/Main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/Source/Main.cpp.o"
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/Source/Main.cpp.o -c /mnt/dev/PROJECT/jammerNetz/JammerNetz/Client/Source/Main.cpp
 
 Client/CMakeFiles/JammerNetzClient.dir/Source/Main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JammerNetzClient.dir/Source/Main.cpp.i"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /usr/src/bbJammerNetz/Client/Source/Main.cpp > CMakeFiles/JammerNetzClient.dir/Source/Main.cpp.i
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/dev/PROJECT/jammerNetz/JammerNetz/Client/Source/Main.cpp > CMakeFiles/JammerNetzClient.dir/Source/Main.cpp.i
 
 Client/CMakeFiles/JammerNetzClient.dir/Source/Main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JammerNetzClient.dir/Source/Main.cpp.s"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usr/src/bbJammerNetz/Client/Source/Main.cpp -o CMakeFiles/JammerNetzClient.dir/Source/Main.cpp.s
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/dev/PROJECT/jammerNetz/JammerNetz/Client/Source/Main.cpp -o CMakeFiles/JammerNetzClient.dir/Source/Main.cpp.s
 
 Client/CMakeFiles/JammerNetzClient.dir/Source/MainComponent.cpp.o: Client/CMakeFiles/JammerNetzClient.dir/flags.make
 Client/CMakeFiles/JammerNetzClient.dir/Source/MainComponent.cpp.o: ../Client/Source/MainComponent.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/usr/src/bbJammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/Source/MainComponent.cpp.o"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/Source/MainComponent.cpp.o -c /usr/src/bbJammerNetz/Client/Source/MainComponent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/Source/MainComponent.cpp.o"
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/Source/MainComponent.cpp.o -c /mnt/dev/PROJECT/jammerNetz/JammerNetz/Client/Source/MainComponent.cpp
 
 Client/CMakeFiles/JammerNetzClient.dir/Source/MainComponent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JammerNetzClient.dir/Source/MainComponent.cpp.i"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /usr/src/bbJammerNetz/Client/Source/MainComponent.cpp > CMakeFiles/JammerNetzClient.dir/Source/MainComponent.cpp.i
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/dev/PROJECT/jammerNetz/JammerNetz/Client/Source/MainComponent.cpp > CMakeFiles/JammerNetzClient.dir/Source/MainComponent.cpp.i
 
 Client/CMakeFiles/JammerNetzClient.dir/Source/MainComponent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JammerNetzClient.dir/Source/MainComponent.cpp.s"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usr/src/bbJammerNetz/Client/Source/MainComponent.cpp -o CMakeFiles/JammerNetzClient.dir/Source/MainComponent.cpp.s
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/dev/PROJECT/jammerNetz/JammerNetz/Client/Source/MainComponent.cpp -o CMakeFiles/JammerNetzClient.dir/Source/MainComponent.cpp.s
 
 Client/CMakeFiles/JammerNetzClient.dir/Source/BPMDisplay.cpp.o: Client/CMakeFiles/JammerNetzClient.dir/flags.make
 Client/CMakeFiles/JammerNetzClient.dir/Source/BPMDisplay.cpp.o: ../Client/Source/BPMDisplay.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/usr/src/bbJammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/Source/BPMDisplay.cpp.o"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/Source/BPMDisplay.cpp.o -c /usr/src/bbJammerNetz/Client/Source/BPMDisplay.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/Source/BPMDisplay.cpp.o"
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/Source/BPMDisplay.cpp.o -c /mnt/dev/PROJECT/jammerNetz/JammerNetz/Client/Source/BPMDisplay.cpp
 
 Client/CMakeFiles/JammerNetzClient.dir/Source/BPMDisplay.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JammerNetzClient.dir/Source/BPMDisplay.cpp.i"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /usr/src/bbJammerNetz/Client/Source/BPMDisplay.cpp > CMakeFiles/JammerNetzClient.dir/Source/BPMDisplay.cpp.i
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/dev/PROJECT/jammerNetz/JammerNetz/Client/Source/BPMDisplay.cpp > CMakeFiles/JammerNetzClient.dir/Source/BPMDisplay.cpp.i
 
 Client/CMakeFiles/JammerNetzClient.dir/Source/BPMDisplay.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JammerNetzClient.dir/Source/BPMDisplay.cpp.s"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usr/src/bbJammerNetz/Client/Source/BPMDisplay.cpp -o CMakeFiles/JammerNetzClient.dir/Source/BPMDisplay.cpp.s
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/dev/PROJECT/jammerNetz/JammerNetz/Client/Source/BPMDisplay.cpp -o CMakeFiles/JammerNetzClient.dir/Source/BPMDisplay.cpp.s
 
 Client/CMakeFiles/JammerNetzClient.dir/Source/ChannelController.cpp.o: Client/CMakeFiles/JammerNetzClient.dir/flags.make
 Client/CMakeFiles/JammerNetzClient.dir/Source/ChannelController.cpp.o: ../Client/Source/ChannelController.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/usr/src/bbJammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/Source/ChannelController.cpp.o"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/Source/ChannelController.cpp.o -c /usr/src/bbJammerNetz/Client/Source/ChannelController.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/Source/ChannelController.cpp.o"
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/Source/ChannelController.cpp.o -c /mnt/dev/PROJECT/jammerNetz/JammerNetz/Client/Source/ChannelController.cpp
 
 Client/CMakeFiles/JammerNetzClient.dir/Source/ChannelController.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JammerNetzClient.dir/Source/ChannelController.cpp.i"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /usr/src/bbJammerNetz/Client/Source/ChannelController.cpp > CMakeFiles/JammerNetzClient.dir/Source/ChannelController.cpp.i
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/dev/PROJECT/jammerNetz/JammerNetz/Client/Source/ChannelController.cpp > CMakeFiles/JammerNetzClient.dir/Source/ChannelController.cpp.i
 
 Client/CMakeFiles/JammerNetzClient.dir/Source/ChannelController.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JammerNetzClient.dir/Source/ChannelController.cpp.s"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usr/src/bbJammerNetz/Client/Source/ChannelController.cpp -o CMakeFiles/JammerNetzClient.dir/Source/ChannelController.cpp.s
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/dev/PROJECT/jammerNetz/JammerNetz/Client/Source/ChannelController.cpp -o CMakeFiles/JammerNetzClient.dir/Source/ChannelController.cpp.s
 
 Client/CMakeFiles/JammerNetzClient.dir/Source/ClientConfig.cpp.o: Client/CMakeFiles/JammerNetzClient.dir/flags.make
 Client/CMakeFiles/JammerNetzClient.dir/Source/ClientConfig.cpp.o: ../Client/Source/ClientConfig.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/usr/src/bbJammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/Source/ClientConfig.cpp.o"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/Source/ClientConfig.cpp.o -c /usr/src/bbJammerNetz/Client/Source/ClientConfig.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/Source/ClientConfig.cpp.o"
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/Source/ClientConfig.cpp.o -c /mnt/dev/PROJECT/jammerNetz/JammerNetz/Client/Source/ClientConfig.cpp
 
 Client/CMakeFiles/JammerNetzClient.dir/Source/ClientConfig.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JammerNetzClient.dir/Source/ClientConfig.cpp.i"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /usr/src/bbJammerNetz/Client/Source/ClientConfig.cpp > CMakeFiles/JammerNetzClient.dir/Source/ClientConfig.cpp.i
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/dev/PROJECT/jammerNetz/JammerNetz/Client/Source/ClientConfig.cpp > CMakeFiles/JammerNetzClient.dir/Source/ClientConfig.cpp.i
 
 Client/CMakeFiles/JammerNetzClient.dir/Source/ClientConfig.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JammerNetzClient.dir/Source/ClientConfig.cpp.s"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usr/src/bbJammerNetz/Client/Source/ClientConfig.cpp -o CMakeFiles/JammerNetzClient.dir/Source/ClientConfig.cpp.s
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/dev/PROJECT/jammerNetz/JammerNetz/Client/Source/ClientConfig.cpp -o CMakeFiles/JammerNetzClient.dir/Source/ClientConfig.cpp.s
 
 Client/CMakeFiles/JammerNetzClient.dir/Source/DeviceSelector.cpp.o: Client/CMakeFiles/JammerNetzClient.dir/flags.make
 Client/CMakeFiles/JammerNetzClient.dir/Source/DeviceSelector.cpp.o: ../Client/Source/DeviceSelector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/usr/src/bbJammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/Source/DeviceSelector.cpp.o"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/Source/DeviceSelector.cpp.o -c /usr/src/bbJammerNetz/Client/Source/DeviceSelector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/Source/DeviceSelector.cpp.o"
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/Source/DeviceSelector.cpp.o -c /mnt/dev/PROJECT/jammerNetz/JammerNetz/Client/Source/DeviceSelector.cpp
 
 Client/CMakeFiles/JammerNetzClient.dir/Source/DeviceSelector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JammerNetzClient.dir/Source/DeviceSelector.cpp.i"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /usr/src/bbJammerNetz/Client/Source/DeviceSelector.cpp > CMakeFiles/JammerNetzClient.dir/Source/DeviceSelector.cpp.i
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/dev/PROJECT/jammerNetz/JammerNetz/Client/Source/DeviceSelector.cpp > CMakeFiles/JammerNetzClient.dir/Source/DeviceSelector.cpp.i
 
 Client/CMakeFiles/JammerNetzClient.dir/Source/DeviceSelector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JammerNetzClient.dir/Source/DeviceSelector.cpp.s"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usr/src/bbJammerNetz/Client/Source/DeviceSelector.cpp -o CMakeFiles/JammerNetzClient.dir/Source/DeviceSelector.cpp.s
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/dev/PROJECT/jammerNetz/JammerNetz/Client/Source/DeviceSelector.cpp -o CMakeFiles/JammerNetzClient.dir/Source/DeviceSelector.cpp.s
 
 Client/CMakeFiles/JammerNetzClient.dir/Source/RecordingInfo.cpp.o: Client/CMakeFiles/JammerNetzClient.dir/flags.make
 Client/CMakeFiles/JammerNetzClient.dir/Source/RecordingInfo.cpp.o: ../Client/Source/RecordingInfo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/usr/src/bbJammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/Source/RecordingInfo.cpp.o"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/Source/RecordingInfo.cpp.o -c /usr/src/bbJammerNetz/Client/Source/RecordingInfo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/Source/RecordingInfo.cpp.o"
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/Source/RecordingInfo.cpp.o -c /mnt/dev/PROJECT/jammerNetz/JammerNetz/Client/Source/RecordingInfo.cpp
 
 Client/CMakeFiles/JammerNetzClient.dir/Source/RecordingInfo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JammerNetzClient.dir/Source/RecordingInfo.cpp.i"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /usr/src/bbJammerNetz/Client/Source/RecordingInfo.cpp > CMakeFiles/JammerNetzClient.dir/Source/RecordingInfo.cpp.i
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/dev/PROJECT/jammerNetz/JammerNetz/Client/Source/RecordingInfo.cpp > CMakeFiles/JammerNetzClient.dir/Source/RecordingInfo.cpp.i
 
 Client/CMakeFiles/JammerNetzClient.dir/Source/RecordingInfo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JammerNetzClient.dir/Source/RecordingInfo.cpp.s"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usr/src/bbJammerNetz/Client/Source/RecordingInfo.cpp -o CMakeFiles/JammerNetzClient.dir/Source/RecordingInfo.cpp.s
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/dev/PROJECT/jammerNetz/JammerNetz/Client/Source/RecordingInfo.cpp -o CMakeFiles/JammerNetzClient.dir/Source/RecordingInfo.cpp.s
 
 Client/CMakeFiles/JammerNetzClient.dir/Source/ServerSelector.cpp.o: Client/CMakeFiles/JammerNetzClient.dir/flags.make
 Client/CMakeFiles/JammerNetzClient.dir/Source/ServerSelector.cpp.o: ../Client/Source/ServerSelector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/usr/src/bbJammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/Source/ServerSelector.cpp.o"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/Source/ServerSelector.cpp.o -c /usr/src/bbJammerNetz/Client/Source/ServerSelector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/Source/ServerSelector.cpp.o"
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/Source/ServerSelector.cpp.o -c /mnt/dev/PROJECT/jammerNetz/JammerNetz/Client/Source/ServerSelector.cpp
 
 Client/CMakeFiles/JammerNetzClient.dir/Source/ServerSelector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JammerNetzClient.dir/Source/ServerSelector.cpp.i"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /usr/src/bbJammerNetz/Client/Source/ServerSelector.cpp > CMakeFiles/JammerNetzClient.dir/Source/ServerSelector.cpp.i
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/dev/PROJECT/jammerNetz/JammerNetz/Client/Source/ServerSelector.cpp > CMakeFiles/JammerNetzClient.dir/Source/ServerSelector.cpp.i
 
 Client/CMakeFiles/JammerNetzClient.dir/Source/ServerSelector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JammerNetzClient.dir/Source/ServerSelector.cpp.s"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usr/src/bbJammerNetz/Client/Source/ServerSelector.cpp -o CMakeFiles/JammerNetzClient.dir/Source/ServerSelector.cpp.s
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/dev/PROJECT/jammerNetz/JammerNetz/Client/Source/ServerSelector.cpp -o CMakeFiles/JammerNetzClient.dir/Source/ServerSelector.cpp.s
 
 Client/CMakeFiles/JammerNetzClient.dir/Source/ServerStatus.cpp.o: Client/CMakeFiles/JammerNetzClient.dir/flags.make
 Client/CMakeFiles/JammerNetzClient.dir/Source/ServerStatus.cpp.o: ../Client/Source/ServerStatus.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/usr/src/bbJammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/Source/ServerStatus.cpp.o"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/Source/ServerStatus.cpp.o -c /usr/src/bbJammerNetz/Client/Source/ServerStatus.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/Source/ServerStatus.cpp.o"
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/Source/ServerStatus.cpp.o -c /mnt/dev/PROJECT/jammerNetz/JammerNetz/Client/Source/ServerStatus.cpp
 
 Client/CMakeFiles/JammerNetzClient.dir/Source/ServerStatus.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JammerNetzClient.dir/Source/ServerStatus.cpp.i"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /usr/src/bbJammerNetz/Client/Source/ServerStatus.cpp > CMakeFiles/JammerNetzClient.dir/Source/ServerStatus.cpp.i
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/dev/PROJECT/jammerNetz/JammerNetz/Client/Source/ServerStatus.cpp > CMakeFiles/JammerNetzClient.dir/Source/ServerStatus.cpp.i
 
 Client/CMakeFiles/JammerNetzClient.dir/Source/ServerStatus.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JammerNetzClient.dir/Source/ServerStatus.cpp.s"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usr/src/bbJammerNetz/Client/Source/ServerStatus.cpp -o CMakeFiles/JammerNetzClient.dir/Source/ServerStatus.cpp.s
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/dev/PROJECT/jammerNetz/JammerNetz/Client/Source/ServerStatus.cpp -o CMakeFiles/JammerNetzClient.dir/Source/ServerStatus.cpp.s
 
 Client/CMakeFiles/JammerNetzClient.dir/Source/AudioCallback.cpp.o: Client/CMakeFiles/JammerNetzClient.dir/flags.make
 Client/CMakeFiles/JammerNetzClient.dir/Source/AudioCallback.cpp.o: ../Client/Source/AudioCallback.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/usr/src/bbJammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/Source/AudioCallback.cpp.o"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/Source/AudioCallback.cpp.o -c /usr/src/bbJammerNetz/Client/Source/AudioCallback.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/Source/AudioCallback.cpp.o"
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/Source/AudioCallback.cpp.o -c /mnt/dev/PROJECT/jammerNetz/JammerNetz/Client/Source/AudioCallback.cpp
 
 Client/CMakeFiles/JammerNetzClient.dir/Source/AudioCallback.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JammerNetzClient.dir/Source/AudioCallback.cpp.i"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /usr/src/bbJammerNetz/Client/Source/AudioCallback.cpp > CMakeFiles/JammerNetzClient.dir/Source/AudioCallback.cpp.i
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/dev/PROJECT/jammerNetz/JammerNetz/Client/Source/AudioCallback.cpp > CMakeFiles/JammerNetzClient.dir/Source/AudioCallback.cpp.i
 
 Client/CMakeFiles/JammerNetzClient.dir/Source/AudioCallback.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JammerNetzClient.dir/Source/AudioCallback.cpp.s"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usr/src/bbJammerNetz/Client/Source/AudioCallback.cpp -o CMakeFiles/JammerNetzClient.dir/Source/AudioCallback.cpp.s
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/dev/PROJECT/jammerNetz/JammerNetz/Client/Source/AudioCallback.cpp -o CMakeFiles/JammerNetzClient.dir/Source/AudioCallback.cpp.s
 
 Client/CMakeFiles/JammerNetzClient.dir/Source/Tuner.cpp.o: Client/CMakeFiles/JammerNetzClient.dir/flags.make
 Client/CMakeFiles/JammerNetzClient.dir/Source/Tuner.cpp.o: ../Client/Source/Tuner.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/usr/src/bbJammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/Source/Tuner.cpp.o"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/Source/Tuner.cpp.o -c /usr/src/bbJammerNetz/Client/Source/Tuner.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/Source/Tuner.cpp.o"
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/Source/Tuner.cpp.o -c /mnt/dev/PROJECT/jammerNetz/JammerNetz/Client/Source/Tuner.cpp
 
 Client/CMakeFiles/JammerNetzClient.dir/Source/Tuner.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JammerNetzClient.dir/Source/Tuner.cpp.i"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /usr/src/bbJammerNetz/Client/Source/Tuner.cpp > CMakeFiles/JammerNetzClient.dir/Source/Tuner.cpp.i
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/dev/PROJECT/jammerNetz/JammerNetz/Client/Source/Tuner.cpp > CMakeFiles/JammerNetzClient.dir/Source/Tuner.cpp.i
 
 Client/CMakeFiles/JammerNetzClient.dir/Source/Tuner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JammerNetzClient.dir/Source/Tuner.cpp.s"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usr/src/bbJammerNetz/Client/Source/Tuner.cpp -o CMakeFiles/JammerNetzClient.dir/Source/Tuner.cpp.s
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/dev/PROJECT/jammerNetz/JammerNetz/Client/Source/Tuner.cpp -o CMakeFiles/JammerNetzClient.dir/Source/Tuner.cpp.s
 
 Client/CMakeFiles/JammerNetzClient.dir/Source/Client.cpp.o: Client/CMakeFiles/JammerNetzClient.dir/flags.make
 Client/CMakeFiles/JammerNetzClient.dir/Source/Client.cpp.o: ../Client/Source/Client.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/usr/src/bbJammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/Source/Client.cpp.o"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/Source/Client.cpp.o -c /usr/src/bbJammerNetz/Client/Source/Client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/Source/Client.cpp.o"
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/Source/Client.cpp.o -c /mnt/dev/PROJECT/jammerNetz/JammerNetz/Client/Source/Client.cpp
 
 Client/CMakeFiles/JammerNetzClient.dir/Source/Client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JammerNetzClient.dir/Source/Client.cpp.i"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /usr/src/bbJammerNetz/Client/Source/Client.cpp > CMakeFiles/JammerNetzClient.dir/Source/Client.cpp.i
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/dev/PROJECT/jammerNetz/JammerNetz/Client/Source/Client.cpp > CMakeFiles/JammerNetzClient.dir/Source/Client.cpp.i
 
 Client/CMakeFiles/JammerNetzClient.dir/Source/Client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JammerNetzClient.dir/Source/Client.cpp.s"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usr/src/bbJammerNetz/Client/Source/Client.cpp -o CMakeFiles/JammerNetzClient.dir/Source/Client.cpp.s
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/dev/PROJECT/jammerNetz/JammerNetz/Client/Source/Client.cpp -o CMakeFiles/JammerNetzClient.dir/Source/Client.cpp.s
 
 Client/CMakeFiles/JammerNetzClient.dir/Source/DataReceiveThread.cpp.o: Client/CMakeFiles/JammerNetzClient.dir/flags.make
 Client/CMakeFiles/JammerNetzClient.dir/Source/DataReceiveThread.cpp.o: ../Client/Source/DataReceiveThread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/usr/src/bbJammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/Source/DataReceiveThread.cpp.o"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/Source/DataReceiveThread.cpp.o -c /usr/src/bbJammerNetz/Client/Source/DataReceiveThread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/Source/DataReceiveThread.cpp.o"
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/Source/DataReceiveThread.cpp.o -c /mnt/dev/PROJECT/jammerNetz/JammerNetz/Client/Source/DataReceiveThread.cpp
 
 Client/CMakeFiles/JammerNetzClient.dir/Source/DataReceiveThread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JammerNetzClient.dir/Source/DataReceiveThread.cpp.i"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /usr/src/bbJammerNetz/Client/Source/DataReceiveThread.cpp > CMakeFiles/JammerNetzClient.dir/Source/DataReceiveThread.cpp.i
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/dev/PROJECT/jammerNetz/JammerNetz/Client/Source/DataReceiveThread.cpp > CMakeFiles/JammerNetzClient.dir/Source/DataReceiveThread.cpp.i
 
 Client/CMakeFiles/JammerNetzClient.dir/Source/DataReceiveThread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JammerNetzClient.dir/Source/DataReceiveThread.cpp.s"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usr/src/bbJammerNetz/Client/Source/DataReceiveThread.cpp -o CMakeFiles/JammerNetzClient.dir/Source/DataReceiveThread.cpp.s
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/dev/PROJECT/jammerNetz/JammerNetz/Client/Source/DataReceiveThread.cpp -o CMakeFiles/JammerNetzClient.dir/Source/DataReceiveThread.cpp.s
 
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_core.cpp.o: Client/CMakeFiles/JammerNetzClient.dir/flags.make
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_core.cpp.o: Client/JuceLibraryCode/include_juce_core.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/usr/src/bbJammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_core.cpp.o"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_core.cpp.o -c /usr/src/bbJammerNetz/builds/Client/JuceLibraryCode/include_juce_core.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_core.cpp.o"
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_core.cpp.o -c /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client/JuceLibraryCode/include_juce_core.cpp
 
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_core.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_core.cpp.i"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /usr/src/bbJammerNetz/builds/Client/JuceLibraryCode/include_juce_core.cpp > CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_core.cpp.i
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client/JuceLibraryCode/include_juce_core.cpp > CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_core.cpp.i
 
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_core.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_core.cpp.s"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usr/src/bbJammerNetz/builds/Client/JuceLibraryCode/include_juce_core.cpp -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_core.cpp.s
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client/JuceLibraryCode/include_juce_core.cpp -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_core.cpp.s
 
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_events.cpp.o: Client/CMakeFiles/JammerNetzClient.dir/flags.make
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_events.cpp.o: Client/JuceLibraryCode/include_juce_events.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/usr/src/bbJammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_events.cpp.o"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_events.cpp.o -c /usr/src/bbJammerNetz/builds/Client/JuceLibraryCode/include_juce_events.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_events.cpp.o"
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_events.cpp.o -c /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client/JuceLibraryCode/include_juce_events.cpp
 
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_events.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_events.cpp.i"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /usr/src/bbJammerNetz/builds/Client/JuceLibraryCode/include_juce_events.cpp > CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_events.cpp.i
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client/JuceLibraryCode/include_juce_events.cpp > CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_events.cpp.i
 
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_events.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_events.cpp.s"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usr/src/bbJammerNetz/builds/Client/JuceLibraryCode/include_juce_events.cpp -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_events.cpp.s
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client/JuceLibraryCode/include_juce_events.cpp -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_events.cpp.s
 
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_basics.cpp.o: Client/CMakeFiles/JammerNetzClient.dir/flags.make
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_basics.cpp.o: Client/JuceLibraryCode/include_juce_audio_basics.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/usr/src/bbJammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_basics.cpp.o"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_basics.cpp.o -c /usr/src/bbJammerNetz/builds/Client/JuceLibraryCode/include_juce_audio_basics.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_basics.cpp.o"
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_basics.cpp.o -c /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client/JuceLibraryCode/include_juce_audio_basics.cpp
 
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_basics.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_basics.cpp.i"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /usr/src/bbJammerNetz/builds/Client/JuceLibraryCode/include_juce_audio_basics.cpp > CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_basics.cpp.i
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client/JuceLibraryCode/include_juce_audio_basics.cpp > CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_basics.cpp.i
 
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_basics.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_basics.cpp.s"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usr/src/bbJammerNetz/builds/Client/JuceLibraryCode/include_juce_audio_basics.cpp -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_basics.cpp.s
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client/JuceLibraryCode/include_juce_audio_basics.cpp -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_basics.cpp.s
 
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_devices.cpp.o: Client/CMakeFiles/JammerNetzClient.dir/flags.make
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_devices.cpp.o: Client/JuceLibraryCode/include_juce_audio_devices.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/usr/src/bbJammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_devices.cpp.o"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_devices.cpp.o -c /usr/src/bbJammerNetz/builds/Client/JuceLibraryCode/include_juce_audio_devices.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_devices.cpp.o"
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_devices.cpp.o -c /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client/JuceLibraryCode/include_juce_audio_devices.cpp
 
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_devices.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_devices.cpp.i"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /usr/src/bbJammerNetz/builds/Client/JuceLibraryCode/include_juce_audio_devices.cpp > CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_devices.cpp.i
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client/JuceLibraryCode/include_juce_audio_devices.cpp > CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_devices.cpp.i
 
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_devices.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_devices.cpp.s"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usr/src/bbJammerNetz/builds/Client/JuceLibraryCode/include_juce_audio_devices.cpp -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_devices.cpp.s
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client/JuceLibraryCode/include_juce_audio_devices.cpp -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_devices.cpp.s
 
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_formats.cpp.o: Client/CMakeFiles/JammerNetzClient.dir/flags.make
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_formats.cpp.o: Client/JuceLibraryCode/include_juce_audio_formats.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/usr/src/bbJammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_formats.cpp.o"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_formats.cpp.o -c /usr/src/bbJammerNetz/builds/Client/JuceLibraryCode/include_juce_audio_formats.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_formats.cpp.o"
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_formats.cpp.o -c /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client/JuceLibraryCode/include_juce_audio_formats.cpp
 
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_formats.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_formats.cpp.i"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /usr/src/bbJammerNetz/builds/Client/JuceLibraryCode/include_juce_audio_formats.cpp > CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_formats.cpp.i
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client/JuceLibraryCode/include_juce_audio_formats.cpp > CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_formats.cpp.i
 
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_formats.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_formats.cpp.s"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usr/src/bbJammerNetz/builds/Client/JuceLibraryCode/include_juce_audio_formats.cpp -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_formats.cpp.s
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client/JuceLibraryCode/include_juce_audio_formats.cpp -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_formats.cpp.s
 
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_processors.cpp.o: Client/CMakeFiles/JammerNetzClient.dir/flags.make
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_processors.cpp.o: Client/JuceLibraryCode/include_juce_audio_processors.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/usr/src/bbJammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_processors.cpp.o"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_processors.cpp.o -c /usr/src/bbJammerNetz/builds/Client/JuceLibraryCode/include_juce_audio_processors.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_processors.cpp.o"
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_processors.cpp.o -c /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client/JuceLibraryCode/include_juce_audio_processors.cpp
 
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_processors.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_processors.cpp.i"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /usr/src/bbJammerNetz/builds/Client/JuceLibraryCode/include_juce_audio_processors.cpp > CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_processors.cpp.i
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client/JuceLibraryCode/include_juce_audio_processors.cpp > CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_processors.cpp.i
 
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_processors.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_processors.cpp.s"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usr/src/bbJammerNetz/builds/Client/JuceLibraryCode/include_juce_audio_processors.cpp -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_processors.cpp.s
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client/JuceLibraryCode/include_juce_audio_processors.cpp -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_processors.cpp.s
 
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_gui_extra.cpp.o: Client/CMakeFiles/JammerNetzClient.dir/flags.make
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_gui_extra.cpp.o: Client/JuceLibraryCode/include_juce_gui_extra.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/usr/src/bbJammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_gui_extra.cpp.o"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_gui_extra.cpp.o -c /usr/src/bbJammerNetz/builds/Client/JuceLibraryCode/include_juce_gui_extra.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_gui_extra.cpp.o"
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_gui_extra.cpp.o -c /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client/JuceLibraryCode/include_juce_gui_extra.cpp
 
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_gui_extra.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_gui_extra.cpp.i"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /usr/src/bbJammerNetz/builds/Client/JuceLibraryCode/include_juce_gui_extra.cpp > CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_gui_extra.cpp.i
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client/JuceLibraryCode/include_juce_gui_extra.cpp > CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_gui_extra.cpp.i
 
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_gui_extra.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_gui_extra.cpp.s"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usr/src/bbJammerNetz/builds/Client/JuceLibraryCode/include_juce_gui_extra.cpp -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_gui_extra.cpp.s
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client/JuceLibraryCode/include_juce_gui_extra.cpp -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_gui_extra.cpp.s
 
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_gui_basics.cpp.o: Client/CMakeFiles/JammerNetzClient.dir/flags.make
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_gui_basics.cpp.o: Client/JuceLibraryCode/include_juce_gui_basics.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/usr/src/bbJammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_gui_basics.cpp.o"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_gui_basics.cpp.o -c /usr/src/bbJammerNetz/builds/Client/JuceLibraryCode/include_juce_gui_basics.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_gui_basics.cpp.o"
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_gui_basics.cpp.o -c /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client/JuceLibraryCode/include_juce_gui_basics.cpp
 
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_gui_basics.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_gui_basics.cpp.i"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /usr/src/bbJammerNetz/builds/Client/JuceLibraryCode/include_juce_gui_basics.cpp > CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_gui_basics.cpp.i
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client/JuceLibraryCode/include_juce_gui_basics.cpp > CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_gui_basics.cpp.i
 
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_gui_basics.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_gui_basics.cpp.s"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usr/src/bbJammerNetz/builds/Client/JuceLibraryCode/include_juce_gui_basics.cpp -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_gui_basics.cpp.s
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client/JuceLibraryCode/include_juce_gui_basics.cpp -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_gui_basics.cpp.s
 
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_graphics.cpp.o: Client/CMakeFiles/JammerNetzClient.dir/flags.make
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_graphics.cpp.o: Client/JuceLibraryCode/include_juce_graphics.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/usr/src/bbJammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_graphics.cpp.o"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_graphics.cpp.o -c /usr/src/bbJammerNetz/builds/Client/JuceLibraryCode/include_juce_graphics.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_graphics.cpp.o"
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_graphics.cpp.o -c /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client/JuceLibraryCode/include_juce_graphics.cpp
 
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_graphics.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_graphics.cpp.i"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /usr/src/bbJammerNetz/builds/Client/JuceLibraryCode/include_juce_graphics.cpp > CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_graphics.cpp.i
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client/JuceLibraryCode/include_juce_graphics.cpp > CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_graphics.cpp.i
 
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_graphics.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_graphics.cpp.s"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usr/src/bbJammerNetz/builds/Client/JuceLibraryCode/include_juce_graphics.cpp -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_graphics.cpp.s
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client/JuceLibraryCode/include_juce_graphics.cpp -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_graphics.cpp.s
 
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_data_structures.cpp.o: Client/CMakeFiles/JammerNetzClient.dir/flags.make
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_data_structures.cpp.o: Client/JuceLibraryCode/include_juce_data_structures.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/usr/src/bbJammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_data_structures.cpp.o"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_data_structures.cpp.o -c /usr/src/bbJammerNetz/builds/Client/JuceLibraryCode/include_juce_data_structures.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_data_structures.cpp.o"
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_data_structures.cpp.o -c /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client/JuceLibraryCode/include_juce_data_structures.cpp
 
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_data_structures.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_data_structures.cpp.i"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /usr/src/bbJammerNetz/builds/Client/JuceLibraryCode/include_juce_data_structures.cpp > CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_data_structures.cpp.i
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client/JuceLibraryCode/include_juce_data_structures.cpp > CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_data_structures.cpp.i
 
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_data_structures.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_data_structures.cpp.s"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usr/src/bbJammerNetz/builds/Client/JuceLibraryCode/include_juce_data_structures.cpp -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_data_structures.cpp.s
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client/JuceLibraryCode/include_juce_data_structures.cpp -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_data_structures.cpp.s
 
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_utils.cpp.o: Client/CMakeFiles/JammerNetzClient.dir/flags.make
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_utils.cpp.o: Client/JuceLibraryCode/include_juce_audio_utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/usr/src/bbJammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_utils.cpp.o"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_utils.cpp.o -c /usr/src/bbJammerNetz/builds/Client/JuceLibraryCode/include_juce_audio_utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_utils.cpp.o"
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_utils.cpp.o -c /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client/JuceLibraryCode/include_juce_audio_utils.cpp
 
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_utils.cpp.i"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /usr/src/bbJammerNetz/builds/Client/JuceLibraryCode/include_juce_audio_utils.cpp > CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_utils.cpp.i
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client/JuceLibraryCode/include_juce_audio_utils.cpp > CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_utils.cpp.i
 
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_utils.cpp.s"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usr/src/bbJammerNetz/builds/Client/JuceLibraryCode/include_juce_audio_utils.cpp -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_utils.cpp.s
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client/JuceLibraryCode/include_juce_audio_utils.cpp -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_audio_utils.cpp.s
 
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_cryptography.cpp.o: Client/CMakeFiles/JammerNetzClient.dir/flags.make
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_cryptography.cpp.o: Client/JuceLibraryCode/include_juce_cryptography.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/usr/src/bbJammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_cryptography.cpp.o"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_cryptography.cpp.o -c /usr/src/bbJammerNetz/builds/Client/JuceLibraryCode/include_juce_cryptography.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_cryptography.cpp.o"
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_cryptography.cpp.o -c /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client/JuceLibraryCode/include_juce_cryptography.cpp
 
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_cryptography.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_cryptography.cpp.i"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /usr/src/bbJammerNetz/builds/Client/JuceLibraryCode/include_juce_cryptography.cpp > CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_cryptography.cpp.i
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client/JuceLibraryCode/include_juce_cryptography.cpp > CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_cryptography.cpp.i
 
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_cryptography.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_cryptography.cpp.s"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usr/src/bbJammerNetz/builds/Client/JuceLibraryCode/include_juce_cryptography.cpp -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_cryptography.cpp.s
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client/JuceLibraryCode/include_juce_cryptography.cpp -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_cryptography.cpp.s
 
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_dsp.cpp.o: Client/CMakeFiles/JammerNetzClient.dir/flags.make
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_dsp.cpp.o: Client/JuceLibraryCode/include_juce_dsp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/usr/src/bbJammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_dsp.cpp.o"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_dsp.cpp.o -c /usr/src/bbJammerNetz/builds/Client/JuceLibraryCode/include_juce_dsp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_dsp.cpp.o"
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_dsp.cpp.o -c /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client/JuceLibraryCode/include_juce_dsp.cpp
 
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_dsp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_dsp.cpp.i"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /usr/src/bbJammerNetz/builds/Client/JuceLibraryCode/include_juce_dsp.cpp > CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_dsp.cpp.i
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client/JuceLibraryCode/include_juce_dsp.cpp > CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_dsp.cpp.i
 
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_dsp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_dsp.cpp.s"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usr/src/bbJammerNetz/builds/Client/JuceLibraryCode/include_juce_dsp.cpp -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_dsp.cpp.s
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client/JuceLibraryCode/include_juce_dsp.cpp -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_dsp.cpp.s
 
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_opengl.cpp.o: Client/CMakeFiles/JammerNetzClient.dir/flags.make
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_opengl.cpp.o: Client/JuceLibraryCode/include_juce_opengl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/usr/src/bbJammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_opengl.cpp.o"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_opengl.cpp.o -c /usr/src/bbJammerNetz/builds/Client/JuceLibraryCode/include_juce_opengl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_opengl.cpp.o"
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_opengl.cpp.o -c /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client/JuceLibraryCode/include_juce_opengl.cpp
 
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_opengl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_opengl.cpp.i"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /usr/src/bbJammerNetz/builds/Client/JuceLibraryCode/include_juce_opengl.cpp > CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_opengl.cpp.i
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client/JuceLibraryCode/include_juce_opengl.cpp > CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_opengl.cpp.i
 
 Client/CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_opengl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_opengl.cpp.s"
-	cd /usr/src/bbJammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usr/src/bbJammerNetz/builds/Client/JuceLibraryCode/include_juce_opengl.cpp -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_opengl.cpp.s
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client/JuceLibraryCode/include_juce_opengl.cpp -o CMakeFiles/JammerNetzClient.dir/JuceLibraryCode/include_juce_opengl.cpp.s
 
 # Object files for target JammerNetzClient
 JammerNetzClient_OBJECTS = \
@@ -505,8 +505,8 @@ Client/JammerNetzClient: /usr/lib/x86_64-linux-gnu/libGLEW.so
 Client/JammerNetzClient: /usr/lib/x86_64-linux-gnu/libGLU.so
 Client/JammerNetzClient: /usr/lib/x86_64-linux-gnu/libGL.so
 Client/JammerNetzClient: Client/CMakeFiles/JammerNetzClient.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/usr/src/bbJammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking CXX executable JammerNetzClient"
-	cd /usr/src/bbJammerNetz/builds/Client && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/JammerNetzClient.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking CXX executable JammerNetzClient"
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/JammerNetzClient.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Client/CMakeFiles/JammerNetzClient.dir/build: Client/JammerNetzClient
@@ -514,10 +514,10 @@ Client/CMakeFiles/JammerNetzClient.dir/build: Client/JammerNetzClient
 .PHONY : Client/CMakeFiles/JammerNetzClient.dir/build
 
 Client/CMakeFiles/JammerNetzClient.dir/clean:
-	cd /usr/src/bbJammerNetz/builds/Client && $(CMAKE_COMMAND) -P CMakeFiles/JammerNetzClient.dir/cmake_clean.cmake
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client && $(CMAKE_COMMAND) -P CMakeFiles/JammerNetzClient.dir/cmake_clean.cmake
 .PHONY : Client/CMakeFiles/JammerNetzClient.dir/clean
 
 Client/CMakeFiles/JammerNetzClient.dir/depend:
-	cd /usr/src/bbJammerNetz/builds && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /usr/src/bbJammerNetz /usr/src/bbJammerNetz/Client /usr/src/bbJammerNetz/builds /usr/src/bbJammerNetz/builds/Client /usr/src/bbJammerNetz/builds/Client/CMakeFiles/JammerNetzClient.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/dev/PROJECT/jammerNetz/JammerNetz /mnt/dev/PROJECT/jammerNetz/JammerNetz/Client /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client/CMakeFiles/JammerNetzClient.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Client/CMakeFiles/JammerNetzClient.dir/depend
 

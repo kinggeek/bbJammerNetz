@@ -58,7 +58,7 @@
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\PROJECT\jammerNetz\JammerNetz\Client\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">JammerNetzClient.dir\Debug\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">JammerNetzClient</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">BBLiveClient</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
@@ -115,7 +115,8 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message>	</Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy D:/PROJECT/jammerNetz/JammerNetz/_deps/inteltbb-src/tbb//bin/intel64/vc14/tbb_debug.dll D:/PROJECT/jammerNetz/JammerNetz/Client/Debug
 if %errorlevel% neq 0 goto :cmEnd
@@ -183,7 +184,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message>	</Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy D:/PROJECT/jammerNetz/JammerNetz/_deps/inteltbb-src/tbb//bin/intel64/vc14/tbb.dll D:/PROJECT/jammerNetz/JammerNetz/Client/Release
 if %errorlevel% neq 0 goto :cmEnd
@@ -251,7 +253,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message>	</Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy D:/PROJECT/jammerNetz/JammerNetz/_deps/inteltbb-src/tbb//bin/intel64/vc14/tbb_debug.dll D:/PROJECT/jammerNetz/JammerNetz/Client/MinSizeRel
 if %errorlevel% neq 0 goto :cmEnd
@@ -318,7 +321,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message>	</Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy D:/PROJECT/jammerNetz/JammerNetz/_deps/inteltbb-src/tbb//bin/intel64/vc14/tbb_debug.dll D:/PROJECT/jammerNetz/JammerNetz/Client/RelWithDebInfo
 if %errorlevel% neq 0 goto :cmEnd

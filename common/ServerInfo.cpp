@@ -8,11 +8,10 @@
 
 #include "BuffersConfig.h"
 
-std::string ConnectionServerInfo::serverName = "liveroom.stupid-cat.co.uk";
-int ConnectionServerInfo::serverPort = 7777;
 
-std::string ServerInfo::serverName = "127.0.0.1";
-int ServerInfo::serverPort = 7777;
+
+std::string ServerInfo::serverName = "";
+int ServerInfo::serverPort = 7000;
 
 // For now, we keep our life simple by requesting the same sample rate (sane) from all clients
 // and also the same buffer size (that would be workable with appropriate ring buffers)

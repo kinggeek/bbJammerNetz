@@ -48,24 +48,13 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /usr/src/bbJammerNetz
+CMAKE_SOURCE_DIR = /mnt/dev/PROJECT/jammerNetz/JammerNetz
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /usr/src/bbJammerNetz/builds
+CMAKE_BINARY_DIR = /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/local/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -78,16 +67,27 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/local/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	cd /usr/src/bbJammerNetz/builds && $(CMAKE_COMMAND) -E cmake_progress_start /usr/src/bbJammerNetz/builds/CMakeFiles /usr/src/bbJammerNetz/builds/common/CMakeFiles/progress.marks
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f CMakeFiles/Makefile2 common/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/bbJammerNetz/builds/CMakeFiles 0
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/common/CMakeFiles/progress.marks
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f CMakeFiles/Makefile2 common/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f CMakeFiles/Makefile2 common/clean
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f CMakeFiles/Makefile2 common/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f CMakeFiles/Makefile2 common/preinstall
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f CMakeFiles/Makefile2 common/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f CMakeFiles/Makefile2 common/preinstall
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f CMakeFiles/Makefile2 common/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /usr/src/bbJammerNetz/builds && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 common/CMakeFiles/JammerCommon.dir/rule:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f CMakeFiles/Makefile2 common/CMakeFiles/JammerCommon.dir/rule
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f CMakeFiles/Makefile2 common/CMakeFiles/JammerCommon.dir/rule
 .PHONY : common/CMakeFiles/JammerCommon.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ JammerCommon: common/CMakeFiles/JammerCommon.dir/rule
 
 # fast build rule for target.
 JammerCommon/fast:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f common/CMakeFiles/JammerCommon.dir/build.make common/CMakeFiles/JammerCommon.dir/build
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f common/CMakeFiles/JammerCommon.dir/build.make common/CMakeFiles/JammerCommon.dir/build
 .PHONY : JammerCommon/fast
 
 JammerNetzPackage.o: JammerNetzPackage.cpp.o
@@ -131,7 +131,7 @@ JammerNetzPackage.o: JammerNetzPackage.cpp.o
 
 # target to build an object file
 JammerNetzPackage.cpp.o:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f common/CMakeFiles/JammerCommon.dir/build.make common/CMakeFiles/JammerCommon.dir/JammerNetzPackage.cpp.o
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f common/CMakeFiles/JammerCommon.dir/build.make common/CMakeFiles/JammerCommon.dir/JammerNetzPackage.cpp.o
 .PHONY : JammerNetzPackage.cpp.o
 
 JammerNetzPackage.i: JammerNetzPackage.cpp.i
@@ -140,7 +140,7 @@ JammerNetzPackage.i: JammerNetzPackage.cpp.i
 
 # target to preprocess a source file
 JammerNetzPackage.cpp.i:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f common/CMakeFiles/JammerCommon.dir/build.make common/CMakeFiles/JammerCommon.dir/JammerNetzPackage.cpp.i
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f common/CMakeFiles/JammerCommon.dir/build.make common/CMakeFiles/JammerCommon.dir/JammerNetzPackage.cpp.i
 .PHONY : JammerNetzPackage.cpp.i
 
 JammerNetzPackage.s: JammerNetzPackage.cpp.s
@@ -149,7 +149,7 @@ JammerNetzPackage.s: JammerNetzPackage.cpp.s
 
 # target to generate assembly for a file
 JammerNetzPackage.cpp.s:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f common/CMakeFiles/JammerCommon.dir/build.make common/CMakeFiles/JammerCommon.dir/JammerNetzPackage.cpp.s
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f common/CMakeFiles/JammerCommon.dir/build.make common/CMakeFiles/JammerCommon.dir/JammerNetzPackage.cpp.s
 .PHONY : JammerNetzPackage.cpp.s
 
 PacketStreamQueue.o: PacketStreamQueue.cpp.o
@@ -158,7 +158,7 @@ PacketStreamQueue.o: PacketStreamQueue.cpp.o
 
 # target to build an object file
 PacketStreamQueue.cpp.o:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f common/CMakeFiles/JammerCommon.dir/build.make common/CMakeFiles/JammerCommon.dir/PacketStreamQueue.cpp.o
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f common/CMakeFiles/JammerCommon.dir/build.make common/CMakeFiles/JammerCommon.dir/PacketStreamQueue.cpp.o
 .PHONY : PacketStreamQueue.cpp.o
 
 PacketStreamQueue.i: PacketStreamQueue.cpp.i
@@ -167,7 +167,7 @@ PacketStreamQueue.i: PacketStreamQueue.cpp.i
 
 # target to preprocess a source file
 PacketStreamQueue.cpp.i:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f common/CMakeFiles/JammerCommon.dir/build.make common/CMakeFiles/JammerCommon.dir/PacketStreamQueue.cpp.i
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f common/CMakeFiles/JammerCommon.dir/build.make common/CMakeFiles/JammerCommon.dir/PacketStreamQueue.cpp.i
 .PHONY : PacketStreamQueue.cpp.i
 
 PacketStreamQueue.s: PacketStreamQueue.cpp.s
@@ -176,7 +176,7 @@ PacketStreamQueue.s: PacketStreamQueue.cpp.s
 
 # target to generate assembly for a file
 PacketStreamQueue.cpp.s:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f common/CMakeFiles/JammerCommon.dir/build.make common/CMakeFiles/JammerCommon.dir/PacketStreamQueue.cpp.s
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f common/CMakeFiles/JammerCommon.dir/build.make common/CMakeFiles/JammerCommon.dir/PacketStreamQueue.cpp.s
 .PHONY : PacketStreamQueue.cpp.s
 
 Recorder.o: Recorder.cpp.o
@@ -185,7 +185,7 @@ Recorder.o: Recorder.cpp.o
 
 # target to build an object file
 Recorder.cpp.o:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f common/CMakeFiles/JammerCommon.dir/build.make common/CMakeFiles/JammerCommon.dir/Recorder.cpp.o
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f common/CMakeFiles/JammerCommon.dir/build.make common/CMakeFiles/JammerCommon.dir/Recorder.cpp.o
 .PHONY : Recorder.cpp.o
 
 Recorder.i: Recorder.cpp.i
@@ -194,7 +194,7 @@ Recorder.i: Recorder.cpp.i
 
 # target to preprocess a source file
 Recorder.cpp.i:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f common/CMakeFiles/JammerCommon.dir/build.make common/CMakeFiles/JammerCommon.dir/Recorder.cpp.i
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f common/CMakeFiles/JammerCommon.dir/build.make common/CMakeFiles/JammerCommon.dir/Recorder.cpp.i
 .PHONY : Recorder.cpp.i
 
 Recorder.s: Recorder.cpp.s
@@ -203,7 +203,7 @@ Recorder.s: Recorder.cpp.s
 
 # target to generate assembly for a file
 Recorder.cpp.s:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f common/CMakeFiles/JammerCommon.dir/build.make common/CMakeFiles/JammerCommon.dir/Recorder.cpp.s
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f common/CMakeFiles/JammerCommon.dir/build.make common/CMakeFiles/JammerCommon.dir/Recorder.cpp.s
 .PHONY : Recorder.cpp.s
 
 ServerInfo.o: ServerInfo.cpp.o
@@ -212,7 +212,7 @@ ServerInfo.o: ServerInfo.cpp.o
 
 # target to build an object file
 ServerInfo.cpp.o:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f common/CMakeFiles/JammerCommon.dir/build.make common/CMakeFiles/JammerCommon.dir/ServerInfo.cpp.o
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f common/CMakeFiles/JammerCommon.dir/build.make common/CMakeFiles/JammerCommon.dir/ServerInfo.cpp.o
 .PHONY : ServerInfo.cpp.o
 
 ServerInfo.i: ServerInfo.cpp.i
@@ -221,7 +221,7 @@ ServerInfo.i: ServerInfo.cpp.i
 
 # target to preprocess a source file
 ServerInfo.cpp.i:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f common/CMakeFiles/JammerCommon.dir/build.make common/CMakeFiles/JammerCommon.dir/ServerInfo.cpp.i
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f common/CMakeFiles/JammerCommon.dir/build.make common/CMakeFiles/JammerCommon.dir/ServerInfo.cpp.i
 .PHONY : ServerInfo.cpp.i
 
 ServerInfo.s: ServerInfo.cpp.s
@@ -230,7 +230,7 @@ ServerInfo.s: ServerInfo.cpp.s
 
 # target to generate assembly for a file
 ServerInfo.cpp.s:
-	cd /usr/src/bbJammerNetz/builds && $(MAKE) -f common/CMakeFiles/JammerCommon.dir/build.make common/CMakeFiles/JammerCommon.dir/ServerInfo.cpp.s
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(MAKE) -f common/CMakeFiles/JammerCommon.dir/build.make common/CMakeFiles/JammerCommon.dir/ServerInfo.cpp.s
 .PHONY : ServerInfo.cpp.s
 
 # Help Target
@@ -239,8 +239,8 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... rebuild_cache"
 	@echo "... JammerCommon"
 	@echo "... JammerNetzPackage.o"
 	@echo "... JammerNetzPackage.i"
@@ -265,6 +265,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /usr/src/bbJammerNetz/builds && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

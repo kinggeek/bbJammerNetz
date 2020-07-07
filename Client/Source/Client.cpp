@@ -16,6 +16,8 @@ char RandomNumbers[72];
 Client::Client(std::function<void(std::shared_ptr<JammerNetzAudioData>)> newDataHandler) : messageCounter_(10) /* TODO - because of the pre-fill on server side, can't be 0 */
 	, currentBlockSize_(0), fecBuffer_(16), blowFish_(RandomNumbers, RandomNumbers_size)
 {
+
+
 	// We will send data to the server via this port
 	int randomPort = 8888 + (Random().nextInt() % 64);
 	if (!socket_.bindToPort(randomPort, "0.0.0.0")) {
@@ -25,6 +27,7 @@ Client::Client(std::function<void(std::shared_ptr<JammerNetzAudioData>)> newData
 
 	// Fire up the network listener thread which will receive the answers from the server
 	receiver_ = std::make_unique<DataReceiveThread>(socket_, newDataHandler);
+
 	receiver_->startThread();
 }
 
@@ -38,6 +41,14 @@ Client::~Client()
 bool Client::isReceivingData() const
 {
 	return receiver_->isReceivingData();
+}
+
+void Client::updateBlowFish() {
+	 //blowFish_.~BlowFish;
+	 blowFish_ = BlowFish(RandomNumbers, RandomNumbers_size);
+	 //std::cout << "Key Updated:";
+	 //std::cout << RandomNumbers;
+	 //std::cout << "\n";
 }
 
 bool Client::sendData(String const &remoteHostname, int remotePort, void *data, int numbytes) {

@@ -52,6 +52,8 @@ RecordingInfo::RecordingInfo(std::weak_ptr<Recorder> recorder) : recorder_(recor
 	MemoryInputStream image(live_png, live_png_size, false);
 	auto im = reader.decodeImage(image);
 	recording_.setClickingTogglesState(true);
+	recording_.triggerClick();
+
 	recording_.setImages(false, true, false, im, .9f, Colours::transparentBlack, im, 1.f, Colours::transparentWhite, im, .2f, Colours::transparentBlack);
 	recording_.addListener(this);
 
@@ -69,6 +71,7 @@ RecordingInfo::RecordingInfo(std::weak_ptr<Recorder> recorder) : recorder_(recor
 	addAndMakeVisible(freeDiskSpace_);
 	addAndMakeVisible(diskSpace_);
 	addAndMakeVisible(reveal_);
+
 
 	timer_ = std::make_unique<UpdateTimer>(this);
 	timer_->startTimerHz(5);

@@ -1,4 +1,4 @@
-# Install script for directory: /usr/src/bbJammerNetz
+# Install script for directory: /mnt/dev/PROJECT/jammerNetz/JammerNetz
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,27 +39,27 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/usr/src/bbJammerNetz/builds/third_party/cmake_install.cmake")
+  include("/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/third_party/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/usr/src/bbJammerNetz/builds/modules/juce-utils/cmake_install.cmake")
+  include("/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/modules/juce-utils/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/usr/src/bbJammerNetz/builds/common/cmake_install.cmake")
+  include("/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/common/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/usr/src/bbJammerNetz/builds/Server/cmake_install.cmake")
+  include("/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Server/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/usr/src/bbJammerNetz/builds/Client/cmake_install.cmake")
+  include("/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Client/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -70,5 +70,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/usr/src/bbJammerNetz/builds/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

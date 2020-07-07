@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++17
 
 CXX_DEFINES = -DJUCE_JACK
 
-CXX_INCLUDES = -I/usr/src/bbJammerNetz/third_party/JUCE-user-modules -I/usr/src/bbJammerNetz/third_party/JUCE/modules -I/usr/src/bbJammerNetz/builds/third_party/JUCE-user-modules/JuceLibraryCode 
+CXX_INCLUDES = -I/mnt/dev/PROJECT/jammerNetz/JammerNetz/third_party/JUCE-user-modules -I/mnt/dev/PROJECT/jammerNetz/JammerNetz/third_party/JUCE/modules -I/mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/third_party/JUCE-user-modules/JuceLibraryCode 
 

@@ -45,9 +45,11 @@ void AudioCallback::newServer()
 	playUnderruns_ = 0;
 	toPlayLatency_ = 0.0;
 	isPlaying_ = false;
+	client_.updateBlowFish();
 	std::shared_ptr<JammerNetzAudioData> elem;
 	bool isFillIn;
 	while (playBuffer_.try_pop(elem, isFillIn));
+	
 }
 
 void AudioCallback::samplesPerTime(int numSamples) {

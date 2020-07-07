@@ -42,7 +42,8 @@ void DataReceiveThread::run()
 			}
 			int messageLength = blowFish_.decrypt(readbuffer_, dataRead);
 			if (messageLength == -1) {
-				StreamLogger::instance() << "Couldn't decrypt package received from server, probably fatal" << std::endl;
+				StreamLogger::instance() << "Couldn't decrypt package received from server, updating local blowfish key." << std::endl;
+				DataReceiveThread::blowFish_=BlowFish(RandomNumbers, RandomNumbers_size);
 				continue;
 			}
 
@@ -83,6 +84,7 @@ void DataReceiveThread::run()
 		}
 	}
 }
+
 
 double DataReceiveThread::currentRTT() const
 {

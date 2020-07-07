@@ -199,8 +199,8 @@ Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_audio_basics
  ../third_party/JUCE/modules/juce_core/zip/juce_GZIPCompressorOutputStream.h
  ../third_party/JUCE/modules/juce_core/zip/juce_GZIPDecompressorInputStream.h
  ../third_party/JUCE/modules/juce_core/zip/juce_ZipFile.h
- /usr/src/bbJammerNetz/builds/Server/JuceLibraryCode/AppConfig.h
- /usr/src/bbJammerNetz/builds/Server/JuceLibraryCode/include_juce_audio_basics.cpp
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Server/JuceLibraryCode/AppConfig.h
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Server/JuceLibraryCode/include_juce_audio_basics.cpp
 Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_audio_devices.cpp.o
  ../third_party/JUCE/modules/juce_audio_basics/audio_play_head/juce_AudioPlayHead.h
  ../third_party/JUCE/modules/juce_audio_basics/buffers/juce_AudioChannelSet.h
@@ -464,8 +464,8 @@ Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_audio_device
  ../third_party/JUCE/modules/juce_graphics/native/juce_win32_Direct2DGraphicsContext.h
  ../third_party/JUCE/modules/juce_graphics/placement/juce_Justification.h
  ../third_party/JUCE/modules/juce_graphics/placement/juce_RectanglePlacement.h
- /usr/src/bbJammerNetz/builds/Server/JuceLibraryCode/AppConfig.h
- /usr/src/bbJammerNetz/builds/Server/JuceLibraryCode/include_juce_audio_devices.cpp
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Server/JuceLibraryCode/AppConfig.h
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Server/JuceLibraryCode/include_juce_audio_devices.cpp
 Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_audio_formats.cpp.o
  ../third_party/JUCE/modules/juce_audio_basics/audio_play_head/juce_AudioPlayHead.h
  ../third_party/JUCE/modules/juce_audio_basics/buffers/juce_AudioChannelSet.h
@@ -783,8 +783,8 @@ Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_audio_format
  ../third_party/JUCE/modules/juce_core/zip/juce_GZIPCompressorOutputStream.h
  ../third_party/JUCE/modules/juce_core/zip/juce_GZIPDecompressorInputStream.h
  ../third_party/JUCE/modules/juce_core/zip/juce_ZipFile.h
- /usr/src/bbJammerNetz/builds/Server/JuceLibraryCode/AppConfig.h
- /usr/src/bbJammerNetz/builds/Server/JuceLibraryCode/include_juce_audio_formats.cpp
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Server/JuceLibraryCode/AppConfig.h
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Server/JuceLibraryCode/include_juce_audio_formats.cpp
 Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_core.cpp.o
  ../third_party/JUCE/modules/juce_core/containers/juce_AbstractFifo.cpp
  ../third_party/JUCE/modules/juce_core/containers/juce_AbstractFifo.h
@@ -1026,8 +1026,8 @@ Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_core.cpp.o
  ../third_party/JUCE/modules/juce_core/zip/zlib/zlib.h
  ../third_party/JUCE/modules/juce_core/zip/zlib/zutil.c
  ../third_party/JUCE/modules/juce_core/zip/zlib/zutil.h
- /usr/src/bbJammerNetz/builds/Server/JuceLibraryCode/AppConfig.h
- /usr/src/bbJammerNetz/builds/Server/JuceLibraryCode/include_juce_core.cpp
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Server/JuceLibraryCode/AppConfig.h
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Server/JuceLibraryCode/include_juce_core.cpp
 Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_cryptography.cpp.o
  ../third_party/JUCE/modules/juce_core/containers/juce_AbstractFifo.h
  ../third_party/JUCE/modules/juce_core/containers/juce_Array.h
@@ -1167,8 +1167,8 @@ Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_cryptography
  ../third_party/JUCE/modules/juce_cryptography/hashing/juce_Whirlpool.h
  ../third_party/JUCE/modules/juce_cryptography/juce_cryptography.cpp
  ../third_party/JUCE/modules/juce_cryptography/juce_cryptography.h
- /usr/src/bbJammerNetz/builds/Server/JuceLibraryCode/AppConfig.h
- /usr/src/bbJammerNetz/builds/Server/JuceLibraryCode/include_juce_cryptography.cpp
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Server/JuceLibraryCode/AppConfig.h
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Server/JuceLibraryCode/include_juce_cryptography.cpp
 Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_data_structures.cpp.o
  ../third_party/JUCE/modules/juce_core/containers/juce_AbstractFifo.h
  ../third_party/JUCE/modules/juce_core/containers/juce_Array.h
@@ -1337,8 +1337,8 @@ Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_data_structu
  ../third_party/JUCE/modules/juce_events/native/juce_win32_WinRTWrapper.h
  ../third_party/JUCE/modules/juce_events/timers/juce_MultiTimer.h
  ../third_party/JUCE/modules/juce_events/timers/juce_Timer.h
- /usr/src/bbJammerNetz/builds/Server/JuceLibraryCode/AppConfig.h
- /usr/src/bbJammerNetz/builds/Server/JuceLibraryCode/include_juce_data_structures.cpp
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Server/JuceLibraryCode/AppConfig.h
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Server/JuceLibraryCode/include_juce_data_structures.cpp
 Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_events.cpp.o
  ../third_party/JUCE/modules/juce_core/containers/juce_AbstractFifo.h
  ../third_party/JUCE/modules/juce_core/containers/juce_Array.h
@@ -1509,8 +1509,8 @@ Server/CMakeFiles/JammerNetzServer.dir/JuceLibraryCode/include_juce_events.cpp.o
  ../third_party/JUCE/modules/juce_events/timers/juce_MultiTimer.h
  ../third_party/JUCE/modules/juce_events/timers/juce_Timer.cpp
  ../third_party/JUCE/modules/juce_events/timers/juce_Timer.h
- /usr/src/bbJammerNetz/builds/Server/JuceLibraryCode/AppConfig.h
- /usr/src/bbJammerNetz/builds/Server/JuceLibraryCode/include_juce_events.cpp
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Server/JuceLibraryCode/AppConfig.h
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/builds/Server/JuceLibraryCode/include_juce_events.cpp
 Server/CMakeFiles/JammerNetzServer.dir/Source/AcceptThread.cpp.o
  ../common/BuffersConfig.h
  ../common/ConnectionManager.h
@@ -1789,9 +1789,9 @@ Server/CMakeFiles/JammerNetzServer.dir/Source/AcceptThread.cpp.o
  ../third_party/JUCE/modules/juce_graphics/native/juce_win32_Direct2DGraphicsContext.h
  ../third_party/JUCE/modules/juce_graphics/placement/juce_Justification.h
  ../third_party/JUCE/modules/juce_graphics/placement/juce_RectanglePlacement.h
- /usr/src/bbJammerNetz/Server/Source/AcceptThread.cpp
- /usr/src/bbJammerNetz/Server/Source/AcceptThread.h
- /usr/src/bbJammerNetz/Server/Source/SharedServerTypes.h
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/Server/Source/AcceptThread.cpp
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/Server/Source/AcceptThread.h
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/Server/Source/SharedServerTypes.h
  Server/JuceLibraryCode/AppConfig.h
  Server/JuceLibraryCode/JuceHeader.h
 Server/CMakeFiles/JammerNetzServer.dir/Source/Main.cpp.o
@@ -2073,11 +2073,11 @@ Server/CMakeFiles/JammerNetzServer.dir/Source/Main.cpp.o
  ../third_party/JUCE/modules/juce_graphics/native/juce_win32_Direct2DGraphicsContext.h
  ../third_party/JUCE/modules/juce_graphics/placement/juce_Justification.h
  ../third_party/JUCE/modules/juce_graphics/placement/juce_RectanglePlacement.h
- /usr/src/bbJammerNetz/Server/Source/AcceptThread.h
- /usr/src/bbJammerNetz/Server/Source/Main.cpp
- /usr/src/bbJammerNetz/Server/Source/MixerThread.h
- /usr/src/bbJammerNetz/Server/Source/SendThread.h
- /usr/src/bbJammerNetz/Server/Source/SharedServerTypes.h
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/Server/Source/AcceptThread.h
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/Server/Source/Main.cpp
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/Server/Source/MixerThread.h
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/Server/Source/SendThread.h
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/Server/Source/SharedServerTypes.h
  Server/JuceLibraryCode/AppConfig.h
  Server/JuceLibraryCode/JuceHeader.h
 Server/CMakeFiles/JammerNetzServer.dir/Source/MixerThread.cpp.o
@@ -2357,9 +2357,9 @@ Server/CMakeFiles/JammerNetzServer.dir/Source/MixerThread.cpp.o
  ../third_party/JUCE/modules/juce_graphics/native/juce_win32_Direct2DGraphicsContext.h
  ../third_party/JUCE/modules/juce_graphics/placement/juce_Justification.h
  ../third_party/JUCE/modules/juce_graphics/placement/juce_RectanglePlacement.h
- /usr/src/bbJammerNetz/Server/Source/MixerThread.cpp
- /usr/src/bbJammerNetz/Server/Source/MixerThread.h
- /usr/src/bbJammerNetz/Server/Source/SharedServerTypes.h
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/Server/Source/MixerThread.cpp
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/Server/Source/MixerThread.h
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/Server/Source/SharedServerTypes.h
  Server/JuceLibraryCode/AppConfig.h
  Server/JuceLibraryCode/JuceHeader.h
 Server/CMakeFiles/JammerNetzServer.dir/Source/SendThread.cpp.o
@@ -2641,8 +2641,8 @@ Server/CMakeFiles/JammerNetzServer.dir/Source/SendThread.cpp.o
  ../third_party/JUCE/modules/juce_graphics/native/juce_win32_Direct2DGraphicsContext.h
  ../third_party/JUCE/modules/juce_graphics/placement/juce_Justification.h
  ../third_party/JUCE/modules/juce_graphics/placement/juce_RectanglePlacement.h
- /usr/src/bbJammerNetz/Server/Source/SendThread.cpp
- /usr/src/bbJammerNetz/Server/Source/SendThread.h
- /usr/src/bbJammerNetz/Server/Source/SharedServerTypes.h
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/Server/Source/SendThread.cpp
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/Server/Source/SendThread.h
+ /mnt/dev/PROJECT/jammerNetz/JammerNetz/Server/Source/SharedServerTypes.h
  Server/JuceLibraryCode/AppConfig.h
  Server/JuceLibraryCode/JuceHeader.h

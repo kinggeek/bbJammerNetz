@@ -43,7 +43,9 @@ public:
 		logger_ = std::make_unique<FileLogger>(wavFile, "Starting "+ getApplicationName() + " V" + getApplicationVersion());
 		Logger::setCurrentLogger(logger_.get());
 
-		String windowTitle = getApplicationName();
+		//String windowTitle = getApplicationName();
+		String windowTitle = "Big Bubble Live Client: Maid-of-Ale";
+
 		if (clientID.isNotEmpty()) {
 			windowTitle += ": " + clientID;
 		}

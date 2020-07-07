@@ -21,20 +21,28 @@ key: fs.readFileSync("keys/key"),
 cert: fs.readFileSync("keys/cer")
 };
 
+
+
 const app = express();
+
+var secret=generateBlowfishSecret();
+
 app.get('/session', function(req, res) {
 console.log('Session Request');
 
+var srt="FAIL";
+if (req.query['key']=="12345") srt=secret;
+
 creds = {
-	secret : generateBlowfishSecret(),
+	secret : srt,
+	host : "192.168.254.4",
 	port : 7777,
-	name : "Maid-of-Ale Studio 1",
-	description : "Booked until 18:00"
 }
 
 
-
-res.write(JSON.stringify(creds));
+var json=JSON.stringify(creds);
+res.write(json);
+console.log(json);
 res.end();
 });
 

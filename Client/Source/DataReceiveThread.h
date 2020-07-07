@@ -18,8 +18,10 @@ public:
 	virtual void run() override;
 
 	bool isReceivingData() const;
+	void updateBlowFish() const;
 	double currentRTT() const; 
 	std::shared_ptr<JammerNetzClientInfoMessage> getClientInfo() const;
+
 
 private:
 	DatagramSocket &socket_;
