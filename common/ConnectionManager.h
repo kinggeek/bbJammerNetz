@@ -4,7 +4,7 @@ extern char RandomNumbers[72];
 extern int serverConnectionPort;
 const char RandomNumbers_size = sizeof(RandomNumbers);
 
-const String connectionServerURL_ = "https://liveroom.bigbubble.uk/session";
+const String connectionServerURL_ = "https://YOURSERVER.HERE";
 
 
 
